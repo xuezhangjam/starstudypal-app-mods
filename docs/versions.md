@@ -4,13 +4,13 @@
 
 | 应用 | 当前归档 | 下载 |
 |---|---|---|
-| 星学伴 | 3.2.1.5 · 三星登录与提示崩溃修复 v2 | [APK](https://github.com/xuezhangjam/hailiang-app-mods/releases/download/mods-2026-11-15/starstudy-3.2.1.5-samsung-v2.apk) |
-| 学生端课堂 | 3.2.2.0 · 重进继续作答修复 | [APK](https://github.com/xuezhangjam/hailiang-app-mods/releases/download/mods-2026-11-15/student-classroom-3.2.2.0-continuation-reentry.apk) |
-| 精准作业 | 4.0.1.0 · 填空定位 v13 | [APK](https://github.com/xuezhangjam/hailiang-app-mods/releases/download/mods-2026-11-15/precision-homework-4.0.1.0-blanks-v13.apk) |
-| 班级通知 | 1.0.7-m3e.1 · M3e 原生平板版／系统消息修复 | [APK](https://github.com/xuezhangjam/hailiang-app-mods/releases/download/mods-2026-11-15/class-notice-1.0.7-m3e-system-messages.apk) |
-| 错题本 | 3.3.2.0 · M3e／系统相机相册／拍照判定修补 | [APK](https://github.com/xuezhangjam/hailiang-app-mods/releases/download/mods-2026-11-15/mistakes-3.3.2.0-m3e-camera.apk) |
-| H5 浏览器 | 1.0.13-browser.2 · 首页应用直达修复 | [APK](https://github.com/xuezhangjam/hailiang-app-mods/releases/download/mods-2026-11-15/h5-browser-1.0.13-home-links.apk) |
-| 教师端（实验） | 3.2.0.3 · 本机入口修复 v2 | [APK](https://github.com/xuezhangjam/hailiang-app-mods/releases/download/mods-2026-11-15/teacher-launcher-3.2.0.3-local-entry-v2.apk) |
+| 星学伴 | 3.2.1.5 · 三星登录与提示崩溃修复 v2 | [APK](https://github.com/xuezhangjam/starstudypal-app-mods/releases/download/mods-2026-11-15/starstudy-3.2.1.5-samsung-v2.apk) |
+| 学生端课堂 | 3.2.2.0 · 重进继续作答修复 | [APK](https://github.com/xuezhangjam/starstudypal-app-mods/releases/download/mods-2026-11-15/student-classroom-3.2.2.0-continuation-reentry.apk) |
+| 精准作业 | 4.0.1.0 · 填空定位 v13 | [APK](https://github.com/xuezhangjam/starstudypal-app-mods/releases/download/mods-2026-11-15/precision-homework-4.0.1.0-blanks-v13.apk) |
+| 班级通知 | 1.0.7-m3e.1 · M3e 原生平板版／系统消息修复 | [APK](https://github.com/xuezhangjam/starstudypal-app-mods/releases/download/mods-2026-11-15/class-notice-1.0.7-m3e-system-messages.apk) |
+| 错题本 | 3.3.2.0 · M3e／系统相机相册／拍照判定修补 | [APK](https://github.com/xuezhangjam/starstudypal-app-mods/releases/download/mods-2026-11-15/mistakes-3.3.2.0-m3e-camera.apk) |
+| H5 浏览器 | 1.0.13-browser.2 · 首页应用直达修复 | [APK](https://github.com/xuezhangjam/starstudypal-app-mods/releases/download/mods-2026-11-15/h5-browser-1.0.13-home-links.apk) |
+| 教师端（实验） | 3.2.0.3 · 本机入口修复 v2 | [APK](https://github.com/xuezhangjam/starstudypal-app-mods/releases/download/mods-2026-11-15/teacher-launcher-3.2.0.3-local-entry-v2.apk) |
 
 [完整功能与验证范围](update-2026-11-15.md)。下方保留旧版记录，旧版“当前”描述仅对应其发布时间。
 
@@ -22,7 +22,7 @@
 
 | 版本 | 状态 | 下载 | 说明 |
 |---|---|---|---|
-| v7 续答结果显示修复 | 本地验证通过，待实机与服务器验收 | [APK](https://github.com/xuezhangjam/hailiang-app-mods/releases/download/classroom-3.2.1.0-v7/student-classroom-3.2.1.0-continuation-results-v7.apk) · [源码](https://github.com/xuezhangjam/hailiang-app-mods/releases/download/classroom-3.2.1.0-v7/student-classroom-continuation-results-v7-source.zip) | 手写“我的作答”显示已被接口接受的续答快照，读取原结果接口；不把未上传编辑或旧批阅混入新版。继承 PPT v5 与分屏底栏 v6 修复。 |
+| v7 续答结果显示修复 | 本地验证通过，待实机与服务器验收 | [APK](https://github.com/xuezhangjam/starstudypal-app-mods/releases/download/classroom-3.2.1.0-v7/student-classroom-3.2.1.0-continuation-results-v7.apk) · [源码](https://github.com/xuezhangjam/starstudypal-app-mods/releases/download/classroom-3.2.1.0-v7/student-classroom-continuation-results-v7-source.zip) | 手写“我的作答”显示已被接口接受的续答快照，读取原结果接口；不把未上传编辑或旧批阅混入新版。继承 PPT v5 与分屏底栏 v6 修复。 |
 
 原文件名：`学生端课堂-3.2.1.0-续答结果显示修复-v7.apk`。原包名、版本与课堂 mod 同签名保持。辅助源码、构建和验证材料见 [项目目录](../apk-analysis/classroom-continuation-results-v7)；具体限制见 [v7 说明](classroom-v7.md)。
 
@@ -30,45 +30,45 @@
 
 | 版本 | 状态 | 下载 | 说明 |
 |---|---|---|---|
-| 首发迁移包 | 已知问题 · 历史归档 | [APK](https://github.com/xuezhangjam/hailiang-app-mods/releases/download/launcher-3.2.1.4/starstudy-3.2.1.4-initial-migration.apk) | 已知问题：登录后首页出现前闪退，仅作历史归档。 |
-| 登录闪退修复 1 | 已知问题 · 历史归档 | [APK](https://github.com/xuezhangjam/hailiang-app-mods/releases/download/launcher-3.2.1.4/starstudy-3.2.1.4-login-fix1.apk) | 已知问题：不再闪退，但用户反馈登录成功仍停留登录页。 |
-| 登录修复 2 | 历史归档 | [APK](https://github.com/xuezhangjam/hailiang-app-mods/releases/download/launcher-3.2.1.4/starstudy-3.2.1.4-login-fix2.apk) | 修复旧回调引用；后续 AI 版本包含该修复。 |
-| AI 应用选择初版 | 历史归档 | [APK](https://github.com/xuezhangjam/hailiang-app-mods/releases/download/launcher-3.2.1.4/starstudy-3.2.1.4-ai-chooser.apk) | 增加 ChatGPT、Gemini、DeepSeek、海亮自带选择，使用默认弹窗。 |
-| AI 弹窗主题继承版 | 已知问题 · 历史归档 | [APK](https://github.com/xuezhangjam/hailiang-app-mods/releases/download/launcher-3.2.1.4/starstudy-3.2.1.4-ai-theme-inherit.apk) | 实机截图证实原版深色界面上仍显示白底直角框；视觉适配未生效。 |
-| AI 弹窗自绘版 | 历史归档 | [APK](https://github.com/xuezhangjam/hailiang-app-mods/releases/download/launcher-3.2.1.4/starstudy-3.2.1.4-ai-custom-dialog.apk) | 改为透明窗口和自绘圆角面板；当前 Logo 版已包含此修改。 |
-| AI 弹窗 Logo 版 | 当前功能版 | [APK](https://github.com/xuezhangjam/hailiang-app-mods/releases/download/launcher-3.2.1.4/starstudy-3.2.1.4-ai-logos.apk) | 当前功能版：自绘圆角 AI 选择框和四项 Logo；离线检查通过，完整实机验收尚未完成。 |
+| 首发迁移包 | 已知问题 · 历史归档 | [APK](https://github.com/xuezhangjam/starstudypal-app-mods/releases/download/launcher-3.2.1.4/starstudy-3.2.1.4-initial-migration.apk) | 已知问题：登录后首页出现前闪退，仅作历史归档。 |
+| 登录闪退修复 1 | 已知问题 · 历史归档 | [APK](https://github.com/xuezhangjam/starstudypal-app-mods/releases/download/launcher-3.2.1.4/starstudy-3.2.1.4-login-fix1.apk) | 已知问题：不再闪退，但用户反馈登录成功仍停留登录页。 |
+| 登录修复 2 | 历史归档 | [APK](https://github.com/xuezhangjam/starstudypal-app-mods/releases/download/launcher-3.2.1.4/starstudy-3.2.1.4-login-fix2.apk) | 修复旧回调引用；后续 AI 版本包含该修复。 |
+| AI 应用选择初版 | 历史归档 | [APK](https://github.com/xuezhangjam/starstudypal-app-mods/releases/download/launcher-3.2.1.4/starstudy-3.2.1.4-ai-chooser.apk) | 增加 ChatGPT、Gemini、DeepSeek、海亮自带选择，使用默认弹窗。 |
+| AI 弹窗主题继承版 | 已知问题 · 历史归档 | [APK](https://github.com/xuezhangjam/starstudypal-app-mods/releases/download/launcher-3.2.1.4/starstudy-3.2.1.4-ai-theme-inherit.apk) | 实机截图证实原版深色界面上仍显示白底直角框；视觉适配未生效。 |
+| AI 弹窗自绘版 | 历史归档 | [APK](https://github.com/xuezhangjam/starstudypal-app-mods/releases/download/launcher-3.2.1.4/starstudy-3.2.1.4-ai-custom-dialog.apk) | 改为透明窗口和自绘圆角面板；当前 Logo 版已包含此修改。 |
+| AI 弹窗 Logo 版 | 当前功能版 | [APK](https://github.com/xuezhangjam/starstudypal-app-mods/releases/download/launcher-3.2.1.4/starstudy-3.2.1.4-ai-logos.apk) | 当前功能版：自绘圆角 AI 选择框和四项 Logo；离线检查通过，完整实机验收尚未完成。 |
 
 ## 星学伴 3.2.1.0 · 历史归档
 
 | 版本 | 状态 | 下载 | 说明 |
 |---|---|---|---|
-| 分屏窗口适配 | 历史归档 | [APK](https://github.com/xuezhangjam/hailiang-app-mods/releases/download/launcher-3.2.1.0-history/starstudy-3.2.1.0-split-window.apk) | 历史功能版本；未在本轮进行完整实机复测。 |
-| 精准作业与日历待办 | 历史归档 | [APK](https://github.com/xuezhangjam/hailiang-app-mods/releases/download/launcher-3.2.1.0-history/starstudy-3.2.1.0-homework-calendar-todo.apk) | 历史功能版本；未在本轮进行完整实机复测。 |
-| 时间表LiveUpdate | 历史归档 | [APK](https://github.com/xuezhangjam/hailiang-app-mods/releases/download/launcher-3.2.1.0-history/starstudy-3.2.1.0-timetable-liveupdate.apk) | 历史功能版本；未在本轮进行完整实机复测。 |
-| 实时倒计时与课间提示 | 历史归档 | [APK](https://github.com/xuezhangjam/hailiang-app-mods/releases/download/launcher-3.2.1.0-history/starstudy-3.2.1.0-countdown-break-hints.apk) | 历史功能版本；未在本轮进行完整实机复测。 |
-| 实时通知文字与快捷按钮 | 历史归档 | [APK](https://github.com/xuezhangjam/hailiang-app-mods/releases/download/launcher-3.2.1.0-history/starstudy-3.2.1.0-notification-text-actions.apk) | 历史功能版本；未在本轮进行完整实机复测。 |
-| 首页独立卡片与个人中心设置 | 历史归档 | [APK](https://github.com/xuezhangjam/hailiang-app-mods/releases/download/launcher-3.2.1.0-history/starstudy-3.2.1.0-home-cards-profile-settings.apk) | 历史功能版本；未在本轮进行完整实机复测。 |
-| 首页与通知时间表 | 历史归档 | [APK](https://github.com/xuezhangjam/hailiang-app-mods/releases/download/launcher-3.2.1.0-history/starstudy-3.2.1.0-home-notification-timetable.apk) | 历史功能版本；未在本轮进行完整实机复测。 |
-| 下节课末行通知 | 历史归档 | [APK](https://github.com/xuezhangjam/hailiang-app-mods/releases/download/launcher-3.2.1.0-history/starstudy-3.2.1.0-next-class-notification.apk) | 历史功能版本；未在本轮进行完整实机复测。 |
-| Day轮转课表与原版分栏 | 历史归档 | [APK](https://github.com/xuezhangjam/hailiang-app-mods/releases/download/launcher-3.2.1.0-history/starstudy-3.2.1.0-day-cycle-original-columns.apk) | 历史功能版本；未在本轮进行完整实机复测。 |
+| 分屏窗口适配 | 历史归档 | [APK](https://github.com/xuezhangjam/starstudypal-app-mods/releases/download/launcher-3.2.1.0-history/starstudy-3.2.1.0-split-window.apk) | 历史功能版本；未在本轮进行完整实机复测。 |
+| 精准作业与日历待办 | 历史归档 | [APK](https://github.com/xuezhangjam/starstudypal-app-mods/releases/download/launcher-3.2.1.0-history/starstudy-3.2.1.0-homework-calendar-todo.apk) | 历史功能版本；未在本轮进行完整实机复测。 |
+| 时间表LiveUpdate | 历史归档 | [APK](https://github.com/xuezhangjam/starstudypal-app-mods/releases/download/launcher-3.2.1.0-history/starstudy-3.2.1.0-timetable-liveupdate.apk) | 历史功能版本；未在本轮进行完整实机复测。 |
+| 实时倒计时与课间提示 | 历史归档 | [APK](https://github.com/xuezhangjam/starstudypal-app-mods/releases/download/launcher-3.2.1.0-history/starstudy-3.2.1.0-countdown-break-hints.apk) | 历史功能版本；未在本轮进行完整实机复测。 |
+| 实时通知文字与快捷按钮 | 历史归档 | [APK](https://github.com/xuezhangjam/starstudypal-app-mods/releases/download/launcher-3.2.1.0-history/starstudy-3.2.1.0-notification-text-actions.apk) | 历史功能版本；未在本轮进行完整实机复测。 |
+| 首页独立卡片与个人中心设置 | 历史归档 | [APK](https://github.com/xuezhangjam/starstudypal-app-mods/releases/download/launcher-3.2.1.0-history/starstudy-3.2.1.0-home-cards-profile-settings.apk) | 历史功能版本；未在本轮进行完整实机复测。 |
+| 首页与通知时间表 | 历史归档 | [APK](https://github.com/xuezhangjam/starstudypal-app-mods/releases/download/launcher-3.2.1.0-history/starstudy-3.2.1.0-home-notification-timetable.apk) | 历史功能版本；未在本轮进行完整实机复测。 |
+| 下节课末行通知 | 历史归档 | [APK](https://github.com/xuezhangjam/starstudypal-app-mods/releases/download/launcher-3.2.1.0-history/starstudy-3.2.1.0-next-class-notification.apk) | 历史功能版本；未在本轮进行完整实机复测。 |
+| Day轮转课表与原版分栏 | 历史归档 | [APK](https://github.com/xuezhangjam/starstudypal-app-mods/releases/download/launcher-3.2.1.0-history/starstudy-3.2.1.0-day-cycle-original-columns.apk) | 历史功能版本；未在本轮进行完整实机复测。 |
 
 ## 班级通知 1.0.6 · M3e 原生平板版
 
 | 版本 | 状态 | 下载 | 说明 |
 |---|---|---|---|
-| M3e 原生平板版 | 当前功能版 | [APK](https://github.com/xuezhangjam/hailiang-app-mods/releases/download/notice-1.0.6-m3e/class-notice-1.0.6-m3e-tablet.apk) | 用户已确认开发完成；本轮仅整理发布文件。 |
+| M3e 原生平板版 | 当前功能版 | [APK](https://github.com/xuezhangjam/starstudypal-app-mods/releases/download/notice-1.0.6-m3e/class-notice-1.0.6-m3e-tablet.apk) | 用户已确认开发完成；本轮仅整理发布文件。 |
 
 ## 学生端课堂 3.2.1.0 · 功能版合集
 
 | 版本 | 状态 | 下载 | 说明 |
 |---|---|---|---|
-| 页码旁浏览-窗口与笔迹修复 | 功能分支 | [APK](https://github.com/xuezhangjam/hailiang-app-mods/releases/download/classroom-3.2.1.0-mods/student-classroom-3.2.1.0-page-browsing-window-ink.apk) | 功能分支，按文件名列出用途；本轮未重新验证全部行为。 |
-| 原版UI-课程下载-窗口适配 | 功能分支 | [APK](https://github.com/xuezhangjam/hailiang-app-mods/releases/download/classroom-3.2.1.0-mods/student-classroom-3.2.1.0-original-ui-course-download-window.apk) | 功能分支，按文件名列出用途；本轮未重新验证全部行为。 |
-| 原版UI-资源下载-打开分享 | 功能分支 | [APK](https://github.com/xuezhangjam/hailiang-app-mods/releases/download/classroom-3.2.1.0-mods/student-classroom-3.2.1.0-original-ui-resource-download-share.apk) | 功能分支，按文件名列出用途；本轮未重新验证全部行为。 |
-| 自由浏览-回到老师-资源下载 | 功能分支 | [APK](https://github.com/xuezhangjam/hailiang-app-mods/releases/download/classroom-3.2.1.0-mods/student-classroom-3.2.1.0-free-browsing-return-teacher-download.apk) | 功能分支，按文件名列出用途；本轮未重新验证全部行为。 |
+| 页码旁浏览-窗口与笔迹修复 | 功能分支 | [APK](https://github.com/xuezhangjam/starstudypal-app-mods/releases/download/classroom-3.2.1.0-mods/student-classroom-3.2.1.0-page-browsing-window-ink.apk) | 功能分支，按文件名列出用途；本轮未重新验证全部行为。 |
+| 原版UI-课程下载-窗口适配 | 功能分支 | [APK](https://github.com/xuezhangjam/starstudypal-app-mods/releases/download/classroom-3.2.1.0-mods/student-classroom-3.2.1.0-original-ui-course-download-window.apk) | 功能分支，按文件名列出用途；本轮未重新验证全部行为。 |
+| 原版UI-资源下载-打开分享 | 功能分支 | [APK](https://github.com/xuezhangjam/starstudypal-app-mods/releases/download/classroom-3.2.1.0-mods/student-classroom-3.2.1.0-original-ui-resource-download-share.apk) | 功能分支，按文件名列出用途；本轮未重新验证全部行为。 |
+| 自由浏览-回到老师-资源下载 | 功能分支 | [APK](https://github.com/xuezhangjam/starstudypal-app-mods/releases/download/classroom-3.2.1.0-mods/student-classroom-3.2.1.0-free-browsing-return-teacher-download.apk) | 功能分支，按文件名列出用途；本轮未重新验证全部行为。 |
 
 ## 精准作业学生端 4.0.0.4 · 修改版
 
 | 版本 | 状态 | 下载 | 说明 |
 |---|---|---|---|
-| 答案常显 · 解析默认收起 | 当前功能版 | [APK](https://github.com/xuezhangjam/hailiang-app-mods/releases/download/homework-4.0.0.4-mod/student-homework-4.0.0.4-answer-visible-explanation-collapsed.apk) | 单一修改版，保留原文件。 |
+| 答案常显 · 解析默认收起 | 当前功能版 | [APK](https://github.com/xuezhangjam/starstudypal-app-mods/releases/download/homework-4.0.0.4-mod/student-homework-4.0.0.4-answer-visible-explanation-collapsed.apk) | 单一修改版，保留原文件。 |

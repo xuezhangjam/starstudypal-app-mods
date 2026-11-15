@@ -42,4 +42,4 @@ python -X utf8 apk-analysis/classroom-continuation-results-v7/package_source.py
 
 归档只有自有辅助源码、窄补丁脚本、编译声明、平台替身和验证报告，排除APK、完整原软件反编译代码、第三方工具和密钥。自有贡献GPL-3.0；原软件和第三方内容保留各自权利。贡献者xuezhangjam、Codex。本轮未发布GitHub。
 
-[下载 APK](https://github.com/xuezhangjam/hailiang-app-mods/releases/download/classroom-3.2.1.0-v7/student-classroom-3.2.1.0-continuation-results-v7.apk) · [下载源码与脚本](https://github.com/xuezhangjam/hailiang-app-mods/releases/download/classroom-3.2.1.0-v7/student-classroom-continuation-results-v7-source.zip)
+[下载 APK](https://github.com/xuezhangjam/starstudypal-app-mods/releases/download/classroom-3.2.1.0-v7/student-classroom-3.2.1.0-continuation-results-v7.apk) · [下载源码与脚本](https://github.com/xuezhangjam/starstudypal-app-mods/releases/download/classroom-3.2.1.0-v7/student-classroom-continuation-results-v7-source.zip)

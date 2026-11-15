@@ -30,7 +30,7 @@ Android路由参考：[Intent.setSelector](https://developer.android.com/referen
 
 ## 构建
 
-输入为[已发布v7 APK](https://github.com/xuezhangjam/hailiang-app-mods/releases/tag/classroom-3.2.1.0-v7)。准备Java/Android SDK/ECJ/D8/apktool/签名工具、Python分析依赖及自己的签名密钥，在工作区根执行：
+输入为[已发布v7 APK](https://github.com/xuezhangjam/starstudypal-app-mods/releases/tag/classroom-3.2.1.0-v7)。准备Java/Android SDK/ECJ/D8/apktool/签名工具、Python分析依赖及自己的签名密钥，在工作区根执行：
 
 ```text
 python -X utf8 apk-analysis/classroom-teacher-web-choice-v8/test_web_links.py

@@ -32,6 +32,6 @@ GPL 是相关作品的版权许可，不授予第三方软件、商标、服务�
 
 ## 问题与权利反馈
 
-功能问题请通过 [Issues](https://github.com/xuezhangjam/hailiang-app-mods/issues) 提供版本、复现步骤及必要的错误信息。权利人或其授权代表也可通过 Issues 指明涉及文件、权利依据及希望处理的事项，维护者将核实后处理。
+功能问题请通过 [Issues](https://github.com/xuezhangjam/starstudypal-app-mods/issues) 提供版本、复现步骤及必要的错误信息。权利人或其授权代表也可通过 Issues 指明涉及文件、权利依据及希望处理的事项，维护者将核实后处理。
 
 公开反馈时请勿上传账号口令、访问令牌、学生个人信息、签名私钥或其他敏感资料。

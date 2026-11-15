@@ -1,25 +1,25 @@
-# 海亮应用修改版归档
+# starstudypal-app-mods
 
-整理星学伴、班级通知、学生端课堂和精准作业的修改版 APK，包含当前功能版与历史版本。APK 位于 [Releases](https://github.com/xuezhangjam/hailiang-app-mods/releases)，仓库提供版本说明和 SHA256 校验值。
+整理星学伴、班级通知、学生端课堂和精准作业的修改版 APK，包含当前功能版与历史版本。APK 位于 [Releases](https://github.com/xuezhangjam/starstudypal-app-mods/releases)，仓库提供版本说明和 SHA256 校验值。
 
 > [!IMPORTANT]
 > 本项目为个人维护的非官方修改版归档，不代表海亮、学校或相关产品厂商，也不表示获得其官方认可或授权背书。**GPL-3.0 仅适用于维护者有权许可的原创内容，不将原 APK、第三方代码、资源或商标改为 GPL。** 使用前请阅读[许可范围与第三方权利](NOTICE.md)及[项目声明](DISCLAIMER.md)。
 
-> 本次新增的 7 个 APK 附件正在上传，发布链接将在传输完成后开放；[旧版下载仍可使用](https://github.com/xuezhangjam/hailiang-app-mods/releases)。补丁源码与更新说明已提交。
+> 本次新增的 7 个 APK 附件正在上传，发布链接将在传输完成后开放；[旧版下载仍可使用](https://github.com/xuezhangjam/starstudypal-app-mods/releases)。补丁源码与更新说明已提交。
 
 ## 当前下载 · 2026-11-15
 
 | 应用 | 当前归档 | 下载 |
 |---|---|---|
-| 星学伴 | 3.2.1.5 · 三星登录与提示崩溃修复 v2 | [APK](https://github.com/xuezhangjam/hailiang-app-mods/releases/download/mods-2026-11-15/starstudy-3.2.1.5-samsung-v2.apk) |
-| 学生端课堂 | 3.2.2.0 · 重进继续作答修复 | [APK](https://github.com/xuezhangjam/hailiang-app-mods/releases/download/mods-2026-11-15/student-classroom-3.2.2.0-continuation-reentry.apk) |
-| 精准作业 | 4.0.1.0 · 填空定位 v13 | [APK](https://github.com/xuezhangjam/hailiang-app-mods/releases/download/mods-2026-11-15/precision-homework-4.0.1.0-blanks-v13.apk) |
-| 班级通知 | 1.0.7-m3e.1 · M3e 原生平板版／系统消息修复 | [APK](https://github.com/xuezhangjam/hailiang-app-mods/releases/download/mods-2026-11-15/class-notice-1.0.7-m3e-system-messages.apk) |
-| 错题本 | 3.3.2.0 · M3e／系统相机相册／拍照判定修补 | [APK](https://github.com/xuezhangjam/hailiang-app-mods/releases/download/mods-2026-11-15/mistakes-3.3.2.0-m3e-camera.apk) |
-| H5 浏览器 | 1.0.13-browser.2 · 首页应用直达修复 | [APK](https://github.com/xuezhangjam/hailiang-app-mods/releases/download/mods-2026-11-15/h5-browser-1.0.13-home-links.apk) |
-| 教师端（实验） | 3.2.0.3 · 本机入口修复 v2 | [APK](https://github.com/xuezhangjam/hailiang-app-mods/releases/download/mods-2026-11-15/teacher-launcher-3.2.0.3-local-entry-v2.apk) |
+| 星学伴 | 3.2.1.5 · 三星登录与提示崩溃修复 v2 | [APK](https://github.com/xuezhangjam/starstudypal-app-mods/releases/download/mods-2026-11-15/starstudy-3.2.1.5-samsung-v2.apk) |
+| 学生端课堂 | 3.2.2.0 · 重进继续作答修复 | [APK](https://github.com/xuezhangjam/starstudypal-app-mods/releases/download/mods-2026-11-15/student-classroom-3.2.2.0-continuation-reentry.apk) |
+| 精准作业 | 4.0.1.0 · 填空定位 v13 | [APK](https://github.com/xuezhangjam/starstudypal-app-mods/releases/download/mods-2026-11-15/precision-homework-4.0.1.0-blanks-v13.apk) |
+| 班级通知 | 1.0.7-m3e.1 · M3e 原生平板版／系统消息修复 | [APK](https://github.com/xuezhangjam/starstudypal-app-mods/releases/download/mods-2026-11-15/class-notice-1.0.7-m3e-system-messages.apk) |
+| 错题本 | 3.3.2.0 · M3e／系统相机相册／拍照判定修补 | [APK](https://github.com/xuezhangjam/starstudypal-app-mods/releases/download/mods-2026-11-15/mistakes-3.3.2.0-m3e-camera.apk) |
+| H5 浏览器 | 1.0.13-browser.2 · 首页应用直达修复 | [APK](https://github.com/xuezhangjam/starstudypal-app-mods/releases/download/mods-2026-11-15/h5-browser-1.0.13-home-links.apk) |
+| 教师端（实验） | 3.2.0.3 · 本机入口修复 v2 | [APK](https://github.com/xuezhangjam/starstudypal-app-mods/releases/download/mods-2026-11-15/teacher-launcher-3.2.0.3-local-entry-v2.apk) |
 
-[本次发布](https://github.com/xuezhangjam/hailiang-app-mods/releases/tag/mods-2026-11-15) · [更新说明](docs/update-2026-11-15.md) · [全部历史版本](docs/versions.md) · [补丁源码包](https://github.com/xuezhangjam/hailiang-app-mods/releases/download/mods-2026-11-15/hailiang-mods-2026-11-15-source.zip)
+[本次发布](https://github.com/xuezhangjam/starstudypal-app-mods/releases/tag/mods-2026-11-15) · [更新说明](docs/update-2026-11-15.md) · [全部历史版本](docs/versions.md) · [补丁源码包](https://github.com/xuezhangjam/starstudypal-app-mods/releases/download/mods-2026-11-15/hailiang-mods-2026-11-15-source.zip)
 
 共归档 **30 个 APK**。三星初版崩溃补丁已弃用，当前为 v2；教师端是实验分支。除三星限定登录场景外，本次各版仍有实机或服务器验收项目，详见更新说明。
 
