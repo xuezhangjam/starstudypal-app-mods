@@ -1,0 +1,16 @@
+{
+  "input": "H5应用.apk",
+  "input_sha256": "9f1d5b696befd7cde78d430cbcc4e5cdea63e389f12f51e5eaf76abbdb11e3c4",
+  "output": "H5浏览器-1.0.13-首页应用直达修复.apk",
+  "sha256": "d67bbae520ab7fda968b5c21114e91c848f0d5136a7a44e86e91e06fd7e1a671",
+  "size": 98118575,
+  "package": "com.hailiang.xxb.web.app",
+  "version_name": "1.0.13-browser.2",
+  "version_code": 1015,
+  "launcher_activity": "com.hailiang.webbrowser.browser.BrowserActivity",
+  "original_dex": "all five preserved byte-for-byte",
+  "original_resources_and_icon": "preserved byte-for-byte",
+  "application": "android.app.Application; no school SDK initializers or providers",
+  "legacy_components": "activity aliases to standalone BrowserActivity",
+  "android_device_tested": false
+}

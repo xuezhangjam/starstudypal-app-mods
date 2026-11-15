@@ -1,0 +1,43 @@
+{
+  "input": "学生端课堂-3.2.1.0-续答结果显示修复-v7.apk",
+  "input_sha256": "1f4655e8f61163f1980d295cfd44992a6ed4b712c7fbd9ba802badcad8429396",
+  "output": "学生端课堂-3.2.1.0-网页打开方式选择-v8.apk",
+  "sha256": "37c9f9836f2a99a5f8607c2e80ae33174c6485e7bd9b59955532c2b5cb1ec80f",
+  "size": 64571675,
+  "changed_payloads": [
+    "classes4.dex"
+  ],
+  "added_payloads": [
+    "classes12.dex"
+  ],
+  "device_tested": false,
+  "classroom_server_tested": false,
+  "source_sha256": "79b97927c5b33fe465356ba44df743217638ebd25f473bec374a1f80d7da2dca",
+  "helper_dex_sha256": "bb90b00e5eaa3a56b7fd631ebde2d793e5b29d060ea4ac249fb4ac3b53ee5fb8",
+  "preserved_payloads": 3055,
+  "other_native_methods_identical": 53897,
+  "alignment_only_methods": 0,
+  "changed_native_methods": [
+    "end",
+    "handleMessage",
+    "openApp",
+    "openApp$lambda$1"
+  ],
+  "added_native_methods": [
+    "modCanOpenWeb",
+    "modKeepWebShortcut",
+    "modOpenWebInClass"
+  ],
+  "original_method_tails_preserved": true,
+  "all_v7_dex9_10_11_resources_manifest_identical": true,
+  "checked_member_references": 586,
+  "certificate_sha256": "9311b6b4b2b20da0d7366f822dbbc6f3a3bde8fac35f2ca84fefed1a2aa6316e",
+  "tests": {
+    "passed": true,
+    "result": "PASS 136 teacher-link route/URL/lifecycle/async/browser failure assertions",
+    "source_sha256": "79b97927c5b33fe465356ba44df743217638ebd25f473bec374a1f80d7da2dca",
+    "device_tested": false,
+    "server_tested": false
+  },
+  "limitations": "Authored Java with observable Android/native fixtures and DEX instruction/reference checks, not a Pixel Tablet/browser resolver/real teacher-dispatch integration test. No classroom HTTP/MQTT, installation or data clearing."
+}

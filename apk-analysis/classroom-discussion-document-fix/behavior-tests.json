@@ -1,0 +1,7 @@
+{
+  "assertions": 292,
+  "affine_cases": 240,
+  "runtime": "JVM with API fixtures",
+  "device_tested": false,
+  "server_tested": false
+}

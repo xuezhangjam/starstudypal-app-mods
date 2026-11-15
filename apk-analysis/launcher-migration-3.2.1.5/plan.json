@@ -1,0 +1,325 @@
+{
+  "native": [
+    {
+      "file": "com/fasterxml/jackson/databind/SerializerProvider.smali",
+      "changed": [],
+      "added": [],
+      "removed": [],
+      "outside": true
+    },
+    {
+      "file": "com/hailiang/hlutil/CmdExe.smali",
+      "changed": [],
+      "added": [],
+      "removed": [],
+      "outside": true
+    },
+    {
+      "file": "com/hailiang/core/base/AbsActivity.smali",
+      "changed": [
+        "refreshImmersive()V"
+      ],
+      "added": [],
+      "removed": [],
+      "outside": false
+    },
+    {
+      "file": "com/hailiang/hlsls/log/LogcatUtil.smali",
+      "changed": [],
+      "added": [],
+      "removed": [],
+      "outside": true
+    },
+    {
+      "file": "com/hailiang/hlutil/cmd/HlCommand.smali",
+      "changed": [],
+      "added": [],
+      "removed": [],
+      "outside": true
+    },
+    {
+      "file": "com/hailiang/launcher/control/ControlManager.smali",
+      "changed": [
+        "needControlDialog(Landroid/content/Context;Ljava/lang/String;Z)Lcom/hailiang/launcher/control/data/vo/AppPeriod;",
+        "notifyControlChanged()V"
+      ],
+      "added": [],
+      "removed": [],
+      "outside": false
+    },
+    {
+      "file": "com/hailiang/launcher/app/adapter/MainMoreItemsAdapter.smali",
+      "changed": [
+        "onBind(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;ILcom/hailiang/launcher/data/bean/response/AppHtmlListBean;)V"
+      ],
+      "added": [],
+      "removed": [],
+      "outside": false
+    },
+    {
+      "file": "com/hailiang/launcher/common/app/AppLauncher.smali",
+      "changed": [
+        "safeOpenApp(Landroid/content/Context;Lcom/hailiang/launcher/common/app/AppStarter;)V"
+      ],
+      "added": [
+        "modOpenOriginalApp(Landroid/content/Context;Lcom/hailiang/launcher/common/app/AppStarter;)V"
+      ],
+      "removed": [],
+      "outside": false
+    },
+    {
+      "file": "com/hailiang/launcher/common/todo/TodoMockData.smali",
+      "changed": [],
+      "added": [],
+      "removed": [],
+      "outside": true
+    },
+    {
+      "file": "com/hailiang/launcher/common/ad/server/MockData.smali",
+      "changed": [],
+      "added": [],
+      "removed": [],
+      "outside": true
+    },
+    {
+      "file": "com/hailiang/launcher/control/dialog/ControlDialog.smali",
+      "changed": [
+        "show(Lcom/hailiang/launcher/control/data/vo/AppPeriod;)Lcom/hailiang/ui/designsystem/dialog/MessageBoxDisposable;"
+      ],
+      "added": [
+        "confirm(Lcom/hailiang/launcher/control/data/vo/AppPeriod;Landroid/content/Context;)V"
+      ],
+      "removed": [],
+      "outside": false
+    },
+    {
+      "file": "com/hailiang/ui/designsystem/dialog/MessageBoxDialog.smali",
+      "changed": [
+        "<init>(Landroid/content/Context;Lcom/hailiang/ui/designsystem/dialog/DialogProvider$Builder;)V"
+      ],
+      "added": [],
+      "removed": [],
+      "outside": false
+    },
+    {
+      "file": "com/hljzjx/debugtools/DebugTools.smali",
+      "changed": [
+        "attachFloatingButton(Landroid/app/Activity;)V"
+      ],
+      "added": [],
+      "removed": [],
+      "outside": false
+    },
+    {
+      "file": "com/hljzjx/launch/MyApplication.smali",
+      "changed": [
+        "onCreate()V"
+      ],
+      "added": [
+        "onConfigurationChanged(Landroid/content/res/Configuration;)V"
+      ],
+      "removed": [],
+      "outside": false
+    },
+    {
+      "file": "com/hljzjx/debugtools/ui/DebugToolsActivity$onCreate$1.smali",
+      "changed": [
+        "invoke(Landroidx/compose/runtime/Composer;I)V"
+      ],
+      "added": [],
+      "removed": [],
+      "outside": false
+    },
+    {
+      "file": "com/hljzjx/debugtools/ui/DebugToolsActivity.smali",
+      "changed": [],
+      "added": [
+        "attachBaseContext(Landroid/content/Context;)V"
+      ],
+      "removed": [],
+      "outside": false
+    },
+    {
+      "file": "com/hljzjx/debugtools/ui/DebugToolsLaunchButtonView$showDebugPanelAsOverlay$composeView$1$1.smali",
+      "changed": [
+        "invoke(Landroidx/compose/runtime/Composer;I)V"
+      ],
+      "added": [],
+      "removed": [],
+      "outside": false
+    },
+    {
+      "file": "com/hljzjx/launch/mqtt/MQTTConfig.smali",
+      "changed": [],
+      "added": [],
+      "removed": [],
+      "outside": true
+    },
+    {
+      "file": "com/hljzjx/launch/ui/main/MainActivity.smali",
+      "changed": [
+        "bindDockApps(Ljava/util/List;)V",
+        "isAppControlled(Lcom/hailiang/launcher/data/bean/response/AppHtmlListBean;)Z",
+        "lambda$setListener$8(Landroid/view/View;)V",
+        "lambda$showOtherApps$14()V",
+        "lambda$showOtherApps$17(Ljava/util/List;Ljava/lang/Runnable;Ljava/lang/Runnable;)V",
+        "loadHomeTodoPreview()V",
+        "onDestroy()V",
+        "onItemClick(ILcom/hailiang/launcher/data/bean/response/AppHtmlListBean;)V",
+        "onPause()V",
+        "onResume()V",
+        "openTodoList()V",
+        "setupShortcut(Lcom/hljzjx/launch/databinding/ItemMainShortcutBinding;IILjava/lang/String;II)V",
+        "showOtherApps(Ljava/util/List;)V",
+        "startApp(Ljava/lang/String;Ljava/lang/String;)V",
+        "userInfo(Lcom/hljzjx/launch/bean/LoginUserInfo$StudentInfoVoDTO;)V"
+      ],
+      "added": [
+        "modOpenHailiangAi(Landroid/view/View;)V",
+        "onRequestPermissionsResult(I[Ljava/lang/String;[I)V"
+      ],
+      "removed": [],
+      "outside": false
+    },
+    {
+      "file": "com/hljzjx/launch/ui/main/MainPresenter.smali",
+      "changed": [
+        "checkApp(Ljava/lang/String;)V"
+      ],
+      "added": [],
+      "removed": [],
+      "outside": false
+    },
+    {
+      "file": "com/hljzjx/launch/ui/personcenter/PersonCenterActivity.smali",
+      "changed": [
+        "onCreate(Landroid/os/Bundle;)V"
+      ],
+      "added": [],
+      "removed": [],
+      "outside": false
+    },
+    {
+      "file": "com/jchou/commonlibrary/base/AbsActivity.smali",
+      "changed": [],
+      "added": [
+        "onConfigurationChanged(Landroid/content/res/Configuration;)V",
+        "onMultiWindowModeChanged(Z)V",
+        "onWindowFocusChanged(Z)V"
+      ],
+      "removed": [],
+      "outside": false
+    },
+    {
+      "file": "com/jchou/commonlibrary/base/BaseActivity.smali",
+      "changed": [
+        "hideBottomUIMenu()V"
+      ],
+      "added": [],
+      "removed": [],
+      "outside": false
+    },
+    {
+      "file": "com/jchou/commonlibrary/utils/CommonLogger.smali",
+      "changed": [],
+      "added": [],
+      "removed": [],
+      "outside": true
+    },
+    {
+      "file": "com/obs/services/Log4j2Configurator.smali",
+      "changed": [],
+      "added": [],
+      "removed": [],
+      "outside": true
+    },
+    {
+      "file": "com/tencent/bugly/proguard/al.smali",
+      "changed": [],
+      "added": [],
+      "removed": [],
+      "outside": true
+    },
+    {
+      "file": "com/tencent/bugly/proguard/ao.smali",
+      "changed": [],
+      "added": [],
+      "removed": [],
+      "outside": true
+    },
+    {
+      "file": "com/tencent/bugly/proguard/at.smali",
+      "changed": [],
+      "added": [],
+      "removed": [],
+      "outside": true
+    },
+    {
+      "file": "com/tencent/bugly/proguard/w.smali",
+      "changed": [],
+      "added": [],
+      "removed": [],
+      "outside": true
+    },
+    {
+      "file": "de/hdodenhof/circleimageview/CircleImageView.smali",
+      "changed": [],
+      "added": [],
+      "removed": [],
+      "outside": true
+    }
+  ],
+  "added_classes": [],
+  "conflicts": [
+    {
+      "file": "com/hailiang/launcher/control/ControlManager.smali",
+      "method": "notifyControlChanged()V",
+      "same_mod": false
+    },
+    {
+      "file": "com/hljzjx/launch/MyApplication.smali",
+      "method": "onCreate()V",
+      "same_mod": false
+    },
+    {
+      "file": "com/hljzjx/launch/ui/main/MainActivity.smali",
+      "method": "showOtherApps(Ljava/util/List;)V",
+      "same_mod": false
+    },
+    {
+      "file": "com/hljzjx/launch/ui/main/MainActivity.smali",
+      "method": "loadHomeTodoPreview()V",
+      "same_mod": false
+    },
+    {
+      "file": "com/hljzjx/launch/ui/main/MainActivity.smali",
+      "method": "lambda$setListener$8(Landroid/view/View;)V",
+      "same_mod": false
+    },
+    {
+      "file": "com/hljzjx/launch/ui/main/MainActivity.smali",
+      "method": "setupShortcut(Lcom/hljzjx/launch/databinding/ItemMainShortcutBinding;IILjava/lang/String;II)V",
+      "same_mod": false
+    },
+    {
+      "file": "com/hljzjx/launch/ui/main/MainActivity.smali",
+      "method": "startApp(Ljava/lang/String;Ljava/lang/String;)V",
+      "same_mod": false
+    },
+    {
+      "file": "com/hljzjx/launch/ui/main/MainActivity.smali",
+      "method": "lambda$showOtherApps$14()V",
+      "same_mod": false
+    },
+    {
+      "file": "com/hljzjx/launch/ui/main/MainActivity.smali",
+      "method": "lambda$showOtherApps$17(Ljava/util/List;Ljava/lang/Runnable;Ljava/lang/Runnable;)V",
+      "same_mod": false
+    },
+    {
+      "file": "com/hljzjx/launch/ui/main/MainActivity.smali",
+      "method": "bindDockApps(Ljava/util/List;)V",
+      "same_mod": false
+    }
+  ]
+}

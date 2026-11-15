@@ -1,0 +1,74 @@
+[
+  {
+    "file": "com/hljzjx/launch/MyApplication.smali",
+    "method": "onCreate()V",
+    "action": "changed",
+    "merge": "download-only updates"
+  },
+  {
+    "file": "com/hljzjx/launch/ui/personcenter/PersonCenterActivity.smali",
+    "method": "onCreate(Landroid/os/Bundle;)V",
+    "action": "changed",
+    "merge": "download-only updates"
+  },
+  {
+    "file": "com/hljzjx/launch/ui/main/MainPresenter.smali",
+    "method": "silentDownloadApks(Ljava/util/List;)V",
+    "action": "changed",
+    "merge": "download-only updates"
+  },
+  {
+    "file": "com/hljzjx/launch/ui/main/MainPresenter$5.smali",
+    "method": "apply(Lcom/jchou/commonlibrary/model/BaseHttpResult;)Lcom/jchou/commonlibrary/model/BaseHttpResult;",
+    "action": "changed",
+    "merge": "download-only updates"
+  },
+  {
+    "file": "com/hailiang/launcher/common/download/app/AppUpdateManager.smali",
+    "method": "updateApp(Ljava/util/List;)V",
+    "action": "changed",
+    "merge": "download-only updates"
+  },
+  {
+    "file": "com/hailiang/launcher/common/download/app/AppUpdateManager.smali",
+    "method": "retryUpdate(Lcom/hailiang/launcher/common/download/app/AppUpdateTask;)V",
+    "action": "changed",
+    "merge": "download-only updates"
+  },
+  {
+    "file": "com/hailiang/launcher/common/download/app/AppUpdateManager.smali",
+    "method": "installApp(Lcom/hailiang/launcher/common/download/app/AppUpdateTask;Ljava/io/File;)V",
+    "action": "changed",
+    "merge": "download-only updates"
+  },
+  {
+    "file": "com/hailiang/launcher/common/download/app/AppUpdateManager.smali",
+    "method": "installApp$lambda$3(Lcom/hailiang/launcher/common/download/app/AppUpdateTask;Ljava/io/File;)V",
+    "action": "changed",
+    "merge": "download-only updates"
+  },
+  {
+    "file": "com/hailiang/launcher/data/bean/response/AppHtmlListBean.smali",
+    "method": "forceUpdate()Z",
+    "action": "changed",
+    "merge": "download-only updates"
+  },
+  {
+    "file": "com/hailiang/launcher/update/LauncherUpdateManager.smali",
+    "method": "showAppUpdateDialog(Landroid/content/Context;Lcom/hailiang/launcher/data/bean/response/AppHtmlListBean;)V",
+    "action": "changed",
+    "merge": "download-only updates"
+  },
+  {
+    "file": "com/hailiang/launcher/update/LauncherUpdateManager.smali",
+    "method": "showCheckUpdateDialog(Landroid/content/Context;Lcom/hailiang/launcher/data/bean/response/AppHtmlListBean;)V",
+    "action": "changed",
+    "merge": "download-only updates"
+  },
+  {
+    "file": "com/hailiang/launcher/update/LauncherUpdateManager.smali",
+    "method": "showDownloadDialog(Landroid/content/Context;Lcom/hailiang/launcher/data/bean/response/AppHtmlListBean;)V",
+    "action": "changed",
+    "merge": "download-only updates"
+  }
+]

@@ -1,0 +1,279 @@
+{
+  "different_notice_methods": [
+    [
+      "Lcom/hailiang/notice/data/NoticeRepository;",
+      "getAllUnReadNoticeCount",
+      "()I"
+    ],
+    [
+      "Lcom/hailiang/notice/data/NoticeRepository;",
+      "updateUnReadCount",
+      "(I I)V"
+    ],
+    [
+      "Lcom/hailiang/notice/webview/WebViewManager$setupWebView$2;",
+      "shouldOverrideUrlLoading",
+      "(Landroid/webkit/WebView; Landroid/webkit/WebResourceRequest;)Z"
+    ],
+    [
+      "Lcom/hailiang/notice/webview/WebViewManager$setupWebView$2;",
+      "shouldOverrideUrlLoading",
+      "(Landroid/webkit/WebView; Ljava/lang/String;)Z"
+    ],
+    [
+      "Lcom/hailiang/notice/webview/WebViewManager;",
+      "<init>",
+      "(Landroid/app/Activity;)V"
+    ],
+    [
+      "Lcom/hailiang/notice/MainActivity$onBackPressedCallback$1;",
+      "handleOnBackPressed",
+      "()V"
+    ],
+    [
+      "Lcom/hailiang/notice/NoticeAdapter;",
+      "<init>",
+      "(Landroid/content/Context; Ljava/util/List; Lkotlin/jvm/functions/Function1; Lkotlin/jvm/functions/Function1;)V"
+    ],
+    [
+      "Lcom/hailiang/notice/NoticeAdapter;",
+      "onBindViewHolder",
+      "(Lcom/hailiang/notice/NoticeAdapter$ViewHolder; I)V"
+    ],
+    [
+      "Lcom/hailiang/notice/NoticeAdapter;",
+      "updateNotices",
+      "(Ljava/util/List;)V"
+    ],
+    [
+      "Lcom/hailiang/notice/fragment/BaseMegListFragment;",
+      "newNoticeEvent",
+      "(Lcom/hailiang/notice/event/NewNoticeEvent;)V"
+    ],
+    [
+      "Lcom/hailiang/notice/fragment/InformFragment;",
+      "onItemClick",
+      "(Lcom/hailiang/notice/model/NoticeItem;)V"
+    ],
+    [
+      "Lcom/hailiang/notice/ui/BaseActivity;",
+      "getResources",
+      "()Landroid/content/res/Resources;"
+    ],
+    [
+      "Lcom/hailiang/notice/MainActivity;",
+      "onCreate",
+      "(Landroid/os/Bundle;)V"
+    ],
+    [
+      "Lcom/hailiang/notice/detail/NoticeDetailActivity;",
+      "onCreate",
+      "(Landroid/os/Bundle;)V"
+    ],
+    [
+      "Lcom/hailiang/notice/detail/NoticeDetailActivity;",
+      "onDestroy",
+      "()V"
+    ]
+  ],
+  "new_notice_methods": [
+    [
+      "Lcom/hailiang/notice/data/NoticeRepository;",
+      "requestWhiteUrlList",
+      "(J Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+    ],
+    [
+      "Lcom/hailiang/notice/data/source/remote/NoticeApiService;",
+      "requestWhiteUrlList",
+      "(Lokhttp3/RequestBody; Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+    ],
+    [
+      "Lcom/hailiang/notice/model/WhiteListResponse;",
+      "<clinit>",
+      "()V"
+    ],
+    [
+      "Lcom/hailiang/notice/model/WhiteListResponse;",
+      "<init>",
+      "()V"
+    ],
+    [
+      "Lcom/hailiang/notice/model/WhiteListResponse;",
+      "<init>",
+      "(Ljava/lang/String; Ljava/util/List;)V"
+    ],
+    [
+      "Lcom/hailiang/notice/model/WhiteListResponse;",
+      "<init>",
+      "(Ljava/lang/String; Ljava/util/List; I Lkotlin/jvm/internal/DefaultConstructorMarker;)V"
+    ],
+    [
+      "Lcom/hailiang/notice/model/WhiteListResponse;",
+      "copy$default",
+      "(Lcom/hailiang/notice/model/WhiteListResponse; Ljava/lang/String; Ljava/util/List; I Ljava/lang/Object;)Lcom/hailiang/notice/model/WhiteListResponse;"
+    ],
+    [
+      "Lcom/hailiang/notice/model/WhiteListResponse;",
+      "component1",
+      "()Ljava/lang/String;"
+    ],
+    [
+      "Lcom/hailiang/notice/model/WhiteListResponse;",
+      "component2",
+      "()Ljava/util/List;"
+    ],
+    [
+      "Lcom/hailiang/notice/model/WhiteListResponse;",
+      "copy",
+      "(Ljava/lang/String; Ljava/util/List;)Lcom/hailiang/notice/model/WhiteListResponse;"
+    ],
+    [
+      "Lcom/hailiang/notice/model/WhiteListResponse;",
+      "equals",
+      "(Ljava/lang/Object;)Z"
+    ],
+    [
+      "Lcom/hailiang/notice/model/WhiteListResponse;",
+      "getFromSource",
+      "()Ljava/lang/String;"
+    ],
+    [
+      "Lcom/hailiang/notice/model/WhiteListResponse;",
+      "getUrlList",
+      "()Ljava/util/List;"
+    ],
+    [
+      "Lcom/hailiang/notice/model/WhiteListResponse;",
+      "hashCode",
+      "()I"
+    ],
+    [
+      "Lcom/hailiang/notice/model/WhiteListResponse;",
+      "toString",
+      "()Ljava/lang/String;"
+    ],
+    [
+      "Lcom/hailiang/notice/webview/WebViewManager;",
+      "access$checkAllowDomain",
+      "(Lcom/hailiang/notice/webview/WebViewManager; Ljava/lang/String; Ljava/lang/String; Landroid/content/Context;)Z"
+    ],
+    [
+      "Lcom/hailiang/notice/webview/WebViewManager;",
+      "checkAllowDomain",
+      "(Ljava/lang/String; Ljava/lang/String; Landroid/content/Context;)Z"
+    ],
+    [
+      "Lcom/hailiang/notice/webview/WebViewManager;",
+      "bindPage",
+      "(Ljava/lang/String;)V"
+    ],
+    [
+      "Lcom/hailiang/notice/webview/WebViewManager;",
+      "getAllowDomains",
+      "()Ljava/util/Set;"
+    ],
+    [
+      "Lcom/hailiang/notice/webview/WebViewManager;",
+      "setAllowDomains",
+      "(Ljava/util/Set;)V"
+    ],
+    [
+      "Lcom/hailiang/notice/webview/WebViewManager;",
+      "updateWhiteList",
+      "(Ljava/util/Collection;)V"
+    ],
+    [
+      "Lcom/hailiang/notice/webview/WebViewManagerKt;",
+      "buildAllowDomains",
+      "(Ljava/lang/String; Ljava/util/Collection;)Ljava/util/Set;"
+    ],
+    [
+      "Lcom/hailiang/notice/webview/WebViewManagerKt;",
+      "isDomainMatch",
+      "(Ljava/lang/String; Ljava/util/Set;)Z"
+    ],
+    [
+      "Lcom/hailiang/notice/webview/WebViewManagerKt;",
+      "isEntryLink",
+      "(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Z)Z"
+    ],
+    [
+      "Lcom/hailiang/notice/data/NoticeRepository$requestWhiteUrlList$1;",
+      "<init>",
+      "(Lcom/hailiang/notice/data/NoticeRepository; Lkotlin/coroutines/Continuation;)V"
+    ],
+    [
+      "Lcom/hailiang/notice/data/NoticeRepository$requestWhiteUrlList$1;",
+      "invokeSuspend",
+      "(Ljava/lang/Object;)Ljava/lang/Object;"
+    ],
+    [
+      "Lcom/hailiang/notice/detail/NoticeDetailActivity$loadAllowDomains$1;",
+      "<init>",
+      "(Lcom/hailiang/notice/detail/NoticeDetailActivity; Lkotlin/coroutines/Continuation;)V"
+    ],
+    [
+      "Lcom/hailiang/notice/detail/NoticeDetailActivity$loadAllowDomains$1;",
+      "create",
+      "(Ljava/lang/Object; Lkotlin/coroutines/Continuation;)Lkotlin/coroutines/Continuation;"
+    ],
+    [
+      "Lcom/hailiang/notice/detail/NoticeDetailActivity$loadAllowDomains$1;",
+      "invoke",
+      "(Ljava/lang/Object; Ljava/lang/Object;)Ljava/lang/Object;"
+    ],
+    [
+      "Lcom/hailiang/notice/detail/NoticeDetailActivity$loadAllowDomains$1;",
+      "invoke",
+      "(Lkotlinx/coroutines/CoroutineScope; Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+    ],
+    [
+      "Lcom/hailiang/notice/detail/NoticeDetailActivity$loadAllowDomains$1;",
+      "invokeSuspend",
+      "(Ljava/lang/Object;)Ljava/lang/Object;"
+    ],
+    [
+      "Lcom/hailiang/notice/detail/NoticeDetailActivity;",
+      "access$getWebviewManager$p",
+      "(Lcom/hailiang/notice/detail/NoticeDetailActivity;)Lcom/hailiang/notice/webview/WebViewManager;"
+    ],
+    [
+      "Lcom/hailiang/notice/detail/NoticeDetailActivity;",
+      "loadAllowDomains",
+      "(Ljava/lang/String;)V"
+    ]
+  ],
+  "removed_or_mod_only_methods": [
+    [
+      "Lcom/hailiang/notice/MainActivity;",
+      "onConfigurationChanged",
+      "(Landroid/content/res/Configuration;)V"
+    ],
+    [
+      "Lcom/hailiang/notice/MainActivity;",
+      "onDestroy",
+      "()V"
+    ],
+    [
+      "Lcom/hailiang/notice/MainActivity;",
+      "onSaveInstanceState",
+      "(Landroid/os/Bundle;)V"
+    ],
+    [
+      "Lcom/hailiang/notice/MainActivity;",
+      "refreshImmersive",
+      "()V"
+    ],
+    [
+      "Lcom/hailiang/notice/detail/NoticeDetailActivity;",
+      "onConfigurationChanged",
+      "(Landroid/content/res/Configuration;)V"
+    ],
+    [
+      "Lcom/hailiang/notice/detail/NoticeDetailActivity;",
+      "refreshImmersive",
+      "()V"
+    ]
+  ],
+  "official_classes3_method_refs": 64830
+}

@@ -1,0 +1,558 @@
+{
+  "native": [
+    {
+      "file": "com/hailiang/core/base/AbsActivity.smali",
+      "changed": [
+        "refreshImmersive()V"
+      ],
+      "added": [],
+      "removed": [],
+      "class_body_changed": false
+    },
+    {
+      "file": "com/hailiang/document/viewer/WebViewDocumentViewer$DocumentWebViewClient.smali",
+      "changed": [
+        "onPageFinished(Landroid/webkit/WebView;Ljava/lang/String;)V"
+      ],
+      "added": [],
+      "removed": [],
+      "class_body_changed": false
+    },
+    {
+      "file": "com/hailiang/document/viewer/WebViewDocumentViewer.smali",
+      "changed": [
+        "getDocumentDefaultHeight()I",
+        "loadAndAttach$lambda$1(Lcom/hailiang/document/viewer/WebViewDocumentViewer;Ljava/lang/String;Landroid/view/ViewGroup;)V"
+      ],
+      "added": [],
+      "removed": [],
+      "class_body_changed": false
+    },
+    {
+      "file": "com/hailiang/handwrite/widget/HandwriteCoreView.smali",
+      "changed": [
+        "onDraw(Landroid/graphics/Canvas;)V",
+        "onLayout(ZIIII)V",
+        "restorePath(Lcom/hailiang/handwrite/bean/PathInfo;)V",
+        "restorePathPoint(Lcom/hailiang/handwrite/bean/PointInfo;Lcom/hailiang/handwrite/widget/DrawType;FFJ)V",
+        "setPathInfoList(Ljava/util/List;Z)V"
+      ],
+      "added": [
+        "modRescaleClassroomRecord(Lcom/hailiang/handwrite/widget/PathRecord;)Lcom/hailiang/handwrite/widget/PathRecord;",
+        "modResizeClassroomInk()V",
+        "modTeacherDisplayY(F)F"
+      ],
+      "removed": [],
+      "class_body_changed": true
+    },
+    {
+      "file": "com/hailiang/hlsls/log/LogcatUtil.smali",
+      "changed": [],
+      "added": [],
+      "removed": [],
+      "class_body_changed": true
+    },
+    {
+      "file": "com/hailiang/hlutil/CmdExe.smali",
+      "changed": [],
+      "added": [],
+      "removed": [],
+      "class_body_changed": true
+    },
+    {
+      "file": "com/hailiang/hlutil/cmd/HlCommand.smali",
+      "changed": [],
+      "added": [],
+      "removed": [],
+      "class_body_changed": true
+    },
+    {
+      "file": "com/hljzjx/student/classroom/review/MainActivity.smali",
+      "changed": [
+        "onStop()V"
+      ],
+      "added": [],
+      "removed": [],
+      "class_body_changed": false
+    },
+    {
+      "file": "com/jchou/commonlibrary/base/AbsActivity.smali",
+      "changed": [],
+      "added": [
+        "onConfigurationChanged(Landroid/content/res/Configuration;)V",
+        "onWindowFocusChanged(Z)V"
+      ],
+      "removed": [],
+      "class_body_changed": false
+    },
+    {
+      "file": "com/nice/check_work/UiConstant.smali",
+      "changed": [],
+      "added": [],
+      "removed": [],
+      "class_body_changed": true
+    },
+    {
+      "file": "com/nice/dowork/CheckFragment.smali",
+      "changed": [
+        "initView(Landroid/view/View;)V"
+      ],
+      "added": [],
+      "removed": [],
+      "class_body_changed": false
+    },
+    {
+      "file": "com/nice/dowork/DoWorkFragment.smali",
+      "changed": [
+        "initView(Landroid/view/View;)V"
+      ],
+      "added": [],
+      "removed": [],
+      "class_body_changed": false
+    },
+    {
+      "file": "com/nice/room/ui/RoomLiveActivity.smali",
+      "changed": [
+        "initView()V",
+        "onDestroy()V"
+      ],
+      "added": [
+        "modOpenLocalApp(I)V",
+        "onPictureInPictureModeChanged(ZLandroid/content/res/Configuration;)V"
+      ],
+      "removed": [],
+      "class_body_changed": true
+    },
+    {
+      "file": "com/nice/room/ui/main/history/CourseHistoryFragment.smali",
+      "changed": [
+        "initView(Landroid/view/View;)V"
+      ],
+      "added": [],
+      "removed": [],
+      "class_body_changed": false
+    },
+    {
+      "file": "com/nice/room/ui/main/history/PPTHistoryActivity.smali",
+      "changed": [
+        "initData$lambda$1(Lcom/nice/room/ui/main/history/PPTHistoryActivity;)V",
+        "initView()V"
+      ],
+      "added": [],
+      "removed": [],
+      "class_body_changed": false
+    },
+    {
+      "file": "com/nice/room/ui/main/plan/adapter/PlanCourseAudioViewPresenter.smali",
+      "changed": [
+        "onBindViewHolder(Lcom/hailiang/recyclerview/adapter/ViewHolder;Lcom/hailiang/xxb/room/server/entity/DocumentBean;I)V"
+      ],
+      "added": [],
+      "removed": [],
+      "class_body_changed": false
+    },
+    {
+      "file": "com/nice/room/ui/main/plan/adapter/PlanCourseDocumentViewPresenter.smali",
+      "changed": [
+        "onBindViewHolder(Lcom/hailiang/recyclerview/adapter/ViewHolder;Lcom/hailiang/xxb/room/server/entity/DocumentBean;I)V"
+      ],
+      "added": [],
+      "removed": [],
+      "class_body_changed": false
+    },
+    {
+      "file": "com/nice/room/ui/main/plan/adapter/PlanCourseImageViewPresenter.smali",
+      "changed": [
+        "onBindViewHolder(Lcom/hailiang/recyclerview/adapter/ViewHolder;Lcom/hailiang/xxb/room/server/entity/DocumentBean;I)V"
+      ],
+      "added": [],
+      "removed": [],
+      "class_body_changed": false
+    },
+    {
+      "file": "com/nice/room/ui/main/plan/adapter/PlanCourseVideoViewPresenter.smali",
+      "changed": [
+        "onBindViewHolder(Lcom/hailiang/recyclerview/adapter/ViewHolder;Lcom/hailiang/xxb/room/server/entity/DocumentBean;I)V"
+      ],
+      "added": [],
+      "removed": [],
+      "class_body_changed": false
+    },
+    {
+      "file": "com/nice/room/ui/review/doc/ClassDocActivity$initView$3.smali",
+      "changed": [
+        "onItemClick(Landroid/view/View;Ljava/lang/Object;I)V"
+      ],
+      "added": [],
+      "removed": [],
+      "class_body_changed": false
+    },
+    {
+      "file": "com/nice/room/ui/review/doc/ClassDocActivity.smali",
+      "changed": [
+        "initView()V"
+      ],
+      "added": [],
+      "removed": [],
+      "class_body_changed": false
+    },
+    {
+      "file": "com/nice/room/ui/review/doc/adapter/adapter/MaterialAudioViewPresenter.smali",
+      "changed": [
+        "onBindViewHolder(Lcom/hailiang/recyclerview/adapter/ViewHolder;Lcom/hailiang/xxb/room/server/entity/DocumentBean;I)V"
+      ],
+      "added": [],
+      "removed": [],
+      "class_body_changed": false
+    },
+    {
+      "file": "com/nice/room/ui/review/doc/adapter/adapter/MaterialCoursewareViewPresenter.smali",
+      "changed": [
+        "onBindViewHolder(Lcom/hailiang/recyclerview/adapter/ViewHolder;Lcom/hailiang/xxb/room/server/entity/DocumentBean;I)V"
+      ],
+      "added": [],
+      "removed": [],
+      "class_body_changed": false
+    },
+    {
+      "file": "com/nice/room/ui/review/doc/adapter/adapter/MaterialImageViewPresenter.smali",
+      "changed": [
+        "onBindViewHolder(Lcom/hailiang/recyclerview/adapter/ViewHolder;Lcom/hailiang/xxb/room/server/entity/DocumentBean;I)V"
+      ],
+      "added": [],
+      "removed": [],
+      "class_body_changed": false
+    },
+    {
+      "file": "com/nice/room/ui/review/doc/adapter/adapter/MaterialVideoViewPresenter.smali",
+      "changed": [
+        "onBindViewHolder(Lcom/hailiang/recyclerview/adapter/ViewHolder;Lcom/hailiang/xxb/room/server/entity/DocumentBean;I)V"
+      ],
+      "added": [],
+      "removed": [],
+      "class_body_changed": false
+    },
+    {
+      "file": "com/nice/room/ui/roomlive/RoomLiveDocumentManager.smali",
+      "changed": [
+        "handleMqttPPTMessage(Lcom/alibaba/fastjson/JSONObject;)V",
+        "loadDocument(JLjava/lang/String;IIZZZ)V",
+        "onDocumentLoaded(Ljava/lang/String;Lcom/hailiang/document/viewer/DomData;)V",
+        "onDocumentStateChanged(Ljava/lang/String;Lcom/hailiang/document/DocumentState;)V",
+        "setPptLayout(Lcom/alibaba/fastjson/JSONObject;)V",
+        "updateCourseware(ILjava/lang/String;IIZ)V",
+        "updatePptLayoutTask$lambda$1(Lcom/nice/room/ui/roomlive/RoomLiveDocumentManager;)V"
+      ],
+      "added": [
+        "modBrowse()Lcom/hljzjx/classroom/mod/LiveBrowse;",
+        "modRoomInfo()Lcom/nice/room/ui/roomlive/RoomInfo;"
+      ],
+      "removed": [],
+      "class_body_changed": true
+    },
+    {
+      "file": "com/nice/room/ui/roomlive/fragment/ask/TakePhotoFragment.smali",
+      "changed": [
+        "onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V"
+      ],
+      "added": [
+        "onActivityResult(IILandroid/content/Intent;)V",
+        "onDestroyView()V"
+      ],
+      "removed": [],
+      "class_body_changed": false
+    },
+    {
+      "file": "com/nice/room/ui/roomlive/fragment/ask/answer/QuestionAskAnswerBaseFragment.smali",
+      "changed": [
+        "localSave()V",
+        "onPause()V",
+        "setFinished(Z)V",
+        "submit(ZZ)V"
+      ],
+      "added": [
+        "initView(Landroid/view/View;)V",
+        "modIsSubmitting()Z"
+      ],
+      "removed": [],
+      "class_body_changed": false
+    },
+    {
+      "file": "com/nice/room/ui/roomlive/fragment/ask/answer/QuestionAskHandwriteFragment.smali",
+      "changed": [
+        "autoSaveTask$lambda$0(Lcom/nice/room/ui/roomlive/fragment/ask/answer/QuestionAskHandwriteFragment;)V",
+        "onDestroyView()V",
+        "onSubmitResult(Z)V"
+      ],
+      "added": [
+        "modExportContinuation()Ljava/lang/String;",
+        "modGetCanvas()Lcom/hailiang/handwrite/widget/HandwriteView;",
+        "onActivityResult(IILandroid/content/Intent;)V",
+        "onPause()V"
+      ],
+      "removed": [],
+      "class_body_changed": false
+    },
+    {
+      "file": "com/nice/room/ui/roomlive/fragment/ask/answer/QuestionAskOptionFragment.smali",
+      "changed": [
+        "onSubmitResult(Z)V"
+      ],
+      "added": [],
+      "removed": [],
+      "class_body_changed": false
+    },
+    {
+      "file": "com/nice/room/ui/roomlive/fragment/ask/result/QuestionAskAnswerResultBaseFragment.smali",
+      "changed": [],
+      "added": [
+        "initView(Landroid/view/View;)V"
+      ],
+      "removed": [],
+      "class_body_changed": false
+    },
+    {
+      "file": "com/nice/room/ui/roomlive/fragment/ask/result/QuestionAskHandwriteResultFragment.smali",
+      "changed": [
+        "initView(Landroid/view/View;)V",
+        "updateAnswer(Lcom/hailiang/xxb/room/server/entity/ask/HandwriteAskShowAnswer;Z)V"
+      ],
+      "added": [],
+      "removed": [],
+      "class_body_changed": false
+    },
+    {
+      "file": "com/nice/room/ui/roomlive/fragment/ask/view/QuestionAskHandwriteAnswerView.smali",
+      "changed": [
+        "update$lambda$6$lambda$5(Lcom/hailiang/xxb/room/server/entity/ask/QuestionAskType;Lcom/hailiang/xxb/room/server/entity/ask/HandwriteAskShowAnswer;Lcom/nice/room/ui/roomlive/fragment/ask/view/QuestionAskHandwriteAnswerView;Ljava/util/List;I)Lkotlin/Unit;",
+        "update$lambda$6(Lcom/hailiang/handwrite/bean/DrawingRecord;Lcom/hailiang/handwrite/bean/DrawingRecord;Landroidx/lifecycle/LifecycleCoroutineScope;Lcom/nice/room/ui/roomlive/fragment/ask/view/QuestionAskHandwriteAnswerView;Lcom/hailiang/xxb/room/server/entity/ask/HandwriteAskShowAnswer;Lcom/hailiang/xxb/room/server/entity/ask/QuestionAskType;)V",
+        "update(Landroidx/lifecycle/LifecycleCoroutineScope;Lcom/hailiang/xxb/room/server/entity/ask/QuestionAskType;Lcom/hailiang/xxb/room/server/entity/ask/HandwriteAskShowAnswer;Z)V"
+      ],
+      "added": [],
+      "removed": [],
+      "class_body_changed": false
+    },
+    {
+      "file": "com/nice/room/ui/roomlive/fragment/discussion/DiscussionFragment.smali",
+      "changed": [
+        "changeGroup$lambda$31$lambda$30(Lcom/nice/room/ui/roomlive/fragment/discussion/DiscussionFragment;Ljava/util/List;ILcom/hailiang/xxb/room/server/entity/discussion/DiscussionGroupInfo;Z)Lkotlin/Unit;",
+        "drawShape(Lcom/hailiang/handwrite/widget/HandwriteView;Lcom/hailiang/handwrite/bean/PathInfo;Lcom/hailiang/handwrite/widget/DrawType;)V",
+        "initView$lambda$7(Lcom/nice/room/ui/roomlive/fragment/discussion/DiscussionFragment;Landroidx/compose/runtime/Composer;I)Lkotlin/Unit;",
+        "initView(Landroid/view/View;)V",
+        "observeData$lambda$18(Lcom/nice/room/ui/roomlive/fragment/discussion/DiscussionFragment;Lcom/hailiang/xxb/room/server/entity/discussion/DiscussionGroupInfoResp;)Lkotlin/Unit;",
+        "observeData$lambda$20(Lcom/nice/room/ui/roomlive/fragment/discussion/DiscussionFragment;Ljava/util/List;)Lkotlin/Unit;",
+        "onCurvePathComplete(Lcom/hailiang/handwrite/widget/HandwriteView;Lcom/hailiang/handwrite/bean/PathInfo;)V",
+        "onMessageArrived(Ljava/lang/String;Ljava/lang/String;JLjava/lang/String;)V",
+        "onTouchPoint(Lcom/hailiang/handwrite/widget/HandwriteView;Lcom/hailiang/handwrite/bean/PointInfo;)V",
+        "updateViewWithState()V"
+      ],
+      "added": [
+        "modEndedWriteAllowed()Z",
+        "modRefreshEndedTools()V"
+      ],
+      "removed": [],
+      "class_body_changed": false
+    },
+    {
+      "file": "com/nice/room/ui/roomlive/fragment/discussion/witget/DiscussionJoinGroupScreenKt.smali",
+      "changed": [
+        "GroupDiscussionScreen(Ljava/util/List;ILkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function1;Landroidx/compose/runtime/Composer;I)V"
+      ],
+      "added": [],
+      "removed": [],
+      "class_body_changed": false
+    },
+    {
+      "file": "com/nice/room/ui/roomlive/fragment/quickanswer/QuickAnswerCountdownFragment.smali",
+      "changed": [
+        "enableClick()V"
+      ],
+      "added": [
+        "modTryAutoClick()V"
+      ],
+      "removed": [],
+      "class_body_changed": true
+    },
+    {
+      "file": "com/nice/room/ui/roomlive/interaction/impl/FreeBrowseInteraction.smali",
+      "changed": [
+        "handleMessage(Lcom/hailiang/mqtt/classroom/RoomMqttMessageType;Ljava/lang/String;)V",
+        "start(Ljava/util/Map;)V"
+      ],
+      "added": [
+        "modSetFree(Z)V"
+      ],
+      "removed": [],
+      "class_body_changed": false
+    },
+    {
+      "file": "com/nice/room/ui/roomlive/interaction/impl/QuestionAskInteraction.smali",
+      "changed": [
+        "showQuestionAskResult(JLjava/util/List;)V"
+      ],
+      "added": [],
+      "removed": [],
+      "class_body_changed": false
+    },
+    {
+      "file": "com/nice/room/ui/roomlive/interaction/impl/TeacherHandwriteInteraction.smali",
+      "changed": [
+        "start$lambda$3(Landroid/view/View;Landroid/view/View;)V",
+        "start(Ljava/util/Map;)V"
+      ],
+      "added": [],
+      "removed": [],
+      "class_body_changed": false
+    },
+    {
+      "file": "com/nice/room/ui/roomlive/interaction/impl/ThirdAppInteraction.smali",
+      "changed": [
+        "addShutcut()V",
+        "end(Lkotlin/jvm/functions/Function0;)V",
+        "handleMessage(Lcom/hailiang/mqtt/classroom/RoomMqttMessageType;Ljava/lang/String;)V",
+        "openApp$lambda$1(Lcom/nice/room/ui/roomlive/interaction/impl/ThirdAppInteraction;Lcom/nice/room/ui/roomlive/interaction/impl/ThirdAppInteraction$ExternalLinkInfo;Ljava/util/Set;)Lkotlin/Unit;",
+        "openApp()V",
+        "removeShotcut()V"
+      ],
+      "added": [
+        "modCanOpenWeb(Lcom/nice/room/ui/roomlive/interaction/impl/ThirdAppInteraction$ExternalLinkInfo;)Z",
+        "modKeepWebShortcut()V",
+        "modOpenLocalApp(I)V",
+        "modOpenWebInClass(Lcom/nice/room/ui/roomlive/interaction/impl/ThirdAppInteraction$ExternalLinkInfo;)V"
+      ],
+      "removed": [],
+      "class_body_changed": true
+    },
+    {
+      "file": "com/nice/room/ui/roomlive/tool/FunctionToolItemInfo.smali",
+      "changed": [],
+      "added": [
+        "modLocalItem(Ljava/lang/String;ILjava/lang/String;Lkotlin/jvm/functions/Function1;)Lcom/nice/room/ui/roomlive/tool/FunctionToolItemInfo;"
+      ],
+      "removed": [],
+      "class_body_changed": false
+    },
+    {
+      "file": "com/nice/room/ui/roomlive/tool/RoomLiveToolBarKt.smali",
+      "changed": [
+        "<clinit>()V",
+        "RoomLiveToolBar$lambda$34$lambda$33$lambda$31(Lcom/nice/room/ui/roomlive/tool/ToolBarState;Ljava/util/List;Ljava/util/List;Landroidx/compose/animation/AnimatedVisibilityScope;Landroidx/compose/runtime/Composer;I)Lkotlin/Unit;",
+        "RoomLiveToolBar(Landroidx/compose/ui/Modifier;Lcom/nice/room/ui/roomlive/tool/ToolBarState;Landroidx/compose/runtime/Composer;II)V"
+      ],
+      "added": [],
+      "removed": [],
+      "class_body_changed": false
+    },
+    {
+      "file": "com/nice/room/ui/roomlive/tool/RoomToolBarView$showBrushSettings$1.smali",
+      "changed": [
+        "onPenColorChanged(Lcom/nice/room/ui/roomlive/tool/PenColor;)V"
+      ],
+      "added": [],
+      "removed": [],
+      "class_body_changed": false
+    },
+    {
+      "file": "com/nice/room/ui/roomlive/tool/RoomToolBarView.smali",
+      "changed": [
+        "Content(Landroidx/compose/runtime/Composer;I)V",
+        "checkAndAdjustPosition()V"
+      ],
+      "added": [
+        "modGetToolBarState()Lcom/nice/room/ui/roomlive/tool/ToolBarState;",
+        "modSetAppDirect(Lcom/nice/room/ui/roomlive/interaction/impl/ThirdAppInteraction$ExternalLinkInfo;Lkotlin/jvm/functions/Function1;)V"
+      ],
+      "removed": [],
+      "class_body_changed": false
+    },
+    {
+      "file": "com/obs/services/Log4j2Configurator.smali",
+      "changed": [],
+      "added": [],
+      "removed": [],
+      "class_body_changed": true
+    },
+    {
+      "file": "com/tencent/bugly/proguard/al.smali",
+      "changed": [],
+      "added": [],
+      "removed": [],
+      "class_body_changed": true
+    },
+    {
+      "file": "com/tencent/bugly/proguard/ao.smali",
+      "changed": [],
+      "added": [],
+      "removed": [],
+      "class_body_changed": true
+    },
+    {
+      "file": "com/tencent/bugly/proguard/at.smali",
+      "changed": [],
+      "added": [],
+      "removed": [],
+      "class_body_changed": true
+    },
+    {
+      "file": "com/tencent/bugly/proguard/w.smali",
+      "changed": [],
+      "added": [],
+      "removed": [],
+      "class_body_changed": true
+    },
+    {
+      "file": "de/hdodenhof/circleimageview/CircleImageView.smali",
+      "changed": [],
+      "added": [],
+      "removed": [],
+      "class_body_changed": true
+    }
+  ],
+  "conflicts": [
+    {
+      "file": "com/hljzjx/student/classroom/review/MainActivity.smali",
+      "method": "onStop()V",
+      "reason": "missing"
+    },
+    {
+      "file": "com/nice/room/ui/RoomLiveActivity.smali",
+      "method": "initView()V",
+      "reason": "changed",
+      "matches_mod": false
+    },
+    {
+      "file": "com/nice/room/ui/roomlive/fragment/ask/answer/QuestionAskAnswerBaseFragment.smali",
+      "method": "submit(ZZ)V",
+      "reason": "changed",
+      "matches_mod": false
+    },
+    {
+      "file": "com/nice/room/ui/roomlive/fragment/ask/view/QuestionAskHandwriteAnswerView.smali",
+      "method": "update$lambda$6(Lcom/hailiang/handwrite/bean/DrawingRecord;Lcom/hailiang/handwrite/bean/DrawingRecord;Landroidx/lifecycle/LifecycleCoroutineScope;Lcom/nice/room/ui/roomlive/fragment/ask/view/QuestionAskHandwriteAnswerView;Lcom/hailiang/xxb/room/server/entity/ask/HandwriteAskShowAnswer;Lcom/hailiang/xxb/room/server/entity/ask/QuestionAskType;)V",
+      "reason": "changed",
+      "matches_mod": false
+    },
+    {
+      "file": "com/nice/room/ui/roomlive/fragment/discussion/DiscussionFragment.smali",
+      "method": "initView$lambda$7(Lcom/nice/room/ui/roomlive/fragment/discussion/DiscussionFragment;Landroidx/compose/runtime/Composer;I)Lkotlin/Unit;",
+      "reason": "changed",
+      "matches_mod": false
+    }
+  ],
+  "added_mod_classes": [
+    "com/hljzjx/classroom/mod/AutoQuickAnswer$Factory.smali",
+    "com/hljzjx/classroom/mod/AutoQuickAnswer$ToggleListener.smali",
+    "com/hljzjx/classroom/mod/AutoQuickAnswer.smali",
+    "com/hljzjx/classroom/mod/BottomToolbarPlacement.smali",
+    "com/hljzjx/classroom/mod/ClassroomSlideStage.smali",
+    "com/hljzjx/classroom/mod/CourseDownloadClick.smali",
+    "com/hljzjx/classroom/mod/DocumentViewport.smali",
+    "com/hljzjx/classroom/mod/DownloadActions.smali",
+    "com/hljzjx/classroom/mod/LiveBrowse.smali",
+    "com/hljzjx/classroom/mod/PptDownload$Progress.smali",
+    "com/hljzjx/classroom/mod/PptDownload.smali",
+    "com/hljzjx/classroom/mod/PptDownloads.smali",
+    "com/hljzjx/classroom/mod/ResourceDownloadClick.smali",
+    "com/hljzjx/classroom/mod/WindowSizing.smali"
+  ]
+}

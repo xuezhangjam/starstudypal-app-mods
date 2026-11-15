@@ -1,0 +1,4 @@
+package android.content;
+import java.util.*;public class Context {
+public android.content.res.Resources getResources(){return new android.content.res.Resources();}public String getPackageName(){return "com.hljzjx.edu.student.classroom";}public Context getApplicationContext(){return this;}
+static final Map<String,String> disk=new HashMap<String,String>();public SharedPreferences getSharedPreferences(String name,int mode){return new SharedPreferences(){public String getString(String k,String d){String v=disk.get(k);return v==null?d:v;}public Editor edit(){return new Editor(){Map<String,String> pending=new HashMap<String,String>();public Editor putString(String k,String v){pending.put(k,v);return this;}public Editor remove(String k){pending.put(k,null);return this;}public void apply(){for(String k:pending.keySet())if(pending.get(k)==null)disk.remove(k);else disk.put(k,pending.get(k));}};}};}}

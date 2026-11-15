@@ -1,0 +1,40 @@
+{
+  "input": "H5应用.apk",
+  "input_sha256": "9f1d5b696befd7cde78d430cbcc4e5cdea63e389f12f51e5eaf76abbdb11e3c4",
+  "output": "H5浏览器-1.0.13-首页应用直达修复.apk",
+  "sha256": "d67bbae520ab7fda968b5c21114e91c848f0d5136a7a44e86e91e06fd7e1a671",
+  "size": 98118575,
+  "package": "com.hailiang.xxb.web.app",
+  "version_name": "1.0.13-browser.2",
+  "version_code": 1015,
+  "launcher_activity": "com.hailiang.webbrowser.browser.BrowserActivity",
+  "original_dex": "all five preserved byte-for-byte",
+  "original_resources_and_icon": "preserved byte-for-byte",
+  "application": "android.app.Application; no school SDK initializers or providers",
+  "legacy_components": "activity aliases to standalone BrowserActivity",
+  "android_device_tested": false,
+  "changed_original_payloads": [
+    "AndroidManifest.xml"
+  ],
+  "preserved_original_payloads": 2873,
+  "all_five_original_dex_and_all_icon_resources_identical": true,
+  "new_browser_classes": 52,
+  "checked_new_dex_member_references": 2185,
+  "new_dex_has_no_direct_school_sdk_references": true,
+  "legacy_aliases_verified": 5,
+  "launcher_http_https_and_text_share_filters_verified": true,
+  "school_providers_and_services_not_registered": true,
+  "certificate_sha256": "c44b3c9268645f6da5e766f94b9dda5b067133631bd1b2c3a18052562296f7ea",
+  "official_certificate_sha256": "2d370c21f5dfd553d2a796314b70925fb38adeef90864c920bbbbb12887d3522",
+  "can_cover_official_signature": false,
+  "signed_v2": true,
+  "signed_v3": true,
+  "url_parser_test_cases": 44,
+  "external_link_regression_cases": 55,
+  "same_signature_as_previous_browser": true,
+  "changed_payloads_vs_previous_browser": [
+    "AndroidManifest.xml",
+    "classes6.dex"
+  ],
+  "external_app_link_has_no_search_fallback": true
+}

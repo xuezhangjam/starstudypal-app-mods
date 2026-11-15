@@ -1,0 +1,2 @@
+package com.hailiang.workcloud.student.data.repository;
+public class KtorWorkAnswerRepository implements WorkAnswerRepository {public Object getReviewWorkDetail(long group,kotlin.coroutines.Continuation<? super com.hailiang.workcloud.student.data.model.ReviewWork> c){return null;}public Object modSubmitWorkGroupOriginal(com.hailiang.workcloud.student.data.model.WorkGroupSubmitRequest r,kotlin.coroutines.Continuation<? super kotlin.Unit> c){return null;}}

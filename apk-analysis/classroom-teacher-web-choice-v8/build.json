@@ -1,0 +1,17 @@
+{
+  "input": "学生端课堂-3.2.1.0-续答结果显示修复-v7.apk",
+  "input_sha256": "1f4655e8f61163f1980d295cfd44992a6ed4b712c7fbd9ba802badcad8429396",
+  "output": "学生端课堂-3.2.1.0-网页打开方式选择-v8.apk",
+  "sha256": "37c9f9836f2a99a5f8607c2e80ae33174c6485e7bd9b59955532c2b5cb1ec80f",
+  "size": 64571675,
+  "changed_payloads": [
+    "classes4.dex"
+  ],
+  "added_payloads": [
+    "classes12.dex"
+  ],
+  "device_tested": false,
+  "classroom_server_tested": false,
+  "source_sha256": "79b97927c5b33fe465356ba44df743217638ebd25f473bec374a1f80d7da2dca",
+  "helper_dex_sha256": "bb90b00e5eaa3a56b7fd631ebde2d793e5b29d060ea4ac249fb4ac3b53ee5fb8"
+}

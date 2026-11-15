@@ -1,0 +1,1 @@
+package android.widget;public class ScrollView extends FrameLayout{public ScrollView(android.content.Context c){super(c);}public void addView(android.view.View v){super.addView(v,new FrameLayout.LayoutParams(-1,-2,0));}}

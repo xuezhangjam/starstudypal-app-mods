@@ -1,0 +1,24 @@
+{
+  "input": "精准作业-4.0.1.0-实线虚线图标实时切换-v10.apk",
+  "input_sha256": "1f1e65a79b56929919c0b3d1902d25b4270b5bf5edbe4a516f0db96796b8f750",
+  "output": "精准作业-4.0.1.0-半对图标-未批改答案修改-v11.apk",
+  "sha256": "9bc1b9457f319eccf60050353feab26b62d8bc1945643bd438ed1529e0bfb9bd",
+  "bytes": 157370518,
+  "changed_payloads": [
+    "classes5.dex",
+    "classes11.dex"
+  ],
+  "own_source_sha256": {
+    "src/AnswerVisibility.kt": "1dd3cf1ab4eac9429eb3b8ea38cf5788c48d62e0e8f98e50e604c4181413ebb2",
+    "src/Downloads.kt": "a289b91e329b160a67d2322a1d35bc69863eb7a9127081bf8f697d9c80978629",
+    "src/InkHistory.kt": "ad0d2569f6feaf8a2d62dedaa558d8284a7ad1d53ee02da5b782f95a41754285",
+    "src/InkJournal.kt": "96243b32c6dc1948fcc7f7a0e60a0dc04fe433e48f4a59bbf9099db0facb028d",
+    "src/PendingEdits.kt": "9b249fb6ad0cd40939811b0c9814de7f63373452b406132965ccdea126a6ff91",
+    "src/PrecisionControls.kt": "2684a6f5d44e39b1d2a175b671a34c5ce0d69bc1d379534b0297d30ad8412486",
+    "src/PrecisionDetail.kt": "a6237cb7fdb840e208a8fe6fd938438d1a94d77d3acfd25289312f9093257d53",
+    "src/PrecisionHome.kt": "229416f68ae3f6e1c4dad0e68c5efc7dbbb4754da1add9a74545d673e6f8b280",
+    "src/ToolGlyphs.kt": "92dfe0ab106899fba438191f1a0ee031e4a141aac820b5be60a073b61490e800"
+  },
+  "android_device_tested": false,
+  "school_server_tested": false
+}

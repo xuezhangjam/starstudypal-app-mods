@@ -1,0 +1,97 @@
+{
+  "input": "精准作业-4.0.1.0-实线虚线图标实时切换-v10.apk",
+  "input_sha256": "1f1e65a79b56929919c0b3d1902d25b4270b5bf5edbe4a516f0db96796b8f750",
+  "output": "精准作业-4.0.1.0-半对图标-未批改答案修改-v11.apk",
+  "sha256": "9bc1b9457f319eccf60050353feab26b62d8bc1945643bd438ed1529e0bfb9bd",
+  "bytes": 157370518,
+  "changed_payloads": [
+    "classes5.dex",
+    "classes11.dex"
+  ],
+  "own_source_sha256": {
+    "src/AnswerVisibility.kt": "1dd3cf1ab4eac9429eb3b8ea38cf5788c48d62e0e8f98e50e604c4181413ebb2",
+    "src/Downloads.kt": "a289b91e329b160a67d2322a1d35bc69863eb7a9127081bf8f697d9c80978629",
+    "src/InkHistory.kt": "ad0d2569f6feaf8a2d62dedaa558d8284a7ad1d53ee02da5b782f95a41754285",
+    "src/InkJournal.kt": "96243b32c6dc1948fcc7f7a0e60a0dc04fe433e48f4a59bbf9099db0facb028d",
+    "src/PendingEdits.kt": "9b249fb6ad0cd40939811b0c9814de7f63373452b406132965ccdea126a6ff91",
+    "src/PrecisionControls.kt": "2684a6f5d44e39b1d2a175b671a34c5ce0d69bc1d379534b0297d30ad8412486",
+    "src/PrecisionDetail.kt": "a6237cb7fdb840e208a8fe6fd938438d1a94d77d3acfd25289312f9093257d53",
+    "src/PrecisionHome.kt": "229416f68ae3f6e1c4dad0e68c5efc7dbbb4754da1add9a74545d673e6f8b280",
+    "src/ToolGlyphs.kt": "92dfe0ab106899fba438191f1a0ee031e4a141aac820b5be60a073b61490e800"
+  },
+  "android_device_tested": false,
+  "school_server_tested": false,
+  "passed": true,
+  "native_methods_changed": 6,
+  "new_bridges_and_preserved_http_method": 7,
+  "other_native_methods_identical": 57203,
+  "other_payloads_identical": 1879,
+  "original_http_coroutine_identical": true,
+  "native_reply_and_error_paths_preserved": true,
+  "checked_member_references": 12583,
+  "flow": {
+    "Lcom/hailiang/workcloud/student/data/repository/KtorWorkAnswerRepository;->submitWorkGroup": {
+      "instructions": 3,
+      "reachable_instructions": 3,
+      "checked_register_reads": 4,
+      "uninitialized_reads": []
+    },
+    "Lcom/hailiang/workcloud/student/shareui/work/WorkAnswerViewModel;->modRevisionGroupId": {
+      "instructions": 4,
+      "reachable_instructions": 4,
+      "checked_register_reads": 4,
+      "uninitialized_reads": []
+    },
+    "Lcom/hailiang/workcloud/student/shareui/work/WorkAnswerViewModel;->modRevisionHandlers": {
+      "instructions": 2,
+      "reachable_instructions": 2,
+      "checked_register_reads": 2,
+      "uninitialized_reads": []
+    },
+    "Lcom/hailiang/workcloud/student/shareui/work/WorkAnswerViewModel;->modRevisionRefresh": {
+      "instructions": 2,
+      "reachable_instructions": 2,
+      "checked_register_reads": 1,
+      "uninitialized_reads": []
+    },
+    "Lcom/hailiang/workcloud/student/shareui/work/WorkAnswerViewModel;->modRevisionRepository": {
+      "instructions": 2,
+      "reachable_instructions": 2,
+      "checked_register_reads": 2,
+      "uninitialized_reads": []
+    },
+    "Lcom/hailiang/workcloud/student/shareui/work/photofile/PhotoFileWorkHandler;->modBeginRevision": {
+      "instructions": 3,
+      "reachable_instructions": 3,
+      "checked_register_reads": 2,
+      "uninitialized_reads": []
+    },
+    "Lcom/hailiang/workcloud/student/shareui/work/review/components/detail/BlankReviewCardKt;->MarkIcon": {
+      "instructions": 2,
+      "reachable_instructions": 2,
+      "checked_register_reads": 3,
+      "uninitialized_reads": []
+    },
+    "Lcom/hailiang/workcloud/student/shareui/work/select/AnswerQuestionWorkHandler;->modBeginRevision": {
+      "instructions": 3,
+      "reachable_instructions": 3,
+      "checked_register_reads": 2,
+      "uninitialized_reads": []
+    }
+  },
+  "method_ids_per_dex": {
+    "classes.dex": 65445,
+    "classes2.dex": 65536,
+    "classes3.dex": 65388,
+    "classes4.dex": 65455,
+    "classes5.dex": 65493,
+    "classes6.dex": 65383,
+    "classes7.dex": 2420,
+    "classes8.dex": 79,
+    "classes9.dex": 79,
+    "classes10.dex": 52,
+    "classes11.dex": 1473
+  },
+  "certificate_sha256": "742fb311a630c11c9cae8fc398ca654b21dfa2bd0039831da7ee258af7cbbfc7",
+  "scope": "Final signed APK, symbolic native preservation, register and linkage checks; no ART, Pixel, school requests or real submission."
+}

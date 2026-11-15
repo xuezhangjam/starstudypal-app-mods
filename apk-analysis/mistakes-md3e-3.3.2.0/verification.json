@@ -1,0 +1,72 @@
+{
+  "input": "错题本学生端3.3.2.0原版.apk",
+  "input_sha256": "195d1e19c1b9b39c32ca09257eafba0f0c4892c8d9398e58c232a01969da6fbd",
+  "output": "错题本学生端-3.3.2.0-M3e原生-系统相机与相册.apk",
+  "sha256": "036dfe73a74df1e306c106d717caf6b4a96ca5831186b68bfdf8b7dddd7bfd2b",
+  "size": 143769760,
+  "package": "com.nice.errorbook",
+  "modified_existing_dex": [
+    "classes4.dex",
+    "classes5.dex"
+  ],
+  "new_dex": "classes6.dex",
+  "compiled_layouts": [
+    "res/v9.xml",
+    "res/DT.xml",
+    "res/nc.xml"
+  ],
+  "resource_table": "original byte-identical",
+  "modified_original_methods": 115,
+  "camera": "platform ACTION_IMAGE_CAPTURE with full-resolution FileProvider output",
+  "gallery": "system OPEN_DOCUMENT image/* multi-select with GET_CONTENT fallback, original per-entry quota retained",
+  "photo_processing": "original SDK preview, manual crop, enhancement, upload, and SmartCamera callback",
+  "native_ui": "native Views and existing Compose widgets, semantic dynamic colors and expressive rounded shapes",
+  "android_device_tested": false,
+  "layout_path_map": {
+    "res/v9.xml": "res/layout/activity_main.xml",
+    "res/DT.xml": "res/layout/item_subject_tab.xml",
+    "res/nc.xml": "res/layout/dialog_common.xml"
+  },
+  "preserved_payloads": 2098,
+  "changed_existing_payloads": [
+    "AndroidManifest.xml",
+    "classes4.dex",
+    "classes5.dex",
+    "res/DT.xml",
+    "res/nc.xml",
+    "res/v9.xml"
+  ],
+  "new_payloads": [
+    "classes6.dex"
+  ],
+  "other_existing_methods_in_dex4_5_identical": 107418,
+  "UI_method_normalization": "only audited color/shape calls and native UI hooks; all remaining original instructions and branches identical",
+  "original_three_other_dex_assets_native_libraries_and_resource_table": "byte-identical",
+  "new_manifest_component": "one non-exported photo source Activity only",
+  "new_theme_bridge_classes": 1,
+  "new_java_helper_classes": 21,
+  "checked_member_references": 21336,
+  "layout_checks": {
+    "res/v9.xml": {
+      "nodes": 9,
+      "all_original_ids_and_tags_preserved": true
+    },
+    "res/DT.xml": {
+      "nodes": 3,
+      "all_original_ids_and_tags_preserved": true
+    },
+    "res/nc.xml": {
+      "nodes": 6,
+      "all_original_ids_and_tags_preserved": true
+    }
+  },
+  "system_camera_intent_and_full_size_output": "verified in final DEX; no embedded-camera call in camera route",
+  "signed_v2": true,
+  "signed_v3": true,
+  "certificate_sha256": "7b128cdc8d4ff2fb798cbca4d79aa3b26e8edb192cf56f42290b02ae46cbfe4f",
+  "official_certificate_sha256": "5381e533cea5e4436079ab2a794dd8288a13378fb2ea42f2533734e1fe966cf1",
+  "can_overwrite_official_signature": false,
+  "policy_assertions": 1860,
+  "photo_sizing_scenarios": 256,
+  "real_camera_gallery_recognition_upload_tested": false
+}

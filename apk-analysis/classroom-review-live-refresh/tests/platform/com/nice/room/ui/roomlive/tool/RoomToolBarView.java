@@ -1,0 +1,5 @@
+package com.nice.room.ui.roomlive.tool;
+public class RoomToolBarView extends android.view.View {
+public ToolBarState state=new ToolBarState();public DrawingTool selected=DrawingTool.DRAG;public kotlin.jvm.functions.Function0<kotlin.Unit> photo;public boolean clearHidden=true,colorHidden=true,graphHidden=true,handwrite;
+public RoomToolBarView(android.content.Context c){super(c);}public ToolBarState modGetToolBarState(){return state;}public void setHandwriteEnable(boolean b){handwrite=b;state.enabled=b;}public void setHideClearOption(boolean b){clearHidden=b;}public void setHideColorOptions(boolean b){colorHidden=b;}public void setHideGraphOptions(boolean b){graphHidden=b;}
+public DrawingTool getSelectTool(){return selected;}public void setSelectTool(DrawingTool t){selected=t;com.hljzjx.classroom.reviewdraw.ReviewDrawing.tool(this,t);}public kotlin.jvm.functions.Function0<kotlin.Unit> getOnTakePhoto(){return photo;}public void setOnTakePhoto(kotlin.jvm.functions.Function0<kotlin.Unit> f){photo=f;}}

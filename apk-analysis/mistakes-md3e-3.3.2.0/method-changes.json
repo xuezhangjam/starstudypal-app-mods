@@ -1,0 +1,807 @@
+[
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.MainActivity",
+    "signature": "public initView()V",
+    "before_sha256": "9bbbfda4db582c74a01275076c812e6570ae9cd925ab00979e8e6552382bc092",
+    "after_sha256": "5894578afb4465803eab2ae17b5606478d8cfdc59038e4f86461499ec679cc66"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.knowledgeMapDetail.KnowledgeMapFullScreenDetailDialogKt",
+    "signature": "private static final FullScreenDialogLayout(Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;I)V",
+    "before_sha256": "dc27200a788dc468fab4ff2403253d285dbd3d4def549c4611b6c307be5ccac2",
+    "after_sha256": "cf695d76cdf2c26bf9a1754f31efe491bb8dd96e8d0988de83679e026f174783"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.knowledgeMapDetail.KnowledgeMapFullScreenDetailDialogKt",
+    "signature": "public static final KnowledgeMapDetailCloseButton(Lkotlin/jvm/functions/Function0;Landroidx/compose/ui/Modifier;Landroidx/compose/runtime/Composer;II)V",
+    "before_sha256": "fd0420b3217890cfb17d67c18f2c23b6ab0de4e9dad292b4f5e996c13999a444",
+    "after_sha256": "64a77fb004fdf1c591e24ae2732053be421eb824a3fbc9c22850d2e7939c99de"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.knowledgeMapDetail.KnowledgeMapFullScreenDetailDialogKt",
+    "signature": "public static final KnowledgeMapDetailTopBar(Landroidx/compose/ui/Modifier;Landroidx/compose/runtime/Composer;II)V",
+    "before_sha256": "9de02ae386c67b55659a21a509efa3fe9e74f94a63eb70756d82bbdfb5ba2e5c",
+    "after_sha256": "182b0129e32f74b51722be22a19720a2066925bd5ed4a52bbd729a52d67cb4f8"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.knowledgeMapDetail.KnowledgeMapFullScreenDetailDialogKt",
+    "signature": "private static final KnowledgeMapResetButton(Lkotlin/jvm/functions/Function0;Landroidx/compose/ui/Modifier;Landroidx/compose/runtime/Composer;II)V",
+    "before_sha256": "35c4c5c62289ed3a81cd7dfc3dee49d9d17764f16c4a6479a6687a14a6ce129b",
+    "after_sha256": "63d5e530112c3fed1f268ce9f8a9b367786152f0ff0ad2868295433c3fff9c8f"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.knowledgeMapDetail.KnowledgePointDialogKt",
+    "signature": "static constructor <clinit>()V",
+    "before_sha256": "9980dd72e2628df69129c7dc465572e87aef15a4f492f3a0ae078591d1ff5df9",
+    "after_sha256": "8f22d468abc9389ee9d66d85c44e999afed7fdec5922722545eee8a58728c0aa"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.knowledgeMapDetail.KnowledgePointDialogKt",
+    "signature": "private static final DialogButton(Ljava/lang/String;ZLkotlin/jvm/functions/Function0;Landroidx/compose/ui/Modifier;Landroidx/compose/runtime/Composer;II)V",
+    "before_sha256": "d74f4cc04011ffec46f6b2b751fb32905987b91286051a1df88506facde08c79",
+    "after_sha256": "870864cc18e4c911f6e39a9fb5bdf7a9db0570da6fe78d2e82a41f3480cd753d"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.knowledgeMapDetail.KnowledgePointDialogKt",
+    "signature": "public static final KnowledgePointDialogContent(Lcom/nice/errorbook/knowledgemap/model/KnowledgeNode;Lcom/nice/errorbook/ui/knowledgeMapDetail/KnowledgePointDialogContext;ZLkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Landroidx/compose/runtime/Composer;II)V",
+    "before_sha256": "bd92e56ce0b66aa0e5fd98889db85434ccf0e4b5615f6c53cea7a67c79111961",
+    "after_sha256": "e7843494046173cfe3767edd51493c560779dbfb68c662308ae9ac00099661a8"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.knowledgeMapDetail.KnowledgePointDialogKt",
+    "signature": "private static final StatusBadge(Lcom/nice/errorbook/knowledgemap/model/MasteryStatus;Landroidx/compose/ui/Modifier;Landroidx/compose/runtime/Composer;II)V",
+    "before_sha256": "5397a42e92a2c6745dbf562ab0a7a12a8cba57e41a27dd409eb4341d54527835",
+    "after_sha256": "afbd266e5ce48f10512955091faa66cf922d2dc2804837bba543416249dc623a"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.knowledgeMapDetail.KnowledgePointDialogKt",
+    "signature": "public static final synthetic access$getDialogCloseColor$p()J",
+    "before_sha256": "9be2c1cd945c0654849ef427b0507288e84b37bdb7a89e152f19b74fd44f8f6a",
+    "after_sha256": "0108e9fbffb200589e538ef499c17ff2834e34a3245d14879788c5343cd52974"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.record.RecordErrorActivity",
+    "signature": "public initView()V",
+    "before_sha256": "d8a3f6db7f679164be8eedbc8d26fb966a35f38edabc5a26fde5ba7cbfb4b555",
+    "after_sha256": "6c3cba12ba23d5bad7c88c33e87f65c47f3e2cc153250aa4dda6958809a0b8dd"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.record.RecordErrorActivityKt",
+    "signature": "public static final RecognizeSuccessContent(Ljava/util/List;ILkotlin/jvm/functions/Function1;Lcom/nice/errorbook/ui/record/RecordErrorViewModel$SolveState;Lcom/nice/errorbook/data/service/bean/response/ImgSearchQuestionSolveResultResponse;Ljava/lang/String;ZLkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function0;Lcom/nice/errorbook/question/PlayerController;Landroidx/compose/runtime/Composer;II)V",
+    "before_sha256": "77e1a26d02c5df8ff477f0078b0d1ea58f3e65cf556dc0fe461e7e0a77bf94de",
+    "after_sha256": "5537587411cd55e882b24dcc13fbdade28b453c73a4b77816fed80e150ca917b"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.record.RecordErrorActivityKt",
+    "signature": "public static final RecordErrorScreen(Ljava/util/List;Ljava/util/List;Lcom/nice/errorbook/ui/record/RecordErrorViewModel$RecognizeState;Ljava/lang/String;Ljava/util/List;IZLcom/nice/errorbook/ui/record/RecordErrorViewModel$SolveState;Lcom/nice/errorbook/data/service/bean/response/ImgSearchQuestionSolveResultResponse;Ljava/lang/String;ZLkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function0;Lcom/nice/errorbook/question/PlayerController;Landroidx/compose/runtime/Composer;III)V",
+    "before_sha256": "f3810372182a5a02b2fd13fabd476e0b2cdb4424519be576b06d9c48b8312664",
+    "after_sha256": "9fd33d833f9b3eabb286ae2932a0341bee545804fc898436868c5eb380518622"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.record.RecordErrorActivityKt",
+    "signature": "public static final RecordErrorStatusPlaceholder(Ljava/lang/String;ZLkotlin/jvm/functions/Function0;Landroidx/compose/ui/Modifier;Landroidx/compose/runtime/Composer;II)V",
+    "before_sha256": "5444189e2e5e54978c430c61a23f6e951ab0cba9424650c1efde53c0eda8d5c5",
+    "after_sha256": "94ea177efefa3e3273dbbadcf6b58515711335de6b348c5596a40f2db4b4c500"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.record.RecordErrorActivityKt",
+    "signature": "public static final TabButton(Ljava/lang/String;ZZLkotlin/jvm/functions/Function0;Landroidx/compose/runtime/Composer;I)V",
+    "before_sha256": "b357d7f266a309649545a82765ab6554a7aa782bf287e2ca02ecc297598cdbd2",
+    "after_sha256": "43bf36901ddc5b8cdd12022da11d59886d21ceadf8f29576b1aa88859b42bb8a"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.record.RecordErrorColors",
+    "signature": "static constructor <clinit>()V",
+    "before_sha256": "fbdbde0fa47d75bbf59dde2dfe61ba73284abb390e86dcf0c2e497b6a95b2122",
+    "after_sha256": "5166b87efdfd2cca08e02ac1375a56c9ca23329febc1f450e84bbb9cd4143ad4"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.record.RecordErrorColors",
+    "signature": "public final getAccentBlue-0d7_KjU()J",
+    "before_sha256": "2144e6ee50285388e3805b33d429428b9d2014dce229cee16b64468d592e1492",
+    "after_sha256": "2b9627dbfa58b35210baa0f96817d00d042d515978db0487bf134cf6a0088268"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.record.RecordErrorColors",
+    "signature": "public final getBorderGray-0d7_KjU()J",
+    "before_sha256": "9474c5e27efe1a9f365a878fba2341e50587b6ed369a0e184da9f5446f93a28c",
+    "after_sha256": "30efac228891b7814770f0d3c14c24f274845e349e7f82df3a592c7c0a2d847a"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.record.RecordErrorColors",
+    "signature": "public final getCardBg-0d7_KjU()J",
+    "before_sha256": "3661442f24ebe488a2936f4ab8e6792f2e70ac3130d5c7b8d722ea95dca97d01",
+    "after_sha256": "d0efceb5d7fc0f28abcf7c8f12bb5a9808233fc18368a59e1a967e3188640c11"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.record.RecordErrorColors",
+    "signature": "public final getDisabledButtonBg-0d7_KjU()J",
+    "before_sha256": "6bffee82586fac3abf1ce7d2c99e22ffa0cd884e9ad7955d4bea5e2473ca8c12",
+    "after_sha256": "453e950e579e83e89147fc31debd445b548bc08d16ba60d12ecb989984ea6905"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.record.RecordErrorColors",
+    "signature": "public final getDisabledButtonText-0d7_KjU()J",
+    "before_sha256": "5c2c2683ac348044710d0a2590d4525d3789ec7419071bf2bf1f1e8adf70b0ae",
+    "after_sha256": "36ec8bfadf83131ef91a793274fa691239d934bb60ee367ab020817341893a69"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.record.RecordErrorColors",
+    "signature": "public final getPlaceholderText-0d7_KjU()J",
+    "before_sha256": "0dc690ef51ecc2abbd84759cf753cf4cf4825b910abc4fa6922335d1a7b9acc5",
+    "after_sha256": "229015ff9751f441e78d73177926078fad1492fe103874305699e258bd7cf678"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.record.RecordErrorColors",
+    "signature": "public final getPrimaryText-0d7_KjU()J",
+    "before_sha256": "8b91cfda4036841bb5fc119b17f760f7c4b1b2b8a452c5c0e49ce016b0efe6a7",
+    "after_sha256": "c255436969707d79a599e472afa87226f0ef3f4fcc3155fa6a902f7911eee4ca"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.record.RecordErrorColors",
+    "signature": "public final getPrimaryYellow-0d7_KjU()J",
+    "before_sha256": "713737724e5dcbefb21b17151fec0054262e77999354bba068f429f06482a10b",
+    "after_sha256": "4d2c740294aca1ad6d7121687be1811b898260b7299904586323cedfe7f2d451"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.record.RecordErrorColors",
+    "signature": "public final getPrimaryYellowBg-0d7_KjU()J",
+    "before_sha256": "0ea4b950eeb67214bc2bc99ad4e5963d32bbb636c47516654af696231376e423",
+    "after_sha256": "62bd3b588b71b85aee08386753b6f71e136d08477b72bd0183994d7c9985e603"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.record.RecordErrorColors",
+    "signature": "public final getRetryText-0d7_KjU()J",
+    "before_sha256": "4bdb9fdd155ccd0c6b5a3eb64e55d9be27ba6347097a36ebe803715f3a59e7e9",
+    "after_sha256": "bb22532d6b3f7102e19e8f055219e15616215da551bc386930a171fbf281c8e5"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.record.RecordErrorColors",
+    "signature": "public final getSecondaryText-0d7_KjU()J",
+    "before_sha256": "8f3aff36161c915fd812b7a62009c1a0856f697e43837dbef0ddb136ac20ee77",
+    "after_sha256": "96987697a5f729982ec1703c98594f12fe4755a9ded4cdbd411b74f599efa1c7"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.record.RecordErrorColors",
+    "signature": "public final getSubText-0d7_KjU()J",
+    "before_sha256": "510bf7e1cf98bffb899216345d6df940d108228b9fd752f03063c5f43d2b9cc0",
+    "after_sha256": "80e2a1a9d7980fb76574c091fc2d94fda32717e1dbd2f2a4aed7284c6d3119dc"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.record.RecordErrorColors",
+    "signature": "public final getTabIcon-0d7_KjU()J",
+    "before_sha256": "11006b1c341b71d71569bef1a8d90811832f3573d291789b4f20fb81a368abe1",
+    "after_sha256": "9e9e15f1d72bd9213b8e4c73c51c705015068acf412f71508f4b9fcb3e8f4713"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.record.RecordErrorColors",
+    "signature": "public final getTabUnselectedBg-0d7_KjU()J",
+    "before_sha256": "116a690ceebe8c7a6ed8e9bb2dee53655e6d73e4ade7fe938c3e580536e4c80f",
+    "after_sha256": "9df2c35da11c6611bf4d2f07e2646ea21224d920e53ceb90cdb2c93a80c832b2"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.record.RecordErrorColors",
+    "signature": "public final getTitleText-0d7_KjU()J",
+    "before_sha256": "9eb5eaf039e96892e8ade8e054992692be20dfd53ed0afa70386743e79b61896",
+    "after_sha256": "c329ce7a05f496c1060ea6c859cefba69be39634aff8091735a81745dbeacbdb"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.record.RecordErrorColors",
+    "signature": "public final getWaitingSubText-0d7_KjU()J",
+    "before_sha256": "60a2724aeea6612ef22a283683490a45fcba7e5b574262d1aa5cd501cf0db24b",
+    "after_sha256": "95c610c02a8d6942269d8a1f67d0e264df578589b962003685e4153e8df290e8"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.record.RecordErrorColors",
+    "signature": "public final getWaitingTitleText-0d7_KjU()J",
+    "before_sha256": "7cd12f91ad4edc7e96fd8a7562e43689121ea984bfda0063aa53f6c1deba8f0a",
+    "after_sha256": "bcfd33db4112ed60feb3833074edcc2122b9d6c3ea6ac885fed5b1c498f3d9bd"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.record.RecordErrorColors",
+    "signature": "public final getWhite-0d7_KjU()J",
+    "before_sha256": "9da0cfe19e6845cd6625ae723a82104fbb23a9ddfcfd8236ebc69079c8dbb6df",
+    "after_sha256": "b05f3a6aa6a678ad233bb8e27a245e4d7b908b80ec94272cfcf7b1f6a42577af"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.work.DoWorkActivity",
+    "signature": "public initView()V",
+    "before_sha256": "5b9694092e7aa12f15f2cf813c8f30a5fd6ec2d4b1b2e5beeda6d263f7ee6f8b",
+    "after_sha256": "53fb4e911b00a65a572b92989bf17d6cd0b8849b306bdb684b8fa8897b56f999"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.home.helper.GradePickerDialogKt$GradePickerDialog$1$1$1$1",
+    "signature": "public final invoke(Landroidx/compose/foundation/layout/FlowRowScope;Landroidx/compose/runtime/Composer;I)V",
+    "before_sha256": "5f6b7c6b6f8adbba920693ae3e864b7fee42f408d6172cc13e69212bb5af5688",
+    "after_sha256": "a5f98a8ea71db9a2138245c7c937929728906d3a1b7a943f4f4052b5246825ec"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.home.helper.GradePickerDialogKt$GradePickerDialog$1$1",
+    "signature": "public final invoke(Landroidx/compose/foundation/layout/ColumnScope;Landroidx/compose/runtime/Composer;I)V",
+    "before_sha256": "3a7a6c392a2f704911a48c94043207b63e467f678dce526538f031135e30d3a1",
+    "after_sha256": "7ca033d0e226281e41a362dbc19d4f454926d96b8d27c98e470eec87f606b7f8"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.home.helper.GradePickerDialogKt$GradePickerDialog$1",
+    "signature": "public final invoke(Landroidx/compose/runtime/Composer;I)V",
+    "before_sha256": "4c6e1f73d8353a2e0520a0d9d8e75b97dfc5059a168c987e5f35b8bdad0a70ce",
+    "after_sha256": "35b621743449870be3056a110daf0bf9b6074b2f66c30c9669f321bea393cb29"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.home.helper.GradePickerDialogKt",
+    "signature": "static constructor <clinit>()V",
+    "before_sha256": "55b1ba634b086805497aec89c0e49083032eae60c4a8d96560648799537beae7",
+    "after_sha256": "93b9513d8d2eb92ed77430f228cbb8669229546264c68203217a09f7c684e3b6"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.home.helper.GradePickerDialogKt",
+    "signature": "public static final synthetic access$getBgGray$p()J",
+    "before_sha256": "4e58b210b479bf186b9bbcd3f13d09ba6b6c19e0c99411c7849ccd06d6419dca",
+    "after_sha256": "c6db10fea4c510d955c4319e4e7342b790a33157a6951966dff02c3dc4bf3c15"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.home.helper.GradePickerDialogKt",
+    "signature": "public static final synthetic access$getLightYellow$p()J",
+    "before_sha256": "894fb7e8a47f8e697e7d6cd63233af4a27c8dd8c758d184a6fabe0fc26c006b1",
+    "after_sha256": "9e4548ab8f9b4da92e5b36860980504e91dcfcbf4ccd43defc71fee33707b198"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.home.helper.GradePickerDialogKt",
+    "signature": "public static final synthetic access$getPrimaryYellow$p()J",
+    "before_sha256": "7664975db12e9a80d12a950f52ec9af7bc17a4f26b67d72f2eb155978cf57f4c",
+    "after_sha256": "d104467a998994674e6e28b5e6511c059d33f3399169471a17bfc7a0992411e7"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.home.helper.GradePickerDialogKt",
+    "signature": "public static final synthetic access$getTextBlack$p()J",
+    "before_sha256": "61a7a6941d609d36e2209588fae8dbc17859627375959ead94cf7c21957c18d3",
+    "after_sha256": "d057838936c50dac338b89742b4ec35c95dc15d07896963f53e7416675cb02ee"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.home.ui.MainFragmentKt$KnowledgeGraphSection$2",
+    "signature": "public final invoke(Landroidx/compose/foundation/layout/ColumnScope;Landroidx/compose/runtime/Composer;I)V",
+    "before_sha256": "7b05d6c778a66598684aae109ffec8b653e6b561b99a5cb2ffae8ce99685f3c8",
+    "after_sha256": "aea64748b309de4c1898b3a1fd21be12d9f0763f9e141bc5099ab2e2186d251f"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.home.ui.MainFragmentKt$WeekHistorySelector$1$1$2$1$1$1",
+    "signature": "public final invoke(Landroidx/compose/ui/graphics/drawscope/DrawScope;)V",
+    "before_sha256": "77a6e89569bc06061b4a10c8af63847399c20eb649dbb6b71564337bd3684e3f",
+    "after_sha256": "2c2eb7b9b8ccc24f646947b49ab90ce2aad2352fd9ae13a589a930ef1591e989"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.home.ui.MainFragmentKt$WeekHistorySelector$1$1",
+    "signature": "public final invoke(Landroidx/compose/foundation/lazy/LazyItemScope;ILandroidx/compose/runtime/Composer;I)V",
+    "before_sha256": "bfcb284dfcdfabc844d1bf76fa1e810910669dcc8bfd1abdc1f472d74e41f5d8",
+    "after_sha256": "2e243945e9c84d0fcae7cc0d4cd2561ab6803299a936a5dd5a2849cb70566cba"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.home.ui.MainFragmentKt",
+    "signature": "static constructor <clinit>()V",
+    "before_sha256": "2d04ce24be04b5933e5e2ea785456881dd27d9159ee3672ce936fca3ecdf9eb3",
+    "after_sha256": "d54e7c1140ae90da1fe63d23406e080f2d77a24517b043886b190bdd2ef1a2db"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.home.ui.MainFragmentKt",
+    "signature": "private static final GradeDropdown(Ljava/lang/String;ZLkotlin/jvm/functions/Function0;Landroidx/compose/runtime/Composer;II)V",
+    "before_sha256": "13b8e1035c602e26db88ddb7779c6b43b8367a07cc7a0079601400f41773ec0b",
+    "after_sha256": "69165f282b7ed221ee76ac114365cba929165ebc19bd352e7e6496a5a0191c8d"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.home.ui.MainFragmentKt",
+    "signature": "public static final PhotoUploadSection(Lcom/nice/errorbook/ui/home/model/MainViewModel;Landroidx/compose/ui/Modifier;Landroidx/compose/runtime/Composer;II)V",
+    "before_sha256": "338b8988a12d88c2af46b4e7c8993fb5df4506ec8685253a2293643860f3ab0e",
+    "after_sha256": "a5707dc236dd49c5a42605c24ddad883cc1083c454fbe0089c827ac0e3bdab17"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.home.ui.MainFragmentKt",
+    "signature": "private static final SubjectTab(Ljava/lang/String;ZLkotlin/jvm/functions/Function0;Landroidx/compose/runtime/Composer;I)V",
+    "before_sha256": "61538e628abace41fa885be25db40751a19b72d0d712d6b76ca5ccb98e36259e",
+    "after_sha256": "181db1c7eb0e8d5754239ef4fc8cc8fbc9e0cc4e7cb958209cac5157a6c36ddd"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.home.ui.MainFragmentKt",
+    "signature": "public static final TabItem(Ljava/lang/String;ZLkotlin/jvm/functions/Function0;Landroidx/compose/runtime/Composer;I)V",
+    "before_sha256": "6e55122c97d74832d74908432f7c113dc9fdbbd96766a5e35648ba07ee2268af",
+    "after_sha256": "9d4c7da1a29d484f2736181f7a949ba6f6408165cda767e8d03b13c533af4225"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.home.ui.widget.left.HomeCardStateContentKt",
+    "signature": "public static final HomeCardEmptyContent(Landroidx/compose/ui/Modifier;Ljava/lang/String;ILandroidx/compose/runtime/Composer;II)V",
+    "before_sha256": "47fb4efcdac3dd2df4b94831304d4b6198339ced5348847e6e2ca56e0b2a6b13",
+    "after_sha256": "8eb593edd738264f9fe8358123f4bd021be6c1944a7cb8724aab10eb13ae6ac0"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.home.ui.widget.left.HomeCardStateContentKt",
+    "signature": "public static final HomeCardErrorContent(Lkotlin/jvm/functions/Function0;Landroidx/compose/ui/Modifier;Landroidx/compose/runtime/Composer;II)V",
+    "before_sha256": "6251a64dd61700db55471c85976a52b439704eb90b0b3c4aee47aa786dbd4aa8",
+    "after_sha256": "cafb1b08af2275768a2ea573ff74a405ad31b5ab26dc043a4bc20d27803f0e8b"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.home.ui.widget.left.HomeCardStateContentKt",
+    "signature": "public static final HomeCardLoadingContent(Landroidx/compose/ui/Modifier;Landroidx/compose/runtime/Composer;II)V",
+    "before_sha256": "54a79672a069b249bb1023bd5911aea81e691fb8b4e91484f0fcb2d4f90f07fb",
+    "after_sha256": "ee44be1f9a9425996f4e67cc84ede1011c53239a2a71ee5cacd729ffccc2c8ca"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.home.ui.widget.left.HomePageIndicatorKt",
+    "signature": "public static final HomePageIndicator-eCwULMo(ILandroidx/compose/foundation/pager/PagerState;Landroidx/compose/ui/Modifier;FFFJJLandroidx/compose/runtime/Composer;II)V",
+    "before_sha256": "0c8c8d35d17d8c0a6db607e72c2811f0be475124bfe7248370924f0fefef6c2a",
+    "after_sha256": "087c582765f828bfb3f188be891d5ae82a799356b6590d556b14a2b7353dca47"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.home.ui.widget.left.HomeYellowBorderCardKt",
+    "signature": "static constructor <clinit>()V",
+    "before_sha256": "68d49807ac553275f7a4081bf056accca37eaf2c4a0386ae252a8da978a7d6dc",
+    "after_sha256": "90bd9dd9938077f8ccecadee56cbe985641e31d6ebd81ab2121fa1d687b69565"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.home.ui.widget.left.HomeYellowBorderCardKt",
+    "signature": "public static final HomeYellowBorderCard(Landroidx/compose/ui/Modifier;Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;II)V",
+    "before_sha256": "86cb408f4cac3381cd0952aeba6d2f1b5ff7828aa72d9df812f9300d1a0dfb87",
+    "after_sha256": "4ff0301084336e14444c0e803183efe429d2ee8cadd4c99072e694cf249db425"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.home.ui.widget.left.SemesterMistakeCardKt$SemesterMistakeCard$1",
+    "signature": "public final invoke(Landroidx/compose/runtime/Composer;I)V",
+    "before_sha256": "d131d74be816406e7272e1c2fa3da2108039ad4bec12bc14f175f569155b0c1a",
+    "after_sha256": "3fcaf8f66e553008d15b7468f2da90fb0b34b8d05ffc36ee514f8856e4e62914"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.home.ui.widget.left.SemesterMistakeCardKt",
+    "signature": "static constructor <clinit>()V",
+    "before_sha256": "72a99d67a6fa11d955a1977b873fd1e46d0c373b57d7226ba39efd930421ccd6",
+    "after_sha256": "1f20d3bab8ef126178f65d519764431a9bb8fe87aef803044dbf00f04c1c6a14"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.home.ui.widget.left.SemesterMistakeCardKt",
+    "signature": "private static final SemesterSubjectItem(Lcom/nice/errorbook/data/service/bean/response/SubjectResponse;Lkotlin/jvm/functions/Function0;Landroidx/compose/ui/Modifier;Landroidx/compose/runtime/Composer;II)V",
+    "before_sha256": "6a5ed3882372711d84678b09ef5edfbe952320229120dcf9ef4ff798eaee105a",
+    "after_sha256": "35fc3a3f6339073e6363bbefa47e8ac2ddd85f6e9ccfdb7ab483da925e50ce29"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.home.ui.widget.left.WeeklyBubbleChartKt",
+    "signature": "private static final createPreviewData(I)Ljava/util/List;",
+    "before_sha256": "cd7e0f809d823d26d8296564b4e1e7d1cc411fbf891c360f6df6d56d98618b12",
+    "after_sha256": "554c94ea92c4a7e6e8eea3170a96fd7e1f8a16b68cdfb083aa4075344ce671c7"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.home.ui.widget.left.WeeklyClearBubbleItemKt$WeeklyClearBubbleItem$4$1$1",
+    "signature": "public final invoke(Landroidx/compose/ui/graphics/drawscope/DrawScope;)V",
+    "before_sha256": "7970fa2547e56865ad4e6a6a15e1598cff23aa1334c72de24f7332fd085e99ec",
+    "after_sha256": "fccee777219d3a144f9e2246c9b676fb21c0f2410a2029a0e695757f82d935c7"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.home.ui.widget.left.WeeklyClearBubbleItemKt",
+    "signature": "public static final WeeklyClearBubbleItem-EUb7tLY(Lcom/nice/errorbook/ui/home/ui/SubjectBubbleData;FFLandroidx/compose/ui/Modifier;Lkotlin/jvm/functions/Function0;Landroidx/compose/runtime/Composer;II)V",
+    "before_sha256": "06c3b385b338cfecd6e99ba50f2d86f1ee9388d9357cf5257ffe2916081995a1",
+    "after_sha256": "1c48255f3aa01a11987166949733c4b4b8d3eb371b5f52543841143e448b01c8"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.home.ui.widget.left.WeeklyClearCardKt$WeeklyClearCard$2",
+    "signature": "public final invoke(Landroidx/compose/runtime/Composer;I)V",
+    "before_sha256": "c3fc6a09ae9b2b45f4b690481a003ea38dbca817712a236c55b3202efd36c96b",
+    "after_sha256": "3514450dd86160b9b2c8ca1a954de6fdc95ebe15c55feee50e29eeaf786a223f"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.home.ui.widget.left.WeeklyClearCardKt",
+    "signature": "private static final WeeklySubjectItem(Lcom/nice/errorbook/data/service/bean/response/SubjectResponse;Lkotlin/jvm/functions/Function0;Landroidx/compose/ui/Modifier;Landroidx/compose/runtime/Composer;II)V",
+    "before_sha256": "b29f87fe748c23193f22a9f7b75ad5c3fe2546ef8a15244a625f3c708ec571d6",
+    "after_sha256": "f4aa1bc25ffa4fa29600f46088db1dba1892ad6275e8752bf1f071a9f3d8c734"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.home.ui.widget.left.WeeklyClearCardKt",
+    "signature": "private static final WeeklySubjectPager(Ljava/util/List;Ljava/lang/String;Landroidx/compose/ui/Modifier;Landroidx/compose/runtime/Composer;II)V",
+    "before_sha256": "07e208f00b811851e7cfc896e27e3a5346fdd3ed2608cd0cf764f988164c18a7",
+    "after_sha256": "2194bd69e57e634d79c8ece6f7c6efe921a95ee5c69ccde1f37d05b0deb61fe1"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.subject.ui.SubjectScreenKt",
+    "signature": "private static final ChapterPracticeBanner(Lcom/nice/errorbook/ui/subject/ui/ChapterPracticeBannerData;Lkotlin/jvm/functions/Function2;Landroidx/compose/ui/Modifier;Landroidx/compose/runtime/Composer;II)V",
+    "before_sha256": "014b218b0f09ade8e1f57b5d950f36dd8d4982dd80ef52ab251afe501cb510d9",
+    "after_sha256": "12b3603bf68c10bd9f2d3c8ef4dbcded201b078635566fb68875fda930c03da8"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.subject.ui.SubjectScreenKt",
+    "signature": "private static final ManageBottomBar(ZILkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Landroidx/compose/ui/Modifier;Landroidx/compose/runtime/Composer;II)V",
+    "before_sha256": "25ff35cf5c4d970847f80fda634859571ea5684983b215d0ed1db680405ef155",
+    "after_sha256": "3cd72d67816db7dbad14e6cd0ddbd0c2f0a502a825f9affcf563d166fec3813d"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.subject.ui.SubjectScreenKt",
+    "signature": "public static final SubjectScreen(Lcom/nice/errorbook/ui/subject/model/SubjectViewModel$ErrorWorkQuestionState;Lcom/nice/errorbook/ui/subject/state/ErrorWorkStateQuestion;Lcom/nice/errorbook/ui/subject/ui/widget/left/CatalogPanelState;ZLkotlin/jvm/functions/Function2;Lcom/nice/errorbook/ui/subject/ui/widget/right/ErrorQuestionActionHandler;Lkotlin/jvm/functions/Function3;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;Lcom/nice/errorbook/ui/subject/ui/widget/left/TextbookSelection;Ljava/util/List;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function0;Landroidx/compose/runtime/Composer;IIII)V",
+    "before_sha256": "9f1a6c6b42c5d6f7514508c853bd081721085d47fff3b42d2012e24b341355f3",
+    "after_sha256": "ecd4d11f9e6000e119b7c1b85d2e20eb31f6891871aa1b3e700811e231cbed40"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.subject.ui.SubjectScreenKt",
+    "signature": "static synthetic shadow10Percent-3I3CZnE$default(Landroidx/compose/ui/Modifier;FFFFLandroidx/compose/ui/graphics/Shape;ILjava/lang/Object;)Landroidx/compose/ui/Modifier;",
+    "before_sha256": "852ace883516f20b7535721f817a0d2cde6d3c3be7f700dfbea3a5685f513398",
+    "after_sha256": "5d9f91fbc5ea4a0f171dec1da28a6d8cda0bd717fba5722e95f13bb82cc6aee4"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.subject.ui.widget.left.CatalogMasteryStatus",
+    "signature": "static constructor <clinit>()V",
+    "before_sha256": "fc7c5a6dbe588243b0833e0c4d774ee56cd3808977aa5a4a93bf8424418e1da0",
+    "after_sha256": "4e8e6fdd075b0629ccbabd4defe7987e09c946315d9fc207d6e2c23565a48fa1"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.subject.ui.widget.left.TextbookCatalogPanelKt",
+    "signature": "public static final AllQuestionButton(Ljava/lang/Integer;ZLkotlin/jvm/functions/Function0;Landroidx/compose/runtime/Composer;I)V",
+    "before_sha256": "776e8d7a75809b49b59a663479cfa05bb67a434d0587955d0b42911d2b9cd91f",
+    "after_sha256": "9ab6f9463d92f0559c96000eac2fdb2a7486d65c00a2da06621248ba9ba951b0"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.subject.ui.widget.left.TextbookCatalogPanelKt",
+    "signature": "private static final CatalogEmptyBody(Landroidx/compose/ui/Modifier;Ljava/lang/String;ILandroidx/compose/runtime/Composer;II)V",
+    "before_sha256": "9810788c1c96d8956546a96ddce5554e1ba9e616629ea662b66095bd1da68a06",
+    "after_sha256": "44b06b5714cd1957dd38cc313ed321c0d4afccce38aa45ea85a04419465cb151"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.subject.ui.widget.left.TextbookCatalogPanelKt",
+    "signature": "public static final CatalogLegendRow(Landroidx/compose/runtime/Composer;I)V",
+    "before_sha256": "2cf0df5539219c314b70c6daceb875c71a78c9378502c69055703043de0aff79",
+    "after_sha256": "ddc7aed490675739e1c0a1849fffb89a8040bb9bed3400b2332883655930f362"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.subject.ui.widget.left.TextbookCatalogPanelKt",
+    "signature": "private static final CatalogLoadingBody(Landroidx/compose/ui/Modifier;Landroidx/compose/runtime/Composer;II)V",
+    "before_sha256": "aa1781b467b65ddacefdc303e6767c9e270bbc53aece1619c0449db7527acf60",
+    "after_sha256": "0213862a9e619d06cfbceb5737c55c5a01c8c6d1a7760038d77d6ba0ab894568"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.subject.ui.widget.left.TextbookCatalogPanelKt",
+    "signature": "public static final CatalogTreeItem(Lcom/nice/errorbook/ui/subject/ui/widget/left/CatalogNode;Ljava/lang/String;Lkotlin/jvm/functions/Function1;Landroidx/compose/runtime/Composer;I)V",
+    "before_sha256": "8decbe684581a09225039f77c2f349d3954c0bacf0cb6a1f5c9f5daa10b5923f",
+    "after_sha256": "f076b108dbea0734b5cfdf0f2b26414527a65550340e52785033658ff84c64e5"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.subject.ui.widget.left.TextbookCatalogPanelKt",
+    "signature": "private static final CatalogTreePanel(Landroidx/compose/ui/Modifier;Lcom/nice/errorbook/ui/subject/ui/widget/left/CatalogPanelState;Ljava/lang/String;Ljava/lang/Integer;Lcom/nice/errorbook/ui/subject/ui/widget/left/TextbookSelection;Ljava/util/List;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;Landroidx/compose/runtime/Composer;II)V",
+    "before_sha256": "d0c9b36f4453b37e05219214cbb5047f51a27d06a9ed2ae6d9ef918f919aaebb",
+    "after_sha256": "c99d020fcf19d994d0f331fce3a8fd615f88ff2e519235547f3c010477ea2422"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.subject.ui.widget.left.TextbookCatalogPanelKt",
+    "signature": "public static final TextbookCatalogPanel(Landroidx/compose/ui/Modifier;Lcom/nice/errorbook/ui/subject/ui/widget/left/CatalogPanelState;Ljava/lang/String;Ljava/lang/Integer;Lcom/nice/errorbook/ui/subject/ui/widget/left/TextbookSelection;Ljava/util/List;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;Landroidx/compose/runtime/Composer;II)V",
+    "before_sha256": "62fb34855e73368e5516bd5265e8a875a41b427d325cadf8819d612fb6c75714",
+    "after_sha256": "8d45066b86bbda39c4d94a61c332cb69153bba255e443c0344e3f8bbee667138"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.subject.ui.widget.left.TextbookSwitchDropdownKt",
+    "signature": "static constructor <clinit>()V",
+    "before_sha256": "56c44e0dee2bd90a3da42432f2353861ba279e19c30826ad2e2ea366607e90f9",
+    "after_sha256": "54b02e33c782a7d7091ad9c61aa321cabc6613188d10848cda5756a2d764e20f"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.subject.ui.widget.left.TextbookSwitchDropdownKt",
+    "signature": "private static final DropdownItem(Ljava/lang/String;ZLkotlin/jvm/functions/Function0;Landroidx/compose/runtime/Composer;I)V",
+    "before_sha256": "9b75777f764eadaec79bf35decc8330404f9f142fb82491d14d2f425936d23d6",
+    "after_sha256": "0487af619f0ab1737e679d950cf1490e26b4f4907af59d595499e3b1e80ec8ef"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.subject.ui.widget.left.TextbookSwitchDropdownKt",
+    "signature": "public static final TextbookSwitchDropdown(Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;Landroidx/compose/ui/Modifier;Landroidx/compose/runtime/Composer;II)V",
+    "before_sha256": "a0c7a5de33778e8cbe5b6401272191f655efca288e0a5775f027b270d5585400",
+    "after_sha256": "94fb3913bc0f58d13f7bd84adf995eeddd7c7c5f13016688f1467e7ca31095e2"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.subject.ui.widget.right.ErrorQuestionActionBarKt",
+    "signature": "private static final ErrorQuestionActionBarContent(Lcom/nice/errorbook/ui/subject/ui/widget/right/ErrorQuestionActionBar$ActionState;ZLkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Landroidx/compose/runtime/Composer;I)V",
+    "before_sha256": "0faa9b1490efa91a75efbfa1b85b0394dff9981d1bb9165e99ee7590d2ea859c",
+    "after_sha256": "874ea1e65d9fb6b8bea452c9231e754d1817c47761d06ba752e7a2eef17270f2"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.subject.ui.widget.right.ErrorQuestionActionBarKt",
+    "signature": "private static final TextActionButton(Ljava/lang/String;ZLkotlin/jvm/functions/Function0;Landroidx/compose/runtime/Composer;I)V",
+    "before_sha256": "2aaeb72248fee8cc11ec2571243d171d9d7e2275052911df684fdc15f93109b8",
+    "after_sha256": "8a8084286d96574ecc28a3077248de6118d0adeb5fd8d4617f660a95be889ae5"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.subject.ui.widget.right.QuestionTopBarForErrorPreviewKt$QuestionTopBarForTeacherPreview$1",
+    "signature": "public final invoke(Landroidx/compose/foundation/layout/BoxScope;Landroidx/compose/runtime/Composer;I)V",
+    "before_sha256": "6a0fd513943b01f5707795ecfa31f9ee5c768a309595100b37d27a2def9dbbab",
+    "after_sha256": "b2291db4d2184d0996025bedb7626aee6041ea7b425258c75fd6da9157d71c52"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.subject.ui.widget.right.QuestionTopBarForErrorPreviewKt",
+    "signature": "public static final ClearStatusBadge(Lcom/nice/errorbook/data/service/enums/MasteryLevel;Landroidx/compose/runtime/Composer;I)V",
+    "before_sha256": "62daa1e05711bebbcace069287761ae0283ddd445a657a66692135ee1ca0c420",
+    "after_sha256": "5d53b76b1b3f1ad66b95c58e48e2b6a443ac30ba564fd875b164c4b881882d5f"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.subject.ui.widget.right.tab.ConfigurableFilterButtonKt",
+    "signature": "static constructor <clinit>()V",
+    "before_sha256": "2d26ae7c462dac974513276dd6387bc1ed5dc563e63b4524218ca995af33c7c3",
+    "after_sha256": "25f7c3026d495a0eb2332314bf58ab04cb7f4f57177f99d6809c19078fe71fde"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.subject.ui.widget.right.tab.ConfigurableFilterButtonKt",
+    "signature": "public static final ConfigurableFilterButton(Ljava/lang/String;ZLkotlin/jvm/functions/Function0;Landroidx/compose/ui/Modifier;Landroidx/compose/ui/graphics/painter/Painter;Landroidx/compose/ui/graphics/painter/Painter;Landroidx/compose/runtime/Composer;II)V",
+    "before_sha256": "d7b21f2c5ce43f7e31c8f46dc660694c9567330f719346059115c04b0abd26fb",
+    "after_sha256": "614cfea324644d906cc74e1048323d80651de7a59cc5d698e7c258dc5fc1892a"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.subject.ui.widget.right.tab.DatePickerDialogKt$CustomDatePickerContent$1",
+    "signature": "public final invoke(Landroidx/compose/foundation/layout/ColumnScope;Landroidx/compose/runtime/Composer;I)V",
+    "before_sha256": "3298fff0550662559502faaf77c74e24566fa7406c256216bf06ea75a78c7482",
+    "after_sha256": "3de55702243e9e7d6bdd6d1ad12c7c51e00e566d0589db5a5e55530e0be2b208"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.subject.ui.widget.right.tab.DatePickerDialogKt",
+    "signature": "static constructor <clinit>()V",
+    "before_sha256": "c26330b737e52586839530e67d565fcb1e281e8b5efccbb9229c736400e8ab87",
+    "after_sha256": "74a911f6721ec2ad92fc2663ecd5912516ed53f6e93483dccf0df892070f84f1"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.subject.ui.widget.right.tab.DatePickerDialogKt",
+    "signature": "public static final CalendarView(Ljava/time/LocalDate;Ljava/time/LocalDate;Lkotlin/jvm/functions/Function1;Landroidx/compose/runtime/Composer;I)V",
+    "before_sha256": "fb8d5f6ac8aceee01a4c3d7496b64b610041807358e65130a0a9041c04c50a34",
+    "after_sha256": "44135831a59da97aa869205ef617c3d30b8fcf069e55e1ccaac71f6c79b115a8"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.subject.ui.widget.right.tab.DatePickerDialogKt",
+    "signature": "public static final CustomDatePickerContent(Lcom/nice/errorbook/ui/subject/ui/widget/right/tab/DateFilterState;Ljava/time/LocalDate;Ljava/time/LocalDate;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Landroidx/compose/runtime/Composer;I)V",
+    "before_sha256": "fde1fb5485d6be46a020405a328e0eb8bd08ef46c180c6da3f36d91c286bb372",
+    "after_sha256": "3d83dfa1e615b7065daac30e1ab6c26815f2b2c10557fb516823cf406de393e6"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.subject.ui.widget.right.tab.DatePickerDialogKt",
+    "signature": "public static final FilterChipItem(Ljava/lang/String;ZLkotlin/jvm/functions/Function0;Landroidx/compose/runtime/Composer;I)V",
+    "before_sha256": "293dc32dde9461f4b2eed39ab94ab917011f304030579e0951346aaed9fb6fc1",
+    "after_sha256": "cf6fe93ec3b0004c8694322481b0105feb19233c033e7202a8009384dee9df32"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.subject.ui.widget.right.tab.DatePickerDialogKt",
+    "signature": "public static final synthetic access$getPrimaryYellow$p()J",
+    "before_sha256": "ac01114d7e4ff4aa698f1ef81207bba4a1bebeed0d831e308b8c2d1b95135243",
+    "after_sha256": "d104467a998994674e6e28b5e6511c059d33f3399169471a17bfc7a0992411e7"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.subject.ui.widget.right.tab.DatePickerDialogKt",
+    "signature": "public static final synthetic access$getTextBlack$p()J",
+    "before_sha256": "155c17cd1571df2f040ba039d286ab979b713bbddfa215b945cdabe23976a9d9",
+    "after_sha256": "d057838936c50dac338b89742b4ec35c95dc15d07896963f53e7416675cb02ee"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.subject.ui.widget.right.tab.DatePickerDialogKt",
+    "signature": "public static final synthetic access$getTextGray$p()J",
+    "before_sha256": "ae8285484c652e1f9dda9ca2893ddcd1acb90b3194e9966a583f1ef5f6312e7a",
+    "after_sha256": "196b2dda4301cb5a7892f694815f5c7df1a0cf6edccde66e42171f7dbff4fcfc"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.subject.ui.widget.right.tab.SubjectFilterDialogKt$SubjectFilterDialog$1$1",
+    "signature": "public final invoke(Landroidx/compose/foundation/layout/ColumnScope;Landroidx/compose/runtime/Composer;I)V",
+    "before_sha256": "acf6ad7eb1856a2ad2e596c8596c144d89accc14bfc59de3147cbc23ab7c9591",
+    "after_sha256": "d4e7b02ab6524190ac5be463d0182e93d7ae7284ffeb277e8793d6d4cae1c00d"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.subject.ui.widget.right.tab.SubjectFilterDialogKt$SubjectFilterDialog$1",
+    "signature": "public final invoke(Landroidx/compose/runtime/Composer;I)V",
+    "before_sha256": "d85680d16762f6598af0309655bb336b3a4f319ed3284c906f3cb3930e57e152",
+    "after_sha256": "3e3d6cca0c08047798e31a637d7271ab93bf79dd264a712ed703aee5c2aad7a6"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.subject.ui.widget.right.tab.SubjectFilterDialogKt",
+    "signature": "static constructor <clinit>()V",
+    "before_sha256": "4fb024aef7168ba1ac14dfd3a0957624da4b436669f5b68ac8a32e8197efe1ef",
+    "after_sha256": "eae338a3304cf1377e879e44ed2af6e917b527f4f8a725de2de6152b62f9b70b"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.subject.ui.widget.right.tab.SubjectFilterDialogKt",
+    "signature": "public static final FilterChip(Ljava/lang/String;ZLkotlin/jvm/functions/Function0;Landroidx/compose/runtime/Composer;I)V",
+    "before_sha256": "f0e432180f49264faa5da1624a11f78673a5367e5b43fd9efd5e2e553e2abfa7",
+    "after_sha256": "3285f1c790ec97167ea9856ffd1f3e078897f7bef450c51114c8c421e6e99001"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.subject.ui.widget.right.tab.SubjectFilterDialogKt",
+    "signature": "public static final synthetic access$getPrimaryYellow$p()J",
+    "before_sha256": "27fe5c5a77dc8c86a0e334e39760fc5dcaa61e4778abceacc1c59bcfcfd6a26a",
+    "after_sha256": "d104467a998994674e6e28b5e6511c059d33f3399169471a17bfc7a0992411e7"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.subject.ui.widget.right.tab.SubjectFilterDialogKt",
+    "signature": "public static final synthetic access$getTextBlack$p()J",
+    "before_sha256": "bf5dad7275612430c5945bdac85f81d5d15341c0cafe6107a178c22e5c39311a",
+    "after_sha256": "d057838936c50dac338b89742b4ec35c95dc15d07896963f53e7416675cb02ee"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.subject.ui.widget.right.tab.SubjectTopSelectTabBarKt",
+    "signature": "public static final SubjectTopSelectTabBar(Landroidx/compose/ui/Modifier;Lcom/nice/errorbook/ui/subject/model/SubjectViewModel$ErrorWorkQuestionState;Ljava/lang/String;Ljava/lang/Integer;ILkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Landroidx/compose/runtime/Composer;II)V",
+    "before_sha256": "529c554323b1e77ed89a3ad2b4c481899e939e33e3350d00fc95dd0f426af033",
+    "after_sha256": "e8de8fe2f8e8498bf62b7ec6dfaedc19c466a7d666e665ef0622a25925777702"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.work.aicheck.MistakeAiCheckResultPanelKt",
+    "signature": "private static final AiCheckBlankBlock(JIILcom/nice/errorbook/ui/work/aicheck/AiCheckBlankUi;Lcom/hailiang/question/listener/ResourceLoader;Landroidx/compose/runtime/Composer;I)V",
+    "before_sha256": "13a9838d80f1e36db810e363faa5179182d6ef7a62cdf91a277dcf2da9ff3132",
+    "after_sha256": "da304364876a5e0dc33f9f35a430e60fa841840fb3baa7386167acd859d17e70"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.work.aicheck.MistakeAiCheckResultPanelKt",
+    "signature": "private static final AiCheckPartBlock(JILcom/nice/errorbook/ui/work/aicheck/AiCheckPartUi;ZZLkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;ZLkotlin/jvm/functions/Function1;Lcom/hailiang/question/listener/ResourceLoader;Landroidx/compose/runtime/Composer;I)V",
+    "before_sha256": "97d02b626603ab57d5aceefb6648bd5d597861be912645fafa1692b355e02085",
+    "after_sha256": "e44c3f25ccd6bcea173f5ef4bee14f347a15f75b452106f1ec84290ea4500b41"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.work.aicheck.MistakeAiCheckResultPanelKt",
+    "signature": "private static final AiLectureButton(JLkotlin/jvm/functions/Function1;Landroidx/compose/runtime/Composer;I)V",
+    "before_sha256": "152261e12a49cf1847aa90832dc9e963a720c5cb9a49e6dbca79acca74b71acb",
+    "after_sha256": "a974883a383608fda35a28e5f46a957eb5ba76dcf758532fc9941b29fae3b133"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.work.aicheck.MistakeAiCheckResultPanelKt",
+    "signature": "private static final AnswerTabItem(Ljava/lang/String;ZLkotlin/jvm/functions/Function0;Landroidx/compose/ui/Modifier;Landroidx/compose/runtime/Composer;II)V",
+    "before_sha256": "67757478c3c3691071bca459440ce180cf4d62dce414947176f63064ab37d602",
+    "after_sha256": "999de19111fab85c1c4a3a51369fed14e7d03db8398b9aa64ca549bc3b37d402"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.work.aicheck.MistakeAiCheckResultPanelKt",
+    "signature": "private static final AnswerTabSwitcher(Lcom/nice/errorbook/ui/work/aicheck/AnswerTab;Lkotlin/jvm/functions/Function1;Landroidx/compose/ui/Modifier;Landroidx/compose/runtime/Composer;II)V",
+    "before_sha256": "3682724e678a5d92d89fd64a77395f3e32906a425ebbd25c60407818aff5377a",
+    "after_sha256": "f56f04e76e278686c9b814983630ff483587360625275890815bbe411a376cb0"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.work.aicheck.MistakeAiCheckResultPanelKt",
+    "signature": "private static final DashedDivider-8V94_ZQ(Landroidx/compose/ui/Modifier;JFFFLandroidx/compose/runtime/Composer;II)V",
+    "before_sha256": "9075636dd625f6432e8d78601d31ea9e2f2e36bf5592d9de2bbed2df63cdda01",
+    "after_sha256": "2831c4c382df2d5697f3e9c708110bf58da0fc472e91cdf22f2805a1aec4e657"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.work.aicheck.MistakeAiCheckResultPanelKt",
+    "signature": "public static final MistakeAiCheckResultPanel(JLjava/lang/String;Ljava/util/List;ZLkotlin/jvm/functions/Function1;Ljava/lang/String;Lcom/hailiang/question/listener/ResourceLoader;Landroidx/compose/runtime/Composer;II)V",
+    "before_sha256": "5f13773c9c3e548eaa638d4f83a15be718e633817229fd2137a4d23c5a6e5bb1",
+    "after_sha256": "e204d91b604aefd3ade442e1a2ad5febbecb562793c11a45dce831c9a1822d14"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.work.push.ComposableSingletons$PushQuestionUiKt$lambda-1$1",
+    "signature": "public final invoke(Landroidx/compose/runtime/Composer;I)V",
+    "before_sha256": "43628f41401b9dce8554d87e6d7df1810d015e2f3099742bf1959123fee79907",
+    "after_sha256": "ec1623dc1726dc656ae33032c3d2b1bf76d81ece550eb9ddf60c4cdc396177e7"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.work.push.PushQuestionActivity",
+    "signature": "public initView()V",
+    "before_sha256": "c7ddd4869f74acbce4c8b836655953a5b20fdc8c180e4ad27a66a3f2b50ad25a",
+    "after_sha256": "db1658416f008556eeffae96cec528e2195770865828ad801ffebbb620cd06b9"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.work.push.PushQuestionUiKt$PushEmptyContent$1",
+    "signature": "public final invoke(Landroidx/compose/runtime/Composer;I)V",
+    "before_sha256": "bea820ca43c37b91ab709407d5e1ccc51cc008d6fd13e641d61d37a1be50fd3a",
+    "after_sha256": "81a9069867d5918b341fec50bc003e8bdf2b1aed83e79e988c56d12c2f0ede0b"
+  },
+  {
+    "dex": 5,
+    "class": "com.nice.errorbook.ui.work.push.PushQuestionUiKt$PushFailureContent$1",
+    "signature": "public final invoke(Landroidx/compose/runtime/Composer;I)V",
+    "before_sha256": "108991652313b12196ba8818888982b3c9f749d77860ae5ca000af904da0c369",
+    "after_sha256": "3f57b595f194a7f69196169e88e76b44e5d19ac3de65f6184113fd6e7159dc62"
+  },
+  {
+    "dex": 4,
+    "class": "com.hailiang.xxb.ai.camera.view.scan.SmartCameraActivity$Companion",
+    "signature": "public final start(Landroid/content/Context;Lcom/hailiang/xxb/ai/camera/view/data/SmartCameraConfig;Ljava/util/List;)V",
+    "before_sha256": "587e57a3b912591653cbcd50e061c85cdabe4c8ec3d781effebfec5940f9973b",
+    "after_sha256": "4fb349340037dad63a416ca3a1ca93b3655b603b77116a998ff1bdab8b9f4e97"
+  },
+  {
+    "dex": 4,
+    "class": "com.nice.errorbook.dialog.CommonDialog",
+    "signature": "public onCreateDialog(Landroid/os/Bundle;)Landroid/app/Dialog;",
+    "before_sha256": "4d5e5073c6b7ad40fb244faff6362ae68fa88f34cb4f36678f33c57cef9e7253",
+    "after_sha256": "413cb1e3ac8a326b87faafa58f2a31b0560dd7057fd160295ea53673533177ae"
+  }
+]

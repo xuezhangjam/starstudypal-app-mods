@@ -1,6 +1,20 @@
 # 版本目录
 
-共 23 个修改版 APK。原文件名用于对应本地历史版本，附件名采用英文以便下载。
+## 2026-11-15 最新归档
+
+| 应用 | 当前归档 | 下载 |
+|---|---|---|
+| 星学伴 | 3.2.1.5 · 三星登录与提示崩溃修复 v2 | [APK](https://github.com/xuezhangjam/hailiang-app-mods/releases/download/mods-2026-11-15/starstudy-3.2.1.5-samsung-v2.apk) |
+| 学生端课堂 | 3.2.2.0 · 重进继续作答修复 | [APK](https://github.com/xuezhangjam/hailiang-app-mods/releases/download/mods-2026-11-15/student-classroom-3.2.2.0-continuation-reentry.apk) |
+| 精准作业 | 4.0.1.0 · 填空定位 v13 | [APK](https://github.com/xuezhangjam/hailiang-app-mods/releases/download/mods-2026-11-15/precision-homework-4.0.1.0-blanks-v13.apk) |
+| 班级通知 | 1.0.7-m3e.1 · M3e 原生平板版／系统消息修复 | [APK](https://github.com/xuezhangjam/hailiang-app-mods/releases/download/mods-2026-11-15/class-notice-1.0.7-m3e-system-messages.apk) |
+| 错题本 | 3.3.2.0 · M3e／系统相机相册／拍照判定修补 | [APK](https://github.com/xuezhangjam/hailiang-app-mods/releases/download/mods-2026-11-15/mistakes-3.3.2.0-m3e-camera.apk) |
+| H5 浏览器 | 1.0.13-browser.2 · 首页应用直达修复 | [APK](https://github.com/xuezhangjam/hailiang-app-mods/releases/download/mods-2026-11-15/h5-browser-1.0.13-home-links.apk) |
+| 教师端（实验） | 3.2.0.3 · 本机入口修复 v2 | [APK](https://github.com/xuezhangjam/hailiang-app-mods/releases/download/mods-2026-11-15/teacher-launcher-3.2.0.3-local-entry-v2.apk) |
+
+[完整功能与验证范围](update-2026-11-15.md)。下方保留旧版记录，旧版“当前”描述仅对应其发布时间。
+
+共 30 个修改版 APK。原文件名用于对应本地历史版本，附件名采用英文以便下载。
 
 已知问题包仅作为历史记录保留。各版本的实机验证情况见说明；离线检查不等于完整实机验收。
 

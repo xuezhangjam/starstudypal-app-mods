@@ -1,0 +1,9 @@
+BrowserInputTest.java
+PASS: 44 address/search/URL cases; arbitrary domains accepted without a school list
+
+BrowserLinkTest.java
+PASS: 55 external-link/transport/template regressions; no URL-to-search fallback
+
+Final APK audit: PASS (see verification.json)
+ZIP alignment and signature: PASS (uber-apk-signer; v2/v3)
+Android device/emulator test: not performed

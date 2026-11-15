@@ -22,3 +22,11 @@ e2ccb0b27221f6d7c6e7cccad27c21264872291d1cc313f4e986c2b82313829c  class-notice-1
 890c82e52e937095a193215f1a26562e15b4e654f009c0b0f99e3e17da4dea6a  student-homework-4.0.0.4-answer-visible-explanation-collapsed.apk
 1f4655e8f61163f1980d295cfd44992a6ed4b712c7fbd9ba802badcad8429396  student-classroom-3.2.1.0-continuation-results-v7.apk
 20526f0a265f85c2724ca89b134cf1bb288c5ef574f1b78f994db40b2a6a5c0c  student-classroom-continuation-results-v7-source.zip
+71d221f4203489c7f9566babbdd74876b849600dec846e863812c1eb4200bbf4  class-notice-1.0.7-m3e-system-messages.apk
+d67bbae520ab7fda968b5c21114e91c848f0d5136a7a44e86e91e06fd7e1a671  h5-browser-1.0.13-home-links.apk
+3e3b55e6abcc6286eb9d855225ab76a0b4ade1915af4c4d05da13742dcc3f26e  hailiang-mods-2026-11-15-source.zip
+800bd5a92aa1d74920cbb9a0001617acdece3d849ab35d38f22f17b14aacf47a  mistakes-3.3.2.0-m3e-camera.apk
+0ebd34c8b247a79a2174fc7ae295ee11e49b19d5dd9866329297187d6bd3cd19  precision-homework-4.0.1.0-blanks-v13.apk
+31dbd011eaaf5018e88e6e01e05bf3cc92ab07b850b0ff73aa83b9b4ffd89405  starstudy-3.2.1.5-samsung-v2.apk
+f77fbb0abc2dfd45240eac4af2db87ee488283538e4449fbbc8d5eaed76cf840  student-classroom-3.2.2.0-continuation-reentry.apk
+e61efe51a7aec285c597e141897c37c02ef2c8c3fab99c07efc5693512cf3251  teacher-launcher-3.2.0.3-local-entry-v2.apk

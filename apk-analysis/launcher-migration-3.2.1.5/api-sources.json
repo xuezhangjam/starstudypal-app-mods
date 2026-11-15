@@ -1,0 +1,9 @@
+{
+  "com/hailiang/launcher/data/bean/response/AppHtmlListBean.java": "package com.hailiang.launcher.data.bean.response;public class AppHtmlListBean {public boolean isWeb(){return false;}public boolean needDelete(){return false;}public long getVersionCode(){return 0;}public String getPackageName(){return null;}public String getAppName(){return null;}public String getVersionName(){return null;}public String getDownloadUrl(){return null;}}",
+  "com/hailiang/launcher/common/download/app/AppUpdateTask.java": "package com.hailiang.launcher.common.download.app;public class AppUpdateTask {public int getDispenseType(){return 0;}public long getVersionCode(){return 0;}public String getPackageName(){return null;}public String getAppName(){return null;}public String getVersionName(){return null;}public String getDownloadUrl(){return null;}}",
+  "com/hailiang/launcher/update/LauncherUpdateManager.java": "package com.hailiang.launcher.update;public class LauncherUpdateManager {public static void requestLaunchVersionWithCheckDialog(){}}",
+  "com/hljzjx/launch/ui/main/MainActivity.java": "package com.hljzjx.launch.ui.main;public class MainActivity extends android.app.Activity {public void requestAppListAndControl(boolean f){}}",
+  "com/jchou/commonlibrary/model/UserData.java": "package com.jchou.commonlibrary.model;public class UserData {public static long getUserId(){return 0;}}",
+  "com/hljzjx/md3/SkinController.java": "package com.hljzjx.md3;public class SkinController {public static int mode(android.content.Context c){return 0;}}",
+  "com/hljzjx/md3/ThemeController.java": "package com.hljzjx.md3;public class ThemeController {public static int night(android.content.Context c){return 0;}}"
+}

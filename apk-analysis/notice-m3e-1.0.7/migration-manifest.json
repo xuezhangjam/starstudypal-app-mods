@@ -1,0 +1,80 @@
+{
+  "official_sha256": "e446d5ad0561f69084d9a02215e98523d0a722390a662aa5f3e41601600de0a3",
+  "native_baseline_sha256": "8c3bba4f6b66b22402a6bf7375e649147752297c8c369f3ec2ed458590031718",
+  "package": "com.hailiang.notice.student",
+  "version": "1.0.7-m3e.1",
+  "version_code": 8,
+  "changed_methods": [
+    [
+      "com/hailiang/notice/MainActivity.smali",
+      "onCreate(Landroid/os/Bundle;)V"
+    ],
+    [
+      "com/hailiang/notice/MainActivity$onBackPressedCallback$1.smali",
+      "handleOnBackPressed()V"
+    ],
+    [
+      "com/hailiang/notice/NoticeAdapter.smali",
+      "<init>(Landroid/content/Context;Ljava/util/List;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;)V"
+    ],
+    [
+      "com/hailiang/notice/NoticeAdapter.smali",
+      "updateNotices(Ljava/util/List;)V"
+    ],
+    [
+      "com/hailiang/notice/NoticeAdapter.smali",
+      "onBindViewHolder(Lcom/hailiang/notice/NoticeAdapter$ViewHolder;I)V"
+    ],
+    [
+      "com/hailiang/notice/fragment/BaseMegListFragment.smali",
+      "newNoticeEvent(Lcom/hailiang/notice/event/NewNoticeEvent;)V"
+    ],
+    [
+      "com/hailiang/notice/fragment/InformFragment.smali",
+      "onItemClick(Lcom/hailiang/notice/model/NoticeItem;)V"
+    ],
+    [
+      "com/hailiang/notice/ui/BaseActivity.smali",
+      "getResources()Landroid/content/res/Resources;"
+    ],
+    [
+      "com/hailiang/notice/detail/NoticeDetailActivity.smali",
+      "onCreate(Landroid/os/Bundle;)V"
+    ],
+    [
+      "com/hailiang/notice/detail/NoticeDetailActivity.smali",
+      "onDestroy()V"
+    ]
+  ],
+  "added_methods": [
+    [
+      "com/hailiang/notice/MainActivity.smali",
+      "onSaveInstanceState(Landroid/os/Bundle;)V"
+    ],
+    [
+      "com/hailiang/notice/MainActivity.smali",
+      "onDestroy()V"
+    ],
+    [
+      "com/hailiang/notice/MainActivity.smali",
+      "onConfigurationChanged(Landroid/content/res/Configuration;)V"
+    ],
+    [
+      "com/hailiang/notice/MainActivity.smali",
+      "refreshImmersive()V"
+    ],
+    [
+      "com/hailiang/notice/detail/NoticeDetailActivity.smali",
+      "onConfigurationChanged(Landroid/content/res/Configuration;)V"
+    ],
+    [
+      "com/hailiang/notice/detail/NoticeDetailActivity.smali",
+      "refreshImmersive()V"
+    ]
+  ],
+  "native_ui_dex": "classes5.dex",
+  "native_navigation_dex": "classes6.dex",
+  "resource_ids_remapped": 0,
+  "official_gson_not_relocated": true,
+  "android_device_tested": false
+}

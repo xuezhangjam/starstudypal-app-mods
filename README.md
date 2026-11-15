@@ -5,35 +5,25 @@
 > [!IMPORTANT]
 > 本项目为个人维护的非官方修改版归档，不代表海亮、学校或相关产品厂商，也不表示获得其官方认可或授权背书。**GPL-3.0 仅适用于维护者有权许可的原创内容，不将原 APK、第三方代码、资源或商标改为 GPL。** 使用前请阅读[许可范围与第三方权利](NOTICE.md)及[项目声明](DISCLAIMER.md)。
 
-## 下载
+## 当前下载 · 2026-11-15
 
-| 应用 | 版本 | 入口 |
+| 应用 | 当前归档 | 下载 |
 |---|---|---|
-| 星学伴 | 3.2.1.4 · AI 弹窗 Logo 版及历史包 | [最新版 APK](https://github.com/xuezhangjam/hailiang-app-mods/releases/download/launcher-3.2.1.4/starstudy-3.2.1.4-ai-logos.apk) · [历史包](https://github.com/xuezhangjam/hailiang-app-mods/releases/tag/launcher-3.2.1.4) |
-| 星学伴旧版 | 3.2.1.0 · 九个历史版本 | [归档](https://github.com/xuezhangjam/hailiang-app-mods/releases/tag/launcher-3.2.1.0-history) |
-| 班级通知 | 1.0.6 · M3e 原生平板版 | [下载](https://github.com/xuezhangjam/hailiang-app-mods/releases/tag/notice-1.0.6-m3e) |
-| 学生端课堂 | 3.2.1.0 · v7 续答结果显示修复 | [v7 APK](https://github.com/xuezhangjam/hailiang-app-mods/releases/download/classroom-3.2.1.0-v7/student-classroom-3.2.1.0-continuation-results-v7.apk) · [更新与源码](https://github.com/xuezhangjam/hailiang-app-mods/releases/tag/classroom-3.2.1.0-v7) · [旧分支](https://github.com/xuezhangjam/hailiang-app-mods/releases/tag/classroom-3.2.1.0-mods) |
-| 精准作业学生端 | 4.0.0.4 · 答案常显、解析默认收起 | [下载](https://github.com/xuezhangjam/hailiang-app-mods/releases/tag/homework-4.0.0.4-mod) |
+| 星学伴 | 3.2.1.5 · 三星登录与提示崩溃修复 v2 | [APK](https://github.com/xuezhangjam/hailiang-app-mods/releases/download/mods-2026-11-15/starstudy-3.2.1.5-samsung-v2.apk) |
+| 学生端课堂 | 3.2.2.0 · 重进继续作答修复 | [APK](https://github.com/xuezhangjam/hailiang-app-mods/releases/download/mods-2026-11-15/student-classroom-3.2.2.0-continuation-reentry.apk) |
+| 精准作业 | 4.0.1.0 · 填空定位 v13 | [APK](https://github.com/xuezhangjam/hailiang-app-mods/releases/download/mods-2026-11-15/precision-homework-4.0.1.0-blanks-v13.apk) |
+| 班级通知 | 1.0.7-m3e.1 · M3e 原生平板版／系统消息修复 | [APK](https://github.com/xuezhangjam/hailiang-app-mods/releases/download/mods-2026-11-15/class-notice-1.0.7-m3e-system-messages.apk) |
+| 错题本 | 3.3.2.0 · M3e／系统相机相册／拍照判定修补 | [APK](https://github.com/xuezhangjam/hailiang-app-mods/releases/download/mods-2026-11-15/mistakes-3.3.2.0-m3e-camera.apk) |
+| H5 浏览器 | 1.0.13-browser.2 · 首页应用直达修复 | [APK](https://github.com/xuezhangjam/hailiang-app-mods/releases/download/mods-2026-11-15/h5-browser-1.0.13-home-links.apk) |
+| 教师端（实验） | 3.2.0.3 · 本机入口修复 v2 | [APK](https://github.com/xuezhangjam/hailiang-app-mods/releases/download/mods-2026-11-15/teacher-launcher-3.2.0.3-local-entry-v2.apk) |
 
-完整文件名、功能说明和已知问题见 [版本目录](docs/versions.md)。共归档 **23 个 APK**。
+[本次发布](https://github.com/xuezhangjam/hailiang-app-mods/releases/tag/mods-2026-11-15) · [更新说明](docs/update-2026-11-15.md) · [全部历史版本](docs/versions.md) · [补丁源码包](https://github.com/xuezhangjam/hailiang-app-mods/releases/download/mods-2026-11-15/hailiang-mods-2026-11-15-source.zip)
 
-## 学生端课堂 v7
-
-手写题继续作答上传成功后，“我的作答”显示本次上传的笔迹，并重新读取课堂结果。尚未上传的新修改不混入结果；“展优作答”保持原逻辑。云端尚未返回相同笔迹时，显示版本标记为“本次续答已上传”，不代表老师端或后台覆盖已确认。
-
-保留前版的 PPT 宿主测量、分屏底栏、题目返回、相册、AI 与画中画功能。包名为 `com.hljzjx.edu.student.classroom`，版本 `3.2.1.0 / 321000`。本地测试、签名与差异检查通过；尚无 Pixel Tablet 和学校服务器联调结果。
-
-[发布与独立 APK 下载](https://github.com/xuezhangjam/hailiang-app-mods/releases/tag/classroom-3.2.1.0-v7) · [源码压缩包](https://github.com/xuezhangjam/hailiang-app-mods/releases/download/classroom-3.2.1.0-v7/student-classroom-continuation-results-v7-source.zip) · [可浏览辅助源码与构建脚本](apk-analysis/classroom-continuation-results-v7) · [详细说明](docs/classroom-v7.md)
-
-## 星学伴当前版
-
-基于 3.2.1.4，迁入旧版界面、MD3e／原版 UI 切换、独立课表与待办卡片、Day 轮转课表及通知，保留官方应用排序。AI 问问支持 ChatGPT、Gemini、DeepSeek 和海亮自带入口，使用自绘圆角弹窗及 Logo 图标。
-
-当前包通过离线检查，自绘弹窗和完整功能仍待实机验收。历史包中包含已确认的登录故障和白底弹窗问题，已在版本目录标出，不能当作当前版。
+共归档 **30 个 APK**。三星初版崩溃补丁已弃用，当前为 v2；教师端是实验分支。除三星限定登录场景外，本次各版仍有实机或服务器验收项目，详见更新说明。
 
 ## 安装与校验
 
-本归档保留 APK 原始内容，不重新签名。同包名但签名不同的版本不能直接覆盖安装。可通过 [release-index.json](release-index.json) 查看包名、版本、签名证书指纹与原文件名，通过 [SHA256SUMS.txt](SHA256SUMS.txt) 校验下载文件。
+保持 APK 原始字节和已有修改版签名。同包名但签名不同的版本无法直接覆盖；请先核对并保留重要数据。[release-index.json](release-index.json) 记录原文件名、包名、版本、证书与哈希，[SHA256SUMS.txt](SHA256SUMS.txt) 用于下载校验。
 
 ## 许可证与项目声明
 

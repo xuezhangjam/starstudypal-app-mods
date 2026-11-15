@@ -1,0 +1,2 @@
+package com.hailiang.workcloud.student.shareui.home;
+public class HomeworkUiModel {public long getSchoolworkGroupId(){return 0;}public String getId(){return null;}public String getTitle(){return null;}public long getSubjectId(){return 0;}public String getSubjectIconUrl(){return null;}public String getDeadlineLabel(){return null;}public int getQuestionCount(){return 0;}public HomeworkStatus getStatus(){return null;}public boolean isOverdue(){return false;}}

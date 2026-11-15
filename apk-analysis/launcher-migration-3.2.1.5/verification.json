@@ -1,0 +1,144 @@
+{
+  "inputs": [
+    {
+      "file": "3.2.1.4原版.apk",
+      "sha256": "49a11f687323d9095f084b46ac3ce1bee5b6d7c31017089e67df4113b9a3e233",
+      "size": 76089895,
+      "package": "com.hljzjx.edu.student.launch",
+      "version": "3.2.1.4",
+      "code": "32014",
+      "min": "29",
+      "target": "29",
+      "dex": {
+        "classes.dex": {
+          "sha256": "efd2fd1045a848fa62ff15cdcfc5cee050f8dd8c4ab1859bf584781ed95a0111",
+          "methods": 65332
+        },
+        "classes2.dex": {
+          "sha256": "2f642bac114fc2dd5a6ed46b9a34fec273c9e256058872b3c0f384572cf3692c",
+          "methods": 62548
+        },
+        "classes3.dex": {
+          "sha256": "3e05991bda90b5c312fb3c07e8b8533201ebfaa335211d126b7ecdbd4f7deacc",
+          "methods": 65379
+        },
+        "classes4.dex": {
+          "sha256": "55064bbb3e2bf9ef4f250eb1978c9fb024effc4153e9458d591f0f8b535d23d3",
+          "methods": 44486
+        }
+      }
+    },
+    {
+      "file": "星学伴mod-3.2.1.4-全部未下发应用-保留管控提醒.apk",
+      "sha256": "12daeb445c96032ff37fde00354c439ba39f368cf79e0369aca7820d8a39ce0e",
+      "size": 82999551,
+      "package": "com.hljzjx.edu.student.launch",
+      "version": "3.2.1.4",
+      "code": "32014",
+      "min": "29",
+      "target": "29",
+      "dex": {
+        "classes.dex": {
+          "sha256": "efd2fd1045a848fa62ff15cdcfc5cee050f8dd8c4ab1859bf584781ed95a0111",
+          "methods": 65332
+        },
+        "classes2.dex": {
+          "sha256": "2f642bac114fc2dd5a6ed46b9a34fec273c9e256058872b3c0f384572cf3692c",
+          "methods": 62548
+        },
+        "classes3.dex": {
+          "sha256": "897ec94a075a1e2a0f237a12e7664dea335f9761e71e1ea853db2083fe534d51",
+          "methods": 65427
+        },
+        "classes4.dex": {
+          "sha256": "55064bbb3e2bf9ef4f250eb1978c9fb024effc4153e9458d591f0f8b535d23d3",
+          "methods": 44486
+        },
+        "classes5.dex": {
+          "sha256": "3b86b924c65f5acf40806d1825f9026a74c579819db7d95458bd117a8d23e741",
+          "methods": 744
+        },
+        "classes6.dex": {
+          "sha256": "7e1d12929cf403c6088c2de8fb45247d3b39bcef770c0c2fcac29fe5640252b1",
+          "methods": 42
+        },
+        "classes7.dex": {
+          "sha256": "1e9dba536b8ff600f474aa69392a80737cf05cf8d2ebd4fce946ce97e044f86a",
+          "methods": 126
+        },
+        "classes8.dex": {
+          "sha256": "c741ac40842c7858e042a53d35f86c205151709ace14ede976a7463c4f7cbaa9",
+          "methods": 229
+        }
+      }
+    },
+    {
+      "file": "星学伴学生端3.2.1.5原版.apk",
+      "sha256": "6043e2f1f5c10d579dae9d82b4f7d0c43e59569f3f16c9768454501ae82a2bc7",
+      "size": 76081517,
+      "package": "com.hljzjx.edu.student.launch",
+      "version": "3.2.1.5",
+      "code": "32015",
+      "min": "29",
+      "target": "29",
+      "dex": {
+        "classes.dex": {
+          "sha256": "37dbdb88b8451dbfd8aed626a89d5bf1aab0ba3a0316a6bdf87f82e2fbf8333f",
+          "methods": 65122
+        },
+        "classes2.dex": {
+          "sha256": "2f642bac114fc2dd5a6ed46b9a34fec273c9e256058872b3c0f384572cf3692c",
+          "methods": 62548
+        },
+        "classes3.dex": {
+          "sha256": "24f21c02ce8c511763fea68d5dff87df755df23ef47cf046a5b18f0826a5b56d",
+          "methods": 65525
+        },
+        "classes4.dex": {
+          "sha256": "55064bbb3e2bf9ef4f250eb1978c9fb024effc4153e9458d591f0f8b535d23d3",
+          "methods": 44486
+        }
+      }
+    }
+  ],
+  "output": "星学伴mod-3.2.1.5-系统图标-更新仅下载.apk",
+  "sha256": "a37fdffe9ab360fb7df278b6870d445e6ed4e6597ad1c8dbacc8e6158fb8f6a2",
+  "size": 83020148,
+  "native_hooks": 38,
+  "relocated_vendor_classes": 23,
+  "android_device_tested": false,
+  "school_server_tested": false,
+  "unchanged_new_vendor_payloads": 1137,
+  "exact_mod_resource_payloads": 1376,
+  "unchanged_native_dex3_methods": 54272,
+  "changed_native_methods": 39,
+  "added_native_methods": 9,
+  "member_references_checked": 8338,
+  "dex_method_id_counts": {
+    "classes.dex": 65122,
+    "classes2.dex": 62548,
+    "classes3.dex": 65404,
+    "classes4.dex": 44486,
+    "classes5.dex": 748,
+    "classes9.dex": 268,
+    "classes10.dex": 238,
+    "classes6.dex": 42,
+    "classes7.dex": 126,
+    "classes8.dex": 229
+  },
+  "certificate_sha256": "0262266e6908148d5411f0d6f190818d95cdb4f859556b6d5f53ab7109e244ca",
+  "final_dex_flow_scenarios": 84,
+  "final_dex_flow_assertions": 194,
+  "scope": "final DEX execution with modeled Android, package policy, HTTP and handler services; no device or server activity",
+  "warning_flow_scenarios": 106,
+  "warning_flow_assertions": 626,
+  "warning_test_scope": "final DEX for warning, actions and confirmation; modeled Android UI, policy and cached control responses; no device/MDM activity",
+  "icon_scenarios": 13,
+  "icon_dex_assertions": 31,
+  "icon_scope": "actual helper DEX with PackageManager/Glide fixtures; no Android rendering",
+  "updater_java_tests": {
+    "result": "PASS 63 actual updater Java assertions; mocked Android only, no HTTP/device",
+    "source_sha256": "af7bde2f4ff8db6593726688a5cfa0a86624a5dd14eae9bcd9a6ffbb109eb7f1",
+    "scope": "actual own Java with observable Android lifecycle, dialogs, downloads and browser fixtures; no HTTP or Android rendering"
+  }
+}

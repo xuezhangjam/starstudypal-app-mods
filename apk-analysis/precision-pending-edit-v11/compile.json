@@ -1,0 +1,6 @@
+{
+  "kotlin": "2.3.0",
+  "compose": "1.11.2",
+  "material3": "1.5.0-alpha17",
+  "ui_jar_sha256": "68ef5ff18124008946582020e901a22a919f0d74e6a4aeb852c1656b0b9f4baa"
+}

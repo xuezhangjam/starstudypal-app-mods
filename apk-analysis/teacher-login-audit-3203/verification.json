@@ -1,0 +1,12 @@
+{
+  "input": "星学伴教师端3.2.0.3.apk",
+  "input_sha256": "f2b9fd96a4d516dfae6f97970c5f081542d67c08061e83cf37b763b6d8bca871",
+  "output": "星学伴教师端-3.2.0.3-本机入口修复-v2.apk",
+  "sha256": "e61efe51a7aec285c597e141897c37c02ef2c8c3fab99c07efc5693512cf3251",
+  "device_tested": false,
+  "changed_native_methods": 4,
+  "unchanged_native_methods": 52521,
+  "unchanged_original_payloads": 2326,
+  "checked_member_references": 1811,
+  "certificate_sha256": "0262266e6908148d5411f0d6f190818d95cdb4f859556b6d5f53ab7109e244ca"
+}

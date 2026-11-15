@@ -1,0 +1,5 @@
+[
+  "modRefreshEndedTools()V",
+  "changeGroup()V",
+  "changeGroup$lambda$31$lambda$30(Lcom/nice/room/ui/roomlive/fragment/discussion/DiscussionFragment;Ljava/util/List;ILcom/hailiang/xxb/room/server/entity/discussion/DiscussionGroupInfo;Z)Lkotlin/Unit;"
+]

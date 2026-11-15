@@ -1,0 +1,20 @@
+[
+  {
+    "class": "Lcom/hailiang/xxb/ai/camera/view/scan/SmartCameraActivity;",
+    "signature": "private final capture(Lcom/hailiang/xxb/ai/camera/view/data/SmartCameraConfig;)V",
+    "before_sha256": "4afea3da2d739573fc4cb2f03d0276b648e908c80ef555e7ff66398ff19f9171",
+    "after_sha256": "01affc997d17277722008d17bcb2d6c6b37b4cd0d44258406b73bc67678b8736"
+  },
+  {
+    "class": "Lcom/hailiang/xxb/ai/camera/view/scan/SmartCameraViewModel$saveImage$2;",
+    "signature": "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;",
+    "before_sha256": "8375c6b43d5abfeb3057ba9da8a809d1b9efaeaba6d5e26a3d87d460af22a9c9",
+    "after_sha256": "5354a6f06966071ff2fcd2b9ed4a65ef3a8d28e3138a7213e52c7dec0fdf08a3"
+  },
+  {
+    "class": "Lcom/hailiang/xxb/ai/camera/view/SmartCameraPreview;",
+    "signature": "public final updateEdgeArea(Lcom/hailiang/xxb/ai/camera/core/scan/EdgeArea;Z)V",
+    "before_sha256": "117126e075aad2591892d2f174f23537b9bad4695ce7cf91093b2ee5758fc1f3",
+    "after_sha256": "1d30ab6382eba547a7c15e9d83a6d8288ad1e3c312d418d0e058dc878b986ef1"
+  }
+]

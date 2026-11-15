@@ -1,0 +1,435 @@
+[
+  {
+    "file": "com/hljzjx/launch/MyApplication.smali",
+    "changed": [
+      "onCreate()V"
+    ],
+    "added": [],
+    "removed": []
+  },
+  {
+    "file": "com/hljzjx/launch/ui/login/AppProcessor.smali",
+    "changed": [
+      "disableThirdApps()V",
+      "setHLAppStatus(Z)V"
+    ],
+    "added": [],
+    "removed": []
+  },
+  {
+    "file": "com/hljzjx/launch/ui/main/MainActivity$$ExternalSyntheticLambda0.smali",
+    "changed": [
+      "invoke(Ljava/lang/Object;)Ljava/lang/Object;"
+    ],
+    "added": [],
+    "removed": []
+  },
+  {
+    "file": "com/hljzjx/launch/ui/main/MainActivity$$ExternalSyntheticLambda1.smali",
+    "changed": [
+      "onClick(Landroid/view/View;)V"
+    ],
+    "added": [],
+    "removed": []
+  },
+  {
+    "file": "com/hljzjx/launch/ui/main/MainActivity$$ExternalSyntheticLambda10.smali",
+    "changed": [
+      "run()V"
+    ],
+    "added": [],
+    "removed": []
+  },
+  {
+    "file": "com/hljzjx/launch/ui/main/MainActivity$$ExternalSyntheticLambda12.smali",
+    "changed": [],
+    "added": [
+      "<init>(Lcom/hljzjx/launch/ui/main/MainActivity;Lcom/hljzjx/launch/databinding/ItemMainShortcutBinding;Ljava/lang/String;)V",
+      "onClick(Landroid/view/View;)V"
+    ],
+    "removed": [
+      "<init>(Lcom/hljzjx/launch/ui/main/MainActivity;)V",
+      "run()V"
+    ]
+  },
+  {
+    "file": "com/hljzjx/launch/ui/main/MainActivity$$ExternalSyntheticLambda13.smali",
+    "changed": [],
+    "added": [
+      "<init>(Lcom/hljzjx/launch/ui/main/MainActivity;)V",
+      "run()V"
+    ],
+    "removed": [
+      "<init>(Lcom/hljzjx/launch/ui/main/MainActivity;Lcom/hljzjx/launch/databinding/ItemMainShortcutBinding;Ljava/lang/String;)V",
+      "onClick(Landroid/view/View;)V"
+    ]
+  },
+  {
+    "file": "com/hljzjx/launch/ui/main/MainActivity$$ExternalSyntheticLambda14.smali",
+    "changed": [
+      "run()V"
+    ],
+    "added": [],
+    "removed": []
+  },
+  {
+    "file": "com/hljzjx/launch/ui/main/MainActivity$$ExternalSyntheticLambda15.smali",
+    "changed": [
+      "run()V"
+    ],
+    "added": [],
+    "removed": []
+  },
+  {
+    "file": "com/hljzjx/launch/ui/main/MainActivity$$ExternalSyntheticLambda16.smali",
+    "changed": [
+      "run()V"
+    ],
+    "added": [
+      "<init>(Ljava/lang/Runnable;Ljava/lang/Runnable;)V"
+    ],
+    "removed": [
+      "<init>(Lcom/hljzjx/launch/ui/main/MainActivity;)V"
+    ]
+  },
+  {
+    "file": "com/hljzjx/launch/ui/main/MainActivity$$ExternalSyntheticLambda17.smali",
+    "changed": [
+      "run()V"
+    ],
+    "added": [],
+    "removed": []
+  },
+  {
+    "file": "com/hljzjx/launch/ui/main/MainActivity$$ExternalSyntheticLambda18.smali",
+    "changed": [],
+    "added": [
+      "<init>(Lcom/hljzjx/launch/ui/main/MainActivity;Lcom/hailiang/launcher/data/bean/response/AppHtmlListBean;)V",
+      "onClick(Landroid/view/View;)V"
+    ],
+    "removed": [
+      "<init>(Ljava/lang/Runnable;Ljava/lang/Runnable;)V",
+      "run()V"
+    ]
+  },
+  {
+    "file": "com/hljzjx/launch/ui/main/MainActivity$$ExternalSyntheticLambda19.smali",
+    "changed": [],
+    "added": [
+      "<init>(Lcom/hljzjx/launch/ui/main/MainActivity;)V",
+      "onAppSortCommit(Ljava/util/List;Ljava/lang/Runnable;Ljava/lang/Runnable;)V"
+    ],
+    "removed": [
+      "<init>(Lcom/hljzjx/launch/ui/main/MainActivity;Lcom/hailiang/launcher/data/bean/response/AppHtmlListBean;)V",
+      "onClick(Landroid/view/View;)V"
+    ]
+  },
+  {
+    "file": "com/hljzjx/launch/ui/main/MainActivity$$ExternalSyntheticLambda2.smali",
+    "changed": [
+      "onClick(Landroid/view/View;)V"
+    ],
+    "added": [],
+    "removed": []
+  },
+  {
+    "file": "com/hljzjx/launch/ui/main/MainActivity$$ExternalSyntheticLambda20.smali",
+    "changed": [],
+    "added": [
+      "onClick(Landroid/view/View;)V"
+    ],
+    "removed": [
+      "onAppSortCommit(Ljava/util/List;Ljava/lang/Runnable;Ljava/lang/Runnable;)V"
+    ]
+  },
+  {
+    "file": "com/hljzjx/launch/ui/main/MainActivity$$ExternalSyntheticLambda21.smali",
+    "changed": [
+      "onClick(Landroid/view/View;)V"
+    ],
+    "added": [],
+    "removed": []
+  },
+  {
+    "file": "com/hljzjx/launch/ui/main/MainActivity$$ExternalSyntheticLambda3.smali",
+    "changed": [
+      "onClick(Landroid/view/View;)V"
+    ],
+    "added": [],
+    "removed": []
+  },
+  {
+    "file": "com/hljzjx/launch/ui/main/MainActivity$$ExternalSyntheticLambda4.smali",
+    "changed": [
+      "onClick(Landroid/view/View;)V"
+    ],
+    "added": [],
+    "removed": []
+  },
+  {
+    "file": "com/hljzjx/launch/ui/main/MainActivity$$ExternalSyntheticLambda5.smali",
+    "changed": [
+      "onClick(Landroid/view/View;)V"
+    ],
+    "added": [],
+    "removed": []
+  },
+  {
+    "file": "com/hljzjx/launch/ui/main/MainActivity$$ExternalSyntheticLambda6.smali",
+    "changed": [
+      "onClick(Landroid/view/View;)V"
+    ],
+    "added": [],
+    "removed": []
+  },
+  {
+    "file": "com/hljzjx/launch/ui/main/MainActivity$$ExternalSyntheticLambda7.smali",
+    "changed": [
+      "onClick(Landroid/view/View;)V"
+    ],
+    "added": [],
+    "removed": []
+  },
+  {
+    "file": "com/hljzjx/launch/ui/main/MainActivity$$ExternalSyntheticLambda8.smali",
+    "changed": [],
+    "added": [
+      "<init>(Lcom/hljzjx/launch/ui/main/MainActivity;J)V",
+      "run()V"
+    ],
+    "removed": [
+      "<init>(Lcom/hljzjx/launch/ui/main/MainActivity;Ljava/util/List;)V",
+      "onShow()V"
+    ]
+  },
+  {
+    "file": "com/hljzjx/launch/ui/main/MainActivity$$ExternalSyntheticLambda9.smali",
+    "changed": [],
+    "added": [
+      "<init>(Lcom/hljzjx/launch/ui/main/MainActivity;Ljava/util/List;)V",
+      "onShow()V"
+    ],
+    "removed": [
+      "<init>(Lcom/hljzjx/launch/ui/main/MainActivity;)V",
+      "run()V"
+    ]
+  },
+  {
+    "file": "com/hljzjx/launch/ui/main/MainActivity$10.smali",
+    "changed": [
+      "onChanged(Ljava/lang/Boolean;)V"
+    ],
+    "added": [],
+    "removed": []
+  },
+  {
+    "file": "com/hljzjx/launch/ui/main/MainActivity$12.smali",
+    "changed": [
+      "run()V"
+    ],
+    "added": [],
+    "removed": []
+  },
+  {
+    "file": "com/hljzjx/launch/ui/main/MainActivity$13.smali",
+    "changed": [],
+    "added": [
+      "run()V"
+    ],
+    "removed": [
+      "invoke()Ljava/lang/Object;",
+      "invoke()Lkotlin/Unit;"
+    ]
+  },
+  {
+    "file": "com/hljzjx/launch/ui/main/MainActivity$14.smali",
+    "changed": [],
+    "added": [
+      "invoke()Ljava/lang/Object;",
+      "invoke()Lkotlin/Unit;"
+    ],
+    "removed": [
+      "onPageScrollStateChanged(I)V",
+      "onPageScrolled(IFI)V",
+      "onPageSelected(I)V"
+    ]
+  },
+  {
+    "file": "com/hljzjx/launch/ui/main/MainActivity$15.smali",
+    "changed": [],
+    "added": [
+      "<init>(Lcom/hljzjx/launch/ui/main/MainActivity;)V",
+      "onPageScrollStateChanged(I)V",
+      "onPageScrolled(IFI)V",
+      "onPageSelected(I)V"
+    ],
+    "removed": [
+      "<init>(Lcom/hljzjx/launch/ui/main/MainActivity;Ljava/util/List;J)V",
+      "onDownloadComplete(Lcom/liulishuo/okdownload/DownloadTask;Ljava/lang/String;Ljava/lang/String;)V",
+      "onDownloadError(Lcom/liulishuo/okdownload/DownloadTask;Ljava/lang/String;Ljava/lang/String;)V",
+      "onDownloadProgress(Ljava/lang/String;FJ)V",
+      "onDownloadStart(Lcom/liulishuo/okdownload/DownloadTask;Ljava/lang/String;)V"
+    ]
+  },
+  {
+    "file": "com/hljzjx/launch/ui/main/MainActivity$9.smali",
+    "changed": [
+      "onServiceConnected(Landroid/content/ComponentName;Landroid/os/IBinder;)V"
+    ],
+    "added": [],
+    "removed": []
+  },
+  {
+    "file": "com/hljzjx/launch/ui/main/MainActivity.smali",
+    "changed": [
+      "<init>()V",
+      "bindDockApps(Ljava/util/List;)V",
+      "checkForegroundActivity()V",
+      "handleClassroom(J)V",
+      "lambda$setListener$3(Landroid/view/View;)V",
+      "lambda$setListener$4(Landroid/view/View;)V",
+      "lambda$setListener$5(Landroid/view/View;)V",
+      "lambda$setListener$6(Landroid/view/View;)V",
+      "lambda$setListener$7(Landroid/view/View;)V",
+      "lambda$setListener$8(Landroid/view/View;)V",
+      "lambda$setListener$9(Landroid/view/View;)V",
+      "loadHomeTodoPreview()V",
+      "logOutResult(Z)V",
+      "onGetClassRoomIdSuccess(JI)V",
+      "openDownloadManager(Ljava/util/List;J)V",
+      "sendSeatInfo()V",
+      "setDownloadDialog(Ljava/util/List;J)V",
+      "setListener()V",
+      "setSystemProperties()V",
+      "setupShortcut(Lcom/hljzjx/launch/databinding/ItemMainShortcutBinding;IILjava/lang/String;II)V",
+      "showOtherApps(Ljava/util/List;)V",
+      "startApp(Ljava/lang/String;Ljava/lang/String;)V"
+    ],
+    "added": [
+      "$r8$lambda$-AZY_QDETX5_DxJHBZBAHez4-ko(Lcom/hljzjx/launch/ui/main/MainActivity;)V",
+      "$r8$lambda$5aLy9-GMqb6fWGQEbPKcRIlLeCo(Lcom/hljzjx/launch/ui/main/MainActivity;Lcom/hailiang/launcher/data/bean/response/AppHtmlListBean;Landroid/view/View;)V",
+      "$r8$lambda$Kkjy4SfOW8ncyQ2bD7YJJtHTJ58(Lcom/hljzjx/launch/ui/main/MainActivity;Lcom/hljzjx/launch/databinding/ItemMainShortcutBinding;Ljava/lang/String;Landroid/view/View;)V",
+      "$r8$lambda$McYjXdg3tg77aAYZLYYRsEBKxDU(Lcom/hljzjx/launch/ui/main/MainActivity;)V",
+      "$r8$lambda$R90lpaotT9C_2ify7vVJmsIrS24(Lcom/hljzjx/launch/ui/main/MainActivity;Landroid/view/View;)V",
+      "$r8$lambda$Tb3Nb1JFOAJyU8cshJ5sjWhPj28(Lcom/hljzjx/launch/ui/main/MainActivity;Ljava/util/List;Ljava/lang/Runnable;Ljava/lang/Runnable;)V",
+      "$r8$lambda$dKQW6jVKuq4uWCLKj4GvTYsQ3ok(Lcom/hljzjx/launch/ui/main/MainActivity;Ljava/util/List;)V",
+      "$r8$lambda$kEBvvey6FhLAXwZwRnwFtk8fqeA(Lcom/hljzjx/launch/ui/main/MainActivity;J)V",
+      "$r8$lambda$kFO5I8l6BwdnHwb_EJt89RxP1WA(Lcom/hljzjx/launch/ui/main/MainActivity;Landroid/view/View;)V",
+      "-$$Nest$mcheckNeedToClassroom(Lcom/hljzjx/launch/ui/main/MainActivity;)Z",
+      "lambda$bindDockApps$11(Lcom/hailiang/launcher/data/bean/response/AppHtmlListBean;Landroid/view/View;)V",
+      "lambda$onGetClassRoomIdSuccess$16(J)V",
+      "lambda$sendSeatInfo$17()V",
+      "lambda$setDownloadDialog$18(Ljava/util/List;)V",
+      "lambda$setListener$1(Landroid/view/View;)V",
+      "lambda$setListener$2(Landroid/view/View;)V",
+      "lambda$setupShortcut$10(Lcom/hljzjx/launch/databinding/ItemMainShortcutBinding;Ljava/lang/String;Landroid/view/View;)V",
+      "lambda$showOtherApps$12()V",
+      "lambda$showOtherApps$13(Ljava/lang/Runnable;Ljava/lang/Runnable;)V",
+      "lambda$showOtherApps$14(Ljava/lang/Runnable;Ljava/lang/Runnable;)V",
+      "lambda$showOtherApps$15(Ljava/util/List;Ljava/lang/Runnable;Ljava/lang/Runnable;)V",
+      "lambda$startApp$19(Landroid/view/View;)Lkotlin/Unit;"
+    ],
+    "removed": [
+      "$r8$lambda$Hy9biooRKrJXyp0lOe6jc5PeS7A(Lcom/hljzjx/launch/ui/main/MainActivity;Ljava/util/List;)V",
+      "$r8$lambda$SY8oXenV9EeTeASPljJCsxs-qpY(Lcom/hljzjx/launch/ui/main/MainActivity;Ljava/util/List;Ljava/lang/Runnable;Ljava/lang/Runnable;)V",
+      "$r8$lambda$VpwA1EQkXPci0bo3b18pPYYixLU(Lcom/hljzjx/launch/ui/main/MainActivity;)V",
+      "$r8$lambda$X6Tz5oxFN3iudq5_AkM5K85eYxA(Lcom/hljzjx/launch/ui/main/MainActivity;Lcom/hailiang/launcher/data/bean/response/AppHtmlListBean;Landroid/view/View;)V",
+      "$r8$lambda$_bbIIiGd4BFIOmk4tfgrRk-G_Gc(Lcom/hljzjx/launch/ui/main/MainActivity;)V",
+      "$r8$lambda$cFHQrTHbQdbEeYtOD__BVJCm6Cw(Lcom/hljzjx/launch/ui/main/MainActivity;)V",
+      "$r8$lambda$em6h4X3AhYso3UniumPLLoYZYKs(Lcom/hljzjx/launch/ui/main/MainActivity;Landroid/view/View;)V",
+      "$r8$lambda$j7JrqJAPR0sStg3KZ9-XQkCvsFo(Lcom/hljzjx/launch/ui/main/MainActivity;Lcom/hljzjx/launch/databinding/ItemMainShortcutBinding;Ljava/lang/String;Landroid/view/View;)V",
+      "$r8$lambda$jrPiPH1k92TxJcw78EUD4Zc_x5E(Lcom/hljzjx/launch/ui/main/MainActivity;Landroid/view/View;)V",
+      "$r8$lambda$owPSBdswofHp0HC6ctSSvJ_9Lkw(Lcom/hljzjx/launch/ui/main/MainActivity;)V",
+      "-$$Nest$mcancelPendingClassroomNavigation(Lcom/hljzjx/launch/ui/main/MainActivity;)V",
+      "cancelPendingClassroomNavigation()V",
+      "lambda$bindDockApps$13(Lcom/hailiang/launcher/data/bean/response/AppHtmlListBean;Landroid/view/View;)V",
+      "lambda$new$1()V",
+      "lambda$new$2()V",
+      "lambda$sendSeatInfo$18()V",
+      "lambda$setDownloadDialog$19(Ljava/util/List;)V",
+      "lambda$setListener$10(Landroid/view/View;)V",
+      "lambda$setListener$11(Landroid/view/View;)V",
+      "lambda$setupShortcut$12(Lcom/hljzjx/launch/databinding/ItemMainShortcutBinding;Ljava/lang/String;Landroid/view/View;)V",
+      "lambda$showOtherApps$14()V",
+      "lambda$showOtherApps$15(Ljava/lang/Runnable;Ljava/lang/Runnable;)V",
+      "lambda$showOtherApps$16(Ljava/lang/Runnable;Ljava/lang/Runnable;)V",
+      "lambda$showOtherApps$17(Ljava/util/List;Ljava/lang/Runnable;Ljava/lang/Runnable;)V",
+      "lambda$startApp$20(Landroid/view/View;)Lkotlin/Unit;",
+      "scheduleEnterClassroom(J)V"
+    ]
+  },
+  {
+    "file": "com/hljzjx/launch/ui/main/MainPresenter$5.smali",
+    "changed": [
+      "apply(Lcom/jchou/commonlibrary/model/BaseHttpResult;)Lcom/jchou/commonlibrary/model/BaseHttpResult;"
+    ],
+    "added": [],
+    "removed": []
+  },
+  {
+    "file": "com/hljzjx/launch/ui/personcenter/PersonCenterActivity.smali",
+    "changed": [
+      "logOutResult(Z)V"
+    ],
+    "added": [],
+    "removed": []
+  },
+  {
+    "file": "com/hailiang/launcher/accessibility/AppViewModel$Companion.smali",
+    "changed": [
+      "postHaveClass(Z)V"
+    ],
+    "added": [],
+    "removed": []
+  },
+  {
+    "file": "com/hailiang/launcher/control/ControlManager.smali",
+    "changed": [
+      "initRomRules()V",
+      "notifyControlChanged()V"
+    ],
+    "added": [],
+    "removed": []
+  },
+  {
+    "file": "com/hailiang/launcher/receiver/LauncherReceiver$Companion.smali",
+    "changed": [
+      "getIntentFilter()Landroid/content/IntentFilter;"
+    ],
+    "added": [],
+    "removed": []
+  },
+  {
+    "file": "com/hailiang/launcher/receiver/LauncherReceiver.smali",
+    "changed": [
+      "onReceive(Landroid/content/Context;Landroid/content/Intent;)V"
+    ],
+    "added": [],
+    "removed": []
+  },
+  {
+    "file": "com/hailiang/launcher/app/data/repository/AppRepository.smali",
+    "changed": [
+      "openClassRoom(JII)V"
+    ],
+    "added": [],
+    "removed": []
+  },
+  {
+    "file": "com/hailiang/launcher/common/app/AppLauncher.smali",
+    "changed": [
+      "openApp(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroid/os/Bundle;)V",
+      "start(Landroid/content/Context;Landroid/content/Intent;Landroid/os/Bundle;)V"
+    ],
+    "added": [],
+    "removed": []
+  },
+  {
+    "file": "com/hailiang/launcher/common/todo/TodoJumpHelper.smali",
+    "changed": [
+      "applyClassroomRouteExtras(Ljava/lang/String;Ljava/lang/String;Landroid/os/Bundle;)V"
+    ],
+    "added": [],
+    "removed": []
+  }
+]

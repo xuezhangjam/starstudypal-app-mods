@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "result": "PASS 136 teacher-link route/URL/lifecycle/async/browser failure assertions",
+  "source_sha256": "79b97927c5b33fe465356ba44df743217638ebd25f473bec374a1f80d7da2dca",
+  "device_tested": false,
+  "server_tested": false
+}

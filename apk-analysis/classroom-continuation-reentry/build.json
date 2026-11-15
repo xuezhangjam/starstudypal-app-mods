@@ -1,0 +1,21 @@
+{
+  "input": "学生端课堂-3.2.2.0-结束后图片上传-文档同步偏移修复.apk",
+  "input_sha256": "d91ba79c5469d511485ca2cd3cd258751e314ab6e32ca7dd67ae89e553f9e2ba",
+  "output": "学生端课堂-3.2.2.0-重进继续作答修复.apk",
+  "sha256": "f77fbb0abc2dfd45240eac4af2db87ee488283538e4449fbbc8d5eaed76cf840",
+  "bytes": 64973319,
+  "changed_payloads": [
+    "classes4.dex",
+    "classes10.dex"
+  ],
+  "added_payloads": [
+    "classes16.dex"
+  ],
+  "own_source_sha256": {
+    "src/com/hljzjx/classroom/reentry/ChoiceRecovery.java": "16eb61d5e056dff1d507e9df495b26df6a70b04b1dd747c7fdd11db3f786bfdf",
+    "src/com/hljzjx/classroom/reentry/CompactQuestions.java": "ffa7db0af9da656acfdf304d6fc9c652e9c6abddac36f6838ba41350799dcf76"
+  },
+  "android_art_executed": false,
+  "pixel_tested": false,
+  "server_tested": false
+}

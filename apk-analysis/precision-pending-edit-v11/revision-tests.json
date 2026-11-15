@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "result": "PASS 45 compiled Kotlin revision assertions, native API fixtures only",
+  "ui_jar_sha256": "68ef5ff18124008946582020e901a22a919f0d74e6a4aeb852c1656b0b9f4baa",
+  "scope": "Compiled Kotlin revision workflow using explicit model/API fixtures; no school requests."
+}

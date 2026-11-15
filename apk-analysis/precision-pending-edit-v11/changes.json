@@ -1,0 +1,26 @@
+[
+  {
+    "file": "com/hailiang/workcloud/student/app/StudentAppNavigation$HomeFeatureNavigation.smali",
+    "method": "registerEntries$lambda$0$0$0$0(Ljava/util/List;Lcom/hailiang/workcloud/student/shareui/home/HomeworkUiModel;)Lkotlin/Unit;"
+  },
+  {
+    "file": "com/hailiang/workcloud/student/shareui/work/WorkAnswerViewModel.smali",
+    "method": "<init>(Lcom/hailiang/workcloud/student/shareui/work/WorkAnswerRoute;Lcom/hailiang/workcloud/student/compositionapp/CompositionAppLauncher;Lcom/hailiang/workcloud/student/shareui/core/message/AppMessageController;Lcom/hailiang/workcloud/student/data/repository/WorkAnswerRepository;Lcom/hailiang/workcloud/student/data/repository/StudentWorkAnswerRepository;Lcom/hailiang/workcloud/student/data/repository/QuestionAnswerRepository;Lcom/hailiang/workcloud/student/data/repository/PhotoAnswerRepository;Lcom/hailiang/workcloud/student/data/repository/DraftRepository;Lcom/hailiang/workcloud/student/data/repository/FileUploadRepository;Lcom/hailiang/workcloud/student/data/repository/LocalFileResolver;Lcom/hailiang/workcloud/student/data/repository/MaterialImageRepository;Lcom/hailiang/workcloud/student/data/repository/PhotoDetectRepository;Lcom/hailiang/workcloud/student/data/repository/DetectSessionMessageRepository;Lcom/hailiang/workcloud/student/auth/AuthSessionProvider;Lcom/hailiang/workcloud/student/mqtt/MqttService;Lcom/hailiang/workcloud/student/net/NetworkConnectivity;Lcom/hailiang/workcloud/student/settings/SettingsStore;)V"
+  },
+  {
+    "file": "com/hailiang/workcloud/student/shareui/work/WorkAnswerViewModel.smali",
+    "method": "isSubmittedByApi(Lcom/hailiang/workcloud/student/data/model/WorkTask;)Z"
+  },
+  {
+    "file": "com/hailiang/workcloud/student/data/repository/KtorWorkAnswerRepository.smali",
+    "method": "submitWorkGroup(Lcom/hailiang/workcloud/student/data/model/WorkGroupSubmitRequest;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  },
+  {
+    "file": "com/hailiang/workcloud/student/data/repository/KtorWorkAnswerRepository$submitWorkGroup$1.smali",
+    "method": "invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;"
+  },
+  {
+    "file": "com/hailiang/workcloud/student/shareui/work/review/components/detail/BlankReviewCardKt.smali",
+    "method": "MarkIcon(Lcom/hailiang/workcloud/student/data/enums/CheckMark;Landroidx/compose/runtime/Composer;I)V"
+  }
+]

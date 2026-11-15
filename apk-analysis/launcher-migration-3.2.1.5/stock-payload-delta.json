@@ -1,0 +1,15 @@
+{
+  "added": [],
+  "removed": [],
+  "changed": [
+    "AndroidManifest.xml",
+    "META-INF/CERT.RSA",
+    "META-INF/CERT.SF",
+    "META-INF/MANIFEST.MF",
+    "META-INF/version-control-info.textproto",
+    "assets/dexopt/baseline.prof",
+    "assets/dexopt/baseline.profm",
+    "classes.dex",
+    "classes3.dex"
+  ]
+}

@@ -1,0 +1,1 @@
+package com.hailiang.opensdk; public class LauncherData {public static final LauncherData INSTANCE=new LauncherData();public static String token="";public static boolean readFails;public static int reads;public String getToken(){reads++;if(readFails)throw new IllegalStateException();return token;}}

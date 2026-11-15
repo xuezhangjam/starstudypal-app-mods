@@ -1,0 +1,63 @@
+{
+  "changed": [
+    "res/layout/activity_ppt_history.xml",
+    "res/layout/activity_room_live.xml",
+    "res/layout/item_course_history.xml",
+    "res/layout/item_material_audio.xml",
+    "res/layout/item_material_image.xml",
+    "res/layout/item_material_video.xml",
+    "res/layout/item_plan_audio.xml",
+    "res/layout/item_plan_image.xml",
+    "res/layout/item_plan_video.xml"
+  ],
+  "added": [
+    "res/color/mod_auto_quick_thumb.xml",
+    "res/color/mod_auto_quick_track.xml",
+    "res/color/mod_browse_button_text.xml",
+    "res/drawable/mod_browse_button_background.xml",
+    "res/drawable/mod_download_ppt_background.xml",
+    "res/drawable/mod_resource_button_background.xml",
+    "res/drawable/mod_resource_dialog_background.xml",
+    "res/drawable/mod_resource_file.xml",
+    "res/drawable/mod_resource_folder.xml",
+    "res/drawable/mod_resource_primary_background.xml",
+    "res/drawable/mod_resource_share.xml",
+    "res/layout/mod_auto_quick_toggle.xml",
+    "res/layout/mod_ppt_download_progress.xml"
+  ],
+  "removed": [],
+  "value_changed": [],
+  "value_added": [
+    {
+      "key": [
+        "values",
+        "id",
+        "",
+        "mod_course_download"
+      ],
+      "mod": {
+        "file": "res/values/ids.xml",
+        "xml": "<id name=\"mod_course_download\"/>",
+        "canonical": "<id name=\"mod_course_download\"></id>"
+      }
+    },
+    {
+      "key": [
+        "values",
+        "id",
+        "",
+        "mod_window_sizing"
+      ],
+      "mod": {
+        "file": "res/values/ids.xml",
+        "xml": "<id name=\"mod_window_sizing\"/>",
+        "canonical": "<id name=\"mod_window_sizing\"></id>"
+      }
+    }
+  ],
+  "value_removed": [],
+  "conflicts": [
+    "res/layout/item_course_history.xml"
+  ],
+  "value_conflicts": []
+}

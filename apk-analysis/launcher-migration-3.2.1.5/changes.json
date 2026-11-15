@@ -1,0 +1,356 @@
+{
+  "native": [
+    {
+      "file": "com/hailiang/core/base/AbsActivity.smali",
+      "old_method": "refreshImmersive()V",
+      "method": "refreshImmersive()V",
+      "action": "changed",
+      "merge": "non-conflicting"
+    },
+    {
+      "file": "com/hailiang/launcher/control/ControlManager.smali",
+      "old_method": "needControlDialog(Landroid/content/Context;Ljava/lang/String;Z)Lcom/hailiang/launcher/control/data/vo/AppPeriod;",
+      "method": "needControlDialog(Landroid/content/Context;Ljava/lang/String;Z)Lcom/hailiang/launcher/control/data/vo/AppPeriod;",
+      "action": "changed",
+      "merge": "non-conflicting"
+    },
+    {
+      "file": "com/hailiang/launcher/control/ControlManager.smali",
+      "old_method": "notifyControlChanged()V",
+      "method": "notifyControlChanged()V",
+      "action": "changed",
+      "merge": "new package policy retained"
+    },
+    {
+      "file": "com/hailiang/launcher/app/adapter/MainMoreItemsAdapter.smali",
+      "old_method": "onBind(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;ILcom/hailiang/launcher/data/bean/response/AppHtmlListBean;)V",
+      "method": "onBind(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;ILcom/hailiang/launcher/data/bean/response/AppHtmlListBean;)V",
+      "action": "changed",
+      "merge": "non-conflicting"
+    },
+    {
+      "file": "com/hailiang/launcher/common/app/AppLauncher.smali",
+      "old_method": "safeOpenApp(Landroid/content/Context;Lcom/hailiang/launcher/common/app/AppStarter;)V",
+      "method": "safeOpenApp(Landroid/content/Context;Lcom/hailiang/launcher/common/app/AppStarter;)V",
+      "action": "changed",
+      "merge": "non-conflicting"
+    },
+    {
+      "file": "com/hailiang/launcher/common/app/AppLauncher.smali",
+      "method": "modOpenOriginalApp(Landroid/content/Context;Lcom/hailiang/launcher/common/app/AppStarter;)V",
+      "action": "added"
+    },
+    {
+      "file": "com/hailiang/launcher/control/dialog/ControlDialog.smali",
+      "old_method": "show(Lcom/hailiang/launcher/control/data/vo/AppPeriod;)Lcom/hailiang/ui/designsystem/dialog/MessageBoxDisposable;",
+      "method": "show(Lcom/hailiang/launcher/control/data/vo/AppPeriod;)Lcom/hailiang/ui/designsystem/dialog/MessageBoxDisposable;",
+      "action": "changed",
+      "merge": "non-conflicting"
+    },
+    {
+      "file": "com/hailiang/launcher/control/dialog/ControlDialog.smali",
+      "method": "confirm(Lcom/hailiang/launcher/control/data/vo/AppPeriod;Landroid/content/Context;)V",
+      "action": "added"
+    },
+    {
+      "file": "com/hailiang/ui/designsystem/dialog/MessageBoxDialog.smali",
+      "old_method": "<init>(Landroid/content/Context;Lcom/hailiang/ui/designsystem/dialog/DialogProvider$Builder;)V",
+      "method": "<init>(Landroid/content/Context;Lcom/hailiang/ui/designsystem/dialog/DialogProvider$Builder;)V",
+      "action": "changed",
+      "merge": "non-conflicting"
+    },
+    {
+      "file": "com/hljzjx/debugtools/DebugTools.smali",
+      "old_method": "attachFloatingButton(Landroid/app/Activity;)V",
+      "method": "attachFloatingButton(Landroid/app/Activity;)V",
+      "action": "changed",
+      "merge": "non-conflicting"
+    },
+    {
+      "file": "com/hljzjx/launch/MyApplication.smali",
+      "old_method": "onCreate()V",
+      "method": "onCreate()V",
+      "action": "changed",
+      "merge": "new initialization retained"
+    },
+    {
+      "file": "com/hljzjx/launch/MyApplication.smali",
+      "method": "onConfigurationChanged(Landroid/content/res/Configuration;)V",
+      "action": "added"
+    },
+    {
+      "file": "com/hljzjx/debugtools/ui/DebugToolsActivity$onCreate$1.smali",
+      "old_method": "invoke(Landroidx/compose/runtime/Composer;I)V",
+      "method": "invoke(Landroidx/compose/runtime/Composer;I)V",
+      "action": "changed",
+      "merge": "non-conflicting"
+    },
+    {
+      "file": "com/hljzjx/debugtools/ui/DebugToolsActivity.smali",
+      "method": "attachBaseContext(Landroid/content/Context;)V",
+      "action": "added"
+    },
+    {
+      "file": "com/hljzjx/debugtools/ui/DebugToolsLaunchButtonView$showDebugPanelAsOverlay$composeView$1$1.smali",
+      "old_method": "invoke(Landroidx/compose/runtime/Composer;I)V",
+      "method": "invoke(Landroidx/compose/runtime/Composer;I)V",
+      "action": "changed",
+      "merge": "non-conflicting"
+    },
+    {
+      "file": "com/hljzjx/launch/ui/main/MainActivity.smali",
+      "old_method": "bindDockApps(Ljava/util/List;)V",
+      "method": "bindDockApps(Ljava/util/List;)V",
+      "action": "changed",
+      "merge": "new generated callbacks retained"
+    },
+    {
+      "file": "com/hljzjx/launch/ui/main/MainActivity.smali",
+      "old_method": "isAppControlled(Lcom/hailiang/launcher/data/bean/response/AppHtmlListBean;)Z",
+      "method": "isAppControlled(Lcom/hailiang/launcher/data/bean/response/AppHtmlListBean;)Z",
+      "action": "changed",
+      "merge": "non-conflicting"
+    },
+    {
+      "file": "com/hljzjx/launch/ui/main/MainActivity.smali",
+      "old_method": "lambda$setListener$8(Landroid/view/View;)V",
+      "method": "lambda$setListener$6(Landroid/view/View;)V",
+      "action": "changed",
+      "merge": "renamed callback"
+    },
+    {
+      "file": "com/hljzjx/launch/ui/main/MainActivity.smali",
+      "old_method": "lambda$showOtherApps$14()V",
+      "method": "lambda$showOtherApps$12()V",
+      "action": "changed",
+      "merge": "renamed callback"
+    },
+    {
+      "file": "com/hljzjx/launch/ui/main/MainActivity.smali",
+      "old_method": "lambda$showOtherApps$17(Ljava/util/List;Ljava/lang/Runnable;Ljava/lang/Runnable;)V",
+      "method": "lambda$showOtherApps$15(Ljava/util/List;Ljava/lang/Runnable;Ljava/lang/Runnable;)V",
+      "action": "changed",
+      "merge": "renamed callback"
+    },
+    {
+      "file": "com/hljzjx/launch/ui/main/MainActivity.smali",
+      "old_method": "loadHomeTodoPreview()V",
+      "method": "loadHomeTodoPreview()V",
+      "action": "changed",
+      "merge": "new generated callbacks retained"
+    },
+    {
+      "file": "com/hljzjx/launch/ui/main/MainActivity.smali",
+      "old_method": "onDestroy()V",
+      "method": "onDestroy()V",
+      "action": "changed",
+      "merge": "non-conflicting"
+    },
+    {
+      "file": "com/hljzjx/launch/ui/main/MainActivity.smali",
+      "old_method": "onItemClick(ILcom/hailiang/launcher/data/bean/response/AppHtmlListBean;)V",
+      "method": "onItemClick(ILcom/hailiang/launcher/data/bean/response/AppHtmlListBean;)V",
+      "action": "changed",
+      "merge": "non-conflicting"
+    },
+    {
+      "file": "com/hljzjx/launch/ui/main/MainActivity.smali",
+      "old_method": "onPause()V",
+      "method": "onPause()V",
+      "action": "changed",
+      "merge": "non-conflicting"
+    },
+    {
+      "file": "com/hljzjx/launch/ui/main/MainActivity.smali",
+      "old_method": "onResume()V",
+      "method": "onResume()V",
+      "action": "changed",
+      "merge": "non-conflicting"
+    },
+    {
+      "file": "com/hljzjx/launch/ui/main/MainActivity.smali",
+      "old_method": "openTodoList()V",
+      "method": "openTodoList()V",
+      "action": "changed",
+      "merge": "non-conflicting"
+    },
+    {
+      "file": "com/hljzjx/launch/ui/main/MainActivity.smali",
+      "old_method": "setupShortcut(Lcom/hljzjx/launch/databinding/ItemMainShortcutBinding;IILjava/lang/String;II)V",
+      "method": "setupShortcut(Lcom/hljzjx/launch/databinding/ItemMainShortcutBinding;IILjava/lang/String;II)V",
+      "action": "changed",
+      "merge": "new generated callbacks retained"
+    },
+    {
+      "file": "com/hljzjx/launch/ui/main/MainActivity.smali",
+      "old_method": "showOtherApps(Ljava/util/List;)V",
+      "method": "showOtherApps(Ljava/util/List;)V",
+      "action": "changed",
+      "merge": "new generated callbacks retained"
+    },
+    {
+      "file": "com/hljzjx/launch/ui/main/MainActivity.smali",
+      "old_method": "startApp(Ljava/lang/String;Ljava/lang/String;)V",
+      "method": "startApp(Ljava/lang/String;Ljava/lang/String;)V",
+      "action": "changed",
+      "merge": "existing warning and unified launch"
+    },
+    {
+      "file": "com/hljzjx/launch/ui/main/MainActivity.smali",
+      "old_method": "userInfo(Lcom/hljzjx/launch/bean/LoginUserInfo$StudentInfoVoDTO;)V",
+      "method": "userInfo(Lcom/hljzjx/launch/bean/LoginUserInfo$StudentInfoVoDTO;)V",
+      "action": "changed",
+      "merge": "non-conflicting"
+    },
+    {
+      "file": "com/hljzjx/launch/ui/main/MainActivity.smali",
+      "method": "modOpenHailiangAi(Landroid/view/View;)V",
+      "action": "added"
+    },
+    {
+      "file": "com/hljzjx/launch/ui/main/MainActivity.smali",
+      "method": "onRequestPermissionsResult(I[Ljava/lang/String;[I)V",
+      "action": "added"
+    },
+    {
+      "file": "com/hljzjx/launch/ui/main/MainPresenter.smali",
+      "old_method": "checkApp(Ljava/lang/String;)V",
+      "method": "checkApp(Ljava/lang/String;)V",
+      "action": "changed",
+      "merge": "non-conflicting"
+    },
+    {
+      "file": "com/hljzjx/launch/ui/personcenter/PersonCenterActivity.smali",
+      "old_method": "onCreate(Landroid/os/Bundle;)V",
+      "method": "onCreate(Landroid/os/Bundle;)V",
+      "action": "changed",
+      "merge": "non-conflicting"
+    },
+    {
+      "file": "com/jchou/commonlibrary/base/AbsActivity.smali",
+      "method": "onConfigurationChanged(Landroid/content/res/Configuration;)V",
+      "action": "added"
+    },
+    {
+      "file": "com/jchou/commonlibrary/base/AbsActivity.smali",
+      "method": "onMultiWindowModeChanged(Z)V",
+      "action": "added"
+    },
+    {
+      "file": "com/jchou/commonlibrary/base/AbsActivity.smali",
+      "method": "onWindowFocusChanged(Z)V",
+      "action": "added"
+    },
+    {
+      "file": "com/jchou/commonlibrary/base/BaseActivity.smali",
+      "old_method": "hideBottomUIMenu()V",
+      "method": "hideBottomUIMenu()V",
+      "action": "changed",
+      "merge": "non-conflicting"
+    }
+  ],
+  "updates": [
+    {
+      "file": "com/hljzjx/launch/MyApplication.smali",
+      "method": "onCreate()V",
+      "action": "changed",
+      "merge": "download-only updates"
+    },
+    {
+      "file": "com/hljzjx/launch/ui/personcenter/PersonCenterActivity.smali",
+      "method": "onCreate(Landroid/os/Bundle;)V",
+      "action": "changed",
+      "merge": "download-only updates"
+    },
+    {
+      "file": "com/hljzjx/launch/ui/main/MainPresenter.smali",
+      "method": "silentDownloadApks(Ljava/util/List;)V",
+      "action": "changed",
+      "merge": "download-only updates"
+    },
+    {
+      "file": "com/hljzjx/launch/ui/main/MainPresenter$5.smali",
+      "method": "apply(Lcom/jchou/commonlibrary/model/BaseHttpResult;)Lcom/jchou/commonlibrary/model/BaseHttpResult;",
+      "action": "changed",
+      "merge": "download-only updates"
+    },
+    {
+      "file": "com/hailiang/launcher/common/download/app/AppUpdateManager.smali",
+      "method": "updateApp(Ljava/util/List;)V",
+      "action": "changed",
+      "merge": "download-only updates"
+    },
+    {
+      "file": "com/hailiang/launcher/common/download/app/AppUpdateManager.smali",
+      "method": "retryUpdate(Lcom/hailiang/launcher/common/download/app/AppUpdateTask;)V",
+      "action": "changed",
+      "merge": "download-only updates"
+    },
+    {
+      "file": "com/hailiang/launcher/common/download/app/AppUpdateManager.smali",
+      "method": "installApp(Lcom/hailiang/launcher/common/download/app/AppUpdateTask;Ljava/io/File;)V",
+      "action": "changed",
+      "merge": "download-only updates"
+    },
+    {
+      "file": "com/hailiang/launcher/common/download/app/AppUpdateManager.smali",
+      "method": "installApp$lambda$3(Lcom/hailiang/launcher/common/download/app/AppUpdateTask;Ljava/io/File;)V",
+      "action": "changed",
+      "merge": "download-only updates"
+    },
+    {
+      "file": "com/hailiang/launcher/data/bean/response/AppHtmlListBean.smali",
+      "method": "forceUpdate()Z",
+      "action": "changed",
+      "merge": "download-only updates"
+    },
+    {
+      "file": "com/hailiang/launcher/update/LauncherUpdateManager.smali",
+      "method": "showAppUpdateDialog(Landroid/content/Context;Lcom/hailiang/launcher/data/bean/response/AppHtmlListBean;)V",
+      "action": "changed",
+      "merge": "download-only updates"
+    },
+    {
+      "file": "com/hailiang/launcher/update/LauncherUpdateManager.smali",
+      "method": "showCheckUpdateDialog(Landroid/content/Context;Lcom/hailiang/launcher/data/bean/response/AppHtmlListBean;)V",
+      "action": "changed",
+      "merge": "download-only updates"
+    },
+    {
+      "file": "com/hailiang/launcher/update/LauncherUpdateManager.smali",
+      "method": "showDownloadDialog(Landroid/content/Context;Lcom/hailiang/launcher/data/bean/response/AppHtmlListBean;)V",
+      "action": "changed",
+      "merge": "download-only updates"
+    }
+  ],
+  "relocated_native_classes": [
+    "Lio/reactivex/observers/BaseTestConsumer$TestWaitStrategy$6;",
+    "Lio/reactivex/observers/TestObserver;",
+    "Lio/reactivex/observers/BaseTestConsumer;",
+    "Lio/reactivex/observers/BaseTestConsumer$1;",
+    "Lio/reactivex/observers/LambdaConsumerIntrospection;",
+    "Lio/reactivex/observers/TestObserver$EmptyObserver;",
+    "Lio/reactivex/observers/BaseTestConsumer$TestWaitStrategy$4;",
+    "Lio/reactivex/observers/DefaultObserver;",
+    "Lio/reactivex/observers/BaseTestConsumer$TestWaitStrategy$1;",
+    "Lio/reactivex/observers/DisposableMaybeObserver;",
+    "Lio/reactivex/observers/BaseTestConsumer$TestWaitStrategy$2;",
+    "Lio/reactivex/observers/ResourceMaybeObserver;",
+    "Lio/reactivex/observers/SerializedObserver;",
+    "Lio/reactivex/observers/ResourceCompletableObserver;",
+    "Lio/reactivex/observers/DisposableSingleObserver;",
+    "Lio/reactivex/observers/BaseTestConsumer$TestWaitStrategy;",
+    "Lio/reactivex/observers/BaseTestConsumer$TestWaitStrategy$5;",
+    "Lio/reactivex/observers/DisposableCompletableObserver;",
+    "Lio/reactivex/observers/ResourceSingleObserver;",
+    "Lio/reactivex/observers/SafeObserver;",
+    "Lio/reactivex/observers/BaseTestConsumer$TestWaitStrategy$3;",
+    "Lio/reactivex/observers/DisposableObserver;",
+    "Lio/reactivex/observers/ResourceObserver;"
+  ],
+  "helper_changes": [
+    "LocalAppCatalog.bindIcon",
+    "ForceLauncher.openTarget"
+  ],
+  "added_helper": "SystemAppIcons"
+}

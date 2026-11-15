@@ -1,0 +1,1 @@
+package androidx.lifecycle;public class ViewModelKt {public static kotlinx.coroutines.CoroutineScope scope;public static kotlinx.coroutines.CoroutineScope getViewModelScope(ViewModel vm){return scope;}}

@@ -1,0 +1,5 @@
+{
+  "result": "PASS 63 actual updater Java assertions; mocked Android only, no HTTP/device",
+  "source_sha256": "af7bde2f4ff8db6593726688a5cfa0a86624a5dd14eae9bcd9a6ffbb109eb7f1",
+  "scope": "actual own Java with observable Android lifecycle, dialogs, downloads and browser fixtures; no HTTP or Android rendering"
+}

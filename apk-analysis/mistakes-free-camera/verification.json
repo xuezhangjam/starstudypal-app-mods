@@ -1,0 +1,36 @@
+{
+  "input": "错题本学生端-3.3.2.0-M3e原生-系统相机与相册.apk",
+  "input_sha256": "036dfe73a74df1e306c106d717caf6b4a96ca5831186b68bfdf8b7dddd7bfd2b",
+  "output": "错题本学生端-3.3.2.0-M3e-取消拍照作业判定.apk",
+  "sha256": "800bd5a92aa1d74920cbb9a0001617acdece3d849ab35d38f22f17b14aacf47a",
+  "size": 143769818,
+  "modified_existing_dex": [
+    "classes4.dex"
+  ],
+  "new_dex": "classes7.dex",
+  "modified_original_methods": 3,
+  "package": "com.nice.errorbook",
+  "camera_capture": "no local homework/edge detection required; original full-frame image goes to preview/manual crop and original upload flow",
+  "server_and_app_business_dex": "unchanged",
+  "android_device_tested": false,
+  "preserved_payloads": 2104,
+  "changed_existing_payloads": [
+    "classes4.dex"
+  ],
+  "other_original_dex4_methods_identical": 50956,
+  "reviewed_changes": [
+    "capture without detected edge while preserving busy guard",
+    "save full photo instead of rejecting missing document boundary",
+    "replace document status with free capture label"
+  ],
+  "capture_control_flow_cases": 16,
+  "photo_policy_assertions": 197,
+  "full_frame_size_scenarios": 16,
+  "checked_member_references": 458,
+  "new_classes": 1,
+  "certificate_sha256": "7b128cdc8d4ff2fb798cbca4d79aa3b26e8edb192cf56f42290b02ae46cbfe4f",
+  "same_signature_as_previous_mod": true,
+  "can_overwrite_previous_mod": true,
+  "all_other_original_dex_manifest_resources_assets_native_libraries": "byte-identical",
+  "real_camera_and_server_upload_tested": false
+}

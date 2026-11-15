@@ -1,0 +1,32 @@
+{
+  "apk": "班级通知学生端-1.0.7-M3e原生平板版-系统消息修复.apk",
+  "package": "com.hailiang.notice.student",
+  "version": "1.0.7-m3e.1",
+  "version_code": "8",
+  "official_sha256": "e446d5ad0561f69084d9a02215e98523d0a722390a662aa5f3e41601600de0a3",
+  "sha256": "71d221f4203489c7f9566babbdd74876b849600dec846e863812c1eb4200bbf4",
+  "changed_official_methods": 10,
+  "added_lifecycle_methods": 6,
+  "preserved_official_methods": 54057,
+  "checked_references": 2469,
+  "protected_official_payloads": 28,
+  "checked_official_resource_ids": 5297,
+  "native_ui_and_navigation_dex_identical_to_fixed_106": true,
+  "native_layouts_match_fixed_106": true,
+  "preserved_webview_domain_and_api_methods": 65,
+  "official_gson_location_preserved": true,
+  "dex_method_references": {
+    "classes.dex": 64900,
+    "classes2.dex": 65455,
+    "classes3.dex": 64849,
+    "classes4.dex": 9293,
+    "classes5.dex": 498,
+    "classes6.dex": 20
+  },
+  "signed_v2": true,
+  "signed_v3": true,
+  "android_device_tested": false,
+  "previous_mod_signature_matches": true,
+  "certificate_sha256": "0ce16018fbc06d86a8a4f12e21d38e5673efe4b74a55bb162a74b642383d5cd7",
+  "signing_preserves_verified_payload": true
+}

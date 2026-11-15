@@ -1,0 +1,196 @@
+{
+  "source": "星学伴mod-3.2.1.5-系统图标-更新仅下载.apk",
+  "source_sha256": "a37fdffe9ab360fb7df278b6870d445e6ed4e6597ad1c8dbacc8e6158fb8f6a2",
+  "output": "星学伴mod-3.2.1.5-三星登录与提示崩溃修复-v2.apk",
+  "sha256": "31dbd011eaaf5018e88e6e01e05bf3cc92ab07b850b0ff73aa83b9b4ffd89405",
+  "size": 83032495,
+  "changed_methods": [
+    {
+      "dex": "classes3.dex",
+      "file": "com/hljzjx/launch/MyApplication.smali",
+      "method": "onCreate()V"
+    },
+    {
+      "dex": "classes3.dex",
+      "file": "com/hailiang/ui/designsystem/toast/ToastManager.smali",
+      "method": "actualToast(Landroid/content/Context;Lcom/hailiang/ui/designsystem/toast/ToastConfig;)V"
+    },
+    {
+      "dex": "classes3.dex",
+      "file": "com/hailiang/ui/designsystem/toast/ToastManager.smali",
+      "method": "cancel()V"
+    },
+    {
+      "dex": "classes3.dex",
+      "file": "com/hljzjx/launch/ui/login/CommonLoginActivity.smali",
+      "method": "onCreate(Landroid/os/Bundle;)V"
+    },
+    {
+      "dex": "classes3.dex",
+      "file": "com/hljzjx/launch/ui/login/helper/LoginHelper.smali",
+      "method": "homeIntent(Landroid/app/Activity;Z)Landroid/content/Intent;"
+    },
+    {
+      "dex": "classes3.dex",
+      "file": "com/hailiang/camera/takephoto/TakePhotoActivity$captureImage$1.smali",
+      "method": "onError(Landroidx/camera/core/ImageCaptureException;)V"
+    },
+    {
+      "dex": "classes3.dex",
+      "file": "com/hailiang/camera/takephoto/TakePhotoActivity.smali",
+      "method": "bindToLifecycle(Landroidx/camera/lifecycle/ProcessCameraProvider;Landroidx/camera/view/PreviewView;)V"
+    },
+    {
+      "dex": "classes3.dex",
+      "file": "com/hailiang/camera/takephoto/TakePhotoActivity.smali",
+      "method": "handleRecoverableError()V"
+    },
+    {
+      "dex": "classes3.dex",
+      "file": "com/hailiang/camera/takephoto/TakePhotoActivity.smali",
+      "method": "requestPermissionLauncher$lambda$1(Lcom/hailiang/camera/takephoto/TakePhotoActivity;Ljava/util/Map;)V"
+    },
+    {
+      "dex": "classes3.dex",
+      "file": "com/hailiang/camera/takephoto/TakePhotoActivity.smali",
+      "method": "startCamera$lambda$19(Lcom/hailiang/camera/takephoto/TakePhotoActivity;Lcom/google/common/util/concurrent/ListenableFuture;Landroidx/camera/view/PreviewView;)V"
+    },
+    {
+      "dex": "classes3.dex",
+      "file": "com/hailiang/camera/ucrop/UCropMultipleActivity$1.smali",
+      "method": "onItemClick(ILandroid/view/View;)V"
+    },
+    {
+      "dex": "classes3.dex",
+      "file": "com/hailiang/camera/ucrop/UCropMultipleActivity.smali",
+      "method": "handleCropError(Landroid/content/Intent;)V"
+    },
+    {
+      "dex": "classes3.dex",
+      "file": "com/hailiang/launcher/common/ad/webbrowser/FileUploadManager$uploadFile$1$1.smali",
+      "method": "onFailure$lambda$0(Lcom/hailiang/launcher/common/ad/webbrowser/FileUploadManager;Ljava/lang/Throwable;Ljava/io/File;)V"
+    },
+    {
+      "dex": "classes3.dex",
+      "file": "com/hailiang/launcher/common/ad/webview/WebViewActivity.smali",
+      "method": "showToast(Ljava/lang/String;)V"
+    },
+    {
+      "dex": "classes3.dex",
+      "file": "com/hailiang/ui/designsystem/toast/DefaultCustomToast.smali",
+      "method": "<init>(Landroid/content/Context;Lcom/hailiang/ui/designsystem/toast/ToastConfig;)V"
+    },
+    {
+      "dex": "classes3.dex",
+      "file": "com/hailiang/ui/designsystem/toast/DefaultCustomToast.smali",
+      "method": "cancel()V"
+    },
+    {
+      "dex": "classes3.dex",
+      "file": "com/hailiang/ui/designsystem/toast/DefaultCustomToast.smali",
+      "method": "show()V"
+    },
+    {
+      "dex": "classes3.dex",
+      "file": "com/hailiang/ui/designsystem/toast/DefaultSystemToast.smali",
+      "method": "<init>(Landroid/content/Context;Lcom/hailiang/ui/designsystem/toast/ToastConfig;)V"
+    },
+    {
+      "dex": "classes3.dex",
+      "file": "com/hailiang/ui/designsystem/toast/DefaultSystemToast.smali",
+      "method": "cancel()V"
+    },
+    {
+      "dex": "classes3.dex",
+      "file": "com/hailiang/ui/designsystem/toast/DefaultSystemToast.smali",
+      "method": "show()V"
+    },
+    {
+      "dex": "classes3.dex",
+      "file": "com/hailiang/ui/designsystem/toast/SystemLikeToast.smali",
+      "method": "<init>(Landroid/content/Context;Lcom/hailiang/ui/designsystem/toast/ToastConfig;)V"
+    },
+    {
+      "dex": "classes3.dex",
+      "file": "com/hailiang/ui/designsystem/toast/SystemLikeToast.smali",
+      "method": "cancel()V"
+    },
+    {
+      "dex": "classes3.dex",
+      "file": "com/hailiang/ui/designsystem/toast/SystemLikeToast.smali",
+      "method": "show()V"
+    },
+    {
+      "dex": "classes3.dex",
+      "file": "com/hljzjx/debugtools/ui/DebugToolsPopupKt.smali",
+      "method": "ProxyScreen$lambda$103$lambda$102$lambda$101(Landroidx/compose/runtime/MutableState;Landroidx/compose/runtime/MutableState;Landroid/content/Context;)Lkotlin/Unit;"
+    },
+    {
+      "dex": "classes3.dex",
+      "file": "com/hljzjx/debugtools/core/share/ShareHelper.smali",
+      "method": "shareLog(Landroid/content/Context;Ljava/io/File;)V"
+    },
+    {
+      "dex": "classes3.dex",
+      "file": "com/hljzjx/launch/ui/login/face/LoginFaceRecognitionActivity.smali",
+      "method": "onRequestPermissionsResult(I[Ljava/lang/String;[I)V"
+    },
+    {
+      "dex": "classes3.dex",
+      "file": "com/luck/picture/lib/utils/ToastUtils$1.smali",
+      "method": "run()V"
+    },
+    {
+      "dex": "classes3.dex",
+      "file": "com/luck/picture/lib/utils/ToastUtils.smali",
+      "method": "showToast(Landroid/content/Context;Ljava/lang/String;)V"
+    },
+    {
+      "dex": "classes5.dex",
+      "file": "com/hljzjx/md3/ForceLauncher.smali",
+      "method": "openTarget(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V"
+    },
+    {
+      "dex": "classes5.dex",
+      "file": "com/hljzjx/md3/LocalAppCatalog.smali",
+      "method": "openIfLocal(Landroid/content/Context;Lcom/hailiang/launcher/data/bean/response/AppHtmlListBean;)Z"
+    },
+    {
+      "dex": "classes5.dex",
+      "file": "com/hljzjx/md3/SkinController.smali",
+      "method": "save(Landroid/content/Context;I)V"
+    },
+    {
+      "dex": "classes5.dex",
+      "file": "com/hljzjx/md3/TodoPanel.smali",
+      "method": "connectCalendar()V"
+    },
+    {
+      "dex": "classes5.dex",
+      "file": "com/hljzjx/md3/TodoPanel.smali",
+      "method": "openCalendar(Landroid/app/Activity;)V"
+    },
+    {
+      "dex": "classes5.dex",
+      "file": "com/hljzjx/md3/TodoPanel.smali",
+      "method": "openHomework(Landroid/app/Activity;)V"
+    },
+    {
+      "dex": "classes5.dex",
+      "file": "com/hljzjx/schedule/LiveUpdates.smali",
+      "method": "settings(Landroid/app/Activity;)V"
+    },
+    {
+      "dex": "classes5.dex",
+      "file": "com/hljzjx/schedule/ProfileSettings$Open.smali",
+      "method": "onClick(Landroid/view/View;)V"
+    },
+    {
+      "dex": "classes5.dex",
+      "file": "com/hljzjx/schedule/ScheduleNotifications.smali",
+      "method": "settings(Landroid/app/Activity;)V"
+    }
+  ],
+  "device_installed": false,
+  "device_runtime_tested": false
+}

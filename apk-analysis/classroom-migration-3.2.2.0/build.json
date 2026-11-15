@@ -1,0 +1,16 @@
+{
+  "inputs": {
+    "学生端课堂3.2.1.0.apk": "2204879fd2c7e8046a966e7f91f3c315c73a2e3c48ee6485e6fa5e9593a790ac",
+    "学生端课堂-3.2.1.0-网页打开方式选择-v8.apk": "37c9f9836f2a99a5f8607c2e80ae33174c6485e7bd9b59955532c2b5cb1ec80f",
+    "学生端课堂3.2.2.0原版.apk": "5cfc70699bb1ba7925b5d37260803884ec23970c3dcafdfa658f44d5fe69e7e5"
+  },
+  "output": "学生端课堂-3.2.2.0-v8功能迁移.apk",
+  "sha256": "1a14c14cebfbd1a1e882c36d293a29e115ce6ef3550af4cceeda0b9947430850",
+  "size": 64936278,
+  "version_name": "3.2.2.0",
+  "version_code": 322000,
+  "package": "com.hljzjx.edu.student.classroom",
+  "helper_classes_resource_remapped": [],
+  "device_tested": false,
+  "school_service_tested": false
+}

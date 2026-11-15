@@ -1,0 +1,5 @@
+{
+  "retained_dex10_matches_v7_helper": true,
+  "result": "PASS 26 discussion, upper-right placement and system-PiP Java assertions",
+  "scope": "Previously compiled own v7 Java with Android view fixtures; final APK DEX10 byte-matches that helper build. No Android pixel/runtime acceptance."
+}

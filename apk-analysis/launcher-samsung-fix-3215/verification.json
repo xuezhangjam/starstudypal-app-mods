@@ -1,0 +1,37 @@
+{
+  "source": "星学伴mod-3.2.1.5-系统图标-更新仅下载.apk",
+  "source_sha256": "a37fdffe9ab360fb7df278b6870d445e6ed4e6597ad1c8dbacc8e6158fb8f6a2",
+  "output": "星学伴mod-3.2.1.5-三星登录与提示崩溃修复-v2.apk",
+  "sha256": "31dbd011eaaf5018e88e6e01e05bf3cc92ab07b850b0ff73aa83b9b4ffd89405",
+  "size": 83032495,
+  "device_installed": false,
+  "device_runtime_tested": false,
+  "changed_methods": 37,
+  "unchanged_methods_in_rebuilt_dex": 54428,
+  "unchanged_payloads": 2526,
+  "checked_member_references": 6118,
+  "dex_method_id_counts": {
+    "classes.dex": 65122,
+    "classes2.dex": 62548,
+    "classes3.dex": 65410,
+    "classes4.dex": 44486,
+    "classes5.dex": 748,
+    "classes9.dex": 268,
+    "classes10.dex": 238,
+    "classes6.dex": 42,
+    "classes7.dex": 126,
+    "classes8.dex": 229,
+    "classes11.dex": 114
+  },
+  "certificate_sha256": "0262266e6908148d5411f0d6f190818d95cdb4f859556b6d5f53ab7109e244ca",
+  "login_recovery_tests": {
+    "actual_helper_java_executed": true,
+    "assertions": 19,
+    "android_runtime": false,
+    "real_server": false
+  },
+  "saved_bundle_register_regression": {
+    "v2_passed": true,
+    "broken_v1_rejected": true
+  }
+}

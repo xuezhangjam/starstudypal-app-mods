@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "sha256": "f77fbb0abc2dfd45240eac4af2db87ee488283538e4449fbbc8d5eaed76cf840",
+  "changed_native_methods": 5,
+  "unchanged_native_methods": 54034,
+  "checked_member_references": 956,
+  "unchanged_payloads": 3058,
+  "pixel_tested": false,
+  "server_tested": false
+}

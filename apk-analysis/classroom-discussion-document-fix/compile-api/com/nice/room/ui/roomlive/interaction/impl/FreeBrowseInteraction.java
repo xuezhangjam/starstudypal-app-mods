@@ -1,0 +1,1 @@
+package com.nice.room.ui.roomlive.interaction.impl; public class FreeBrowseInteraction {public static Companion Companion;public static class Companion {public boolean getInFreeBrowsing(){return false;}}}

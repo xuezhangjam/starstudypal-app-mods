@@ -1,0 +1,63 @@
+{
+  "input": "学生端课堂-3.2.2.0-讨论自动刷新-多图版.apk",
+  "input_sha256": "3f142320555dc47fd985a03ff1caa2366bcb59e37c55395134555af3548f6c81",
+  "output": "学生端课堂-3.2.2.0-结束后图片上传-文档同步偏移修复.apk",
+  "sha256": "d91ba79c5469d511485ca2cd3cd258751e314ab6e32ca7dd67ae89e553f9e2ba",
+  "bytes": 64960972,
+  "changed_payloads": [
+    "classes4.dex"
+  ],
+  "added_payloads": [
+    "classes15.dex"
+  ],
+  "changed_native_methods": [
+    {
+      "file": "com/nice/room/ui/roomlive/fragment/discussion/DiscussionFragment.smali",
+      "method": "takePhoto()V"
+    },
+    {
+      "file": "com/nice/room/ui/roomlive/fragment/discussion/DiscussionFragment.smali",
+      "method": "onActivityResult(IILandroid/content/Intent;)V"
+    },
+    {
+      "file": "com/nice/room/ui/roomlive/fragment/discussion/DiscussionFragment.smali",
+      "method": "endDiscussion()V"
+    },
+    {
+      "file": "com/nice/room/ui/roomlive/RoomLiveDocumentManager.smali",
+      "method": "setPptLayout(Lcom/alibaba/fastjson/JSONObject;)V"
+    },
+    {
+      "file": "com/nice/room/ui/roomlive/RoomLiveDocumentManager.smali",
+      "method": "handleMqttPPTMessage(Lcom/alibaba/fastjson/JSONObject;)V"
+    },
+    {
+      "file": "com/nice/room/ui/roomlive/RoomLiveDocumentManager.smali",
+      "method": "onDocumentLoaded(Ljava/lang/String;Lcom/hailiang/document/viewer/DomData;)V"
+    },
+    {
+      "file": "com/hailiang/handwrite/widget/HandwriteCoreView.smali",
+      "method": "restorePath(Lcom/hailiang/handwrite/bean/PathInfo;)V"
+    },
+    {
+      "file": "com/hailiang/handwrite/widget/HandwriteCoreView.smali",
+      "method": "restorePathPoint(Lcom/hailiang/handwrite/bean/PointInfo;Lcom/hailiang/handwrite/widget/DrawType;FFJ)V"
+    },
+    {
+      "file": "com/hailiang/handwrite/widget/HandwriteCoreView.smali",
+      "method": "setPathInfoList(Ljava/util/List;Z)V"
+    },
+    {
+      "file": "com/hailiang/handwrite/widget/HandwriteCoreView.smali",
+      "method": "modTeacherDisplayY(F)F"
+    }
+  ],
+  "own_source_sha256": {
+    "src/com/hljzjx/classroom/repairs/DiscussionPhotos.java": "806f4e7d1008f536ee658101d1e8463146f4abb58ab966030e267cc3ef2e9d90",
+    "src/com/hljzjx/classroom/repairs/DocumentGeometry.java": "09392b10f0380af82ecc9397fc8bf77c5e27af5cfdfca0a8b48a4305d624dbad",
+    "src/com/hljzjx/classroom/repairs/DocumentViewport.java": "785563f4f1a134c22d6d43f491067d7def0948afe61ec8b706bc3c16689d1b8c"
+  },
+  "android_art_executed": false,
+  "pixel_tested": false,
+  "server_tested": false
+}

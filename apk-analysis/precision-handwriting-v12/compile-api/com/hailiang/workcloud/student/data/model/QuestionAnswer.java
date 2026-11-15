@@ -1,0 +1,2 @@
+package com.hailiang.workcloud.student.data.model;
+public class QuestionAnswer {public long getQuestionId(){return 0;}public long getSubQuestionId(){return 0;}public int getIdx(){return 0;}public long getWorkGroupId(){return 0;}public long getWorkId(){return 0;}public String getAnswer(){return null;}public java.util.List<String> getImagePaths(){return null;}public String getStrokes(){return null;}public String getStrokesImg(){return null;}}

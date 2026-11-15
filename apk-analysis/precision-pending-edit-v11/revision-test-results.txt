@@ -1,0 +1,1 @@
+PASS 45 compiled Kotlin revision assertions, native API fixtures only

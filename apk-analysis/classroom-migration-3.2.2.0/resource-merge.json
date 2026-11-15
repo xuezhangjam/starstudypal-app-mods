@@ -1,0 +1,164 @@
+{
+  "added_resources": [
+    {
+      "type": "color",
+      "name": "mod_auto_quick_thumb",
+      "id": "0x7f0605bc"
+    },
+    {
+      "type": "color",
+      "name": "mod_auto_quick_track",
+      "id": "0x7f0605bd"
+    },
+    {
+      "type": "color",
+      "name": "mod_browse_button_text",
+      "id": "0x7f0605be"
+    },
+    {
+      "type": "drawable",
+      "name": "mod_browse_button_background",
+      "id": "0x7f0803c9"
+    },
+    {
+      "type": "drawable",
+      "name": "mod_download_ppt_background",
+      "id": "0x7f0803ca"
+    },
+    {
+      "type": "drawable",
+      "name": "mod_resource_button_background",
+      "id": "0x7f0803cb"
+    },
+    {
+      "type": "drawable",
+      "name": "mod_resource_dialog_background",
+      "id": "0x7f0803cc"
+    },
+    {
+      "type": "drawable",
+      "name": "mod_resource_file",
+      "id": "0x7f0803cd"
+    },
+    {
+      "type": "drawable",
+      "name": "mod_resource_folder",
+      "id": "0x7f0803ce"
+    },
+    {
+      "type": "drawable",
+      "name": "mod_resource_primary_background",
+      "id": "0x7f0803cf"
+    },
+    {
+      "type": "drawable",
+      "name": "mod_resource_share",
+      "id": "0x7f0803d0"
+    },
+    {
+      "type": "id",
+      "name": "mod_course_download",
+      "id": "0x7f0a0532"
+    },
+    {
+      "type": "id",
+      "name": "mod_window_sizing",
+      "id": "0x7f0a0533"
+    },
+    {
+      "type": "layout",
+      "name": "mod_auto_quick_toggle",
+      "id": "0x7f0d0158"
+    },
+    {
+      "type": "layout",
+      "name": "mod_ppt_download_progress",
+      "id": "0x7f0d0159"
+    }
+  ],
+  "remapped_ids": 935,
+  "changed_layouts": [
+    "res/layout/activity_ppt_history.xml",
+    "res/layout/activity_room_live.xml",
+    "res/layout/item_course_history.xml",
+    "res/layout/item_material_audio.xml",
+    "res/layout/item_material_image.xml",
+    "res/layout/item_material_video.xml",
+    "res/layout/item_plan_audio.xml",
+    "res/layout/item_plan_image.xml",
+    "res/layout/item_plan_video.xml"
+  ],
+  "added_files": [
+    "res/color/mod_auto_quick_thumb.xml",
+    "res/color/mod_auto_quick_track.xml",
+    "res/color/mod_browse_button_text.xml",
+    "res/drawable/mod_browse_button_background.xml",
+    "res/drawable/mod_download_ppt_background.xml",
+    "res/drawable/mod_resource_button_background.xml",
+    "res/drawable/mod_resource_dialog_background.xml",
+    "res/drawable/mod_resource_file.xml",
+    "res/drawable/mod_resource_folder.xml",
+    "res/drawable/mod_resource_primary_background.xml",
+    "res/drawable/mod_resource_share.xml",
+    "res/layout/mod_auto_quick_toggle.xml",
+    "res/layout/mod_ppt_download_progress.xml"
+  ],
+  "manifest_attributes": [
+    [
+      "com.nice.room.ui.RoomLiveActivity",
+      "{http://schemas.android.com/apk/res/android}configChanges",
+      "locale|keyboardHidden|orientation|uiMode|screenSize|layoutDirection",
+      "locale|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|density|layoutDirection"
+    ],
+    [
+      "com.nice.room.ui.RoomLiveActivity",
+      "{http://schemas.android.com/apk/res/android}resizeableActivity",
+      null,
+      "true"
+    ],
+    [
+      "com.nice.room.ui.RoomLiveActivity",
+      "{http://schemas.android.com/apk/res/android}supportsPictureInPicture",
+      null,
+      "true"
+    ],
+    [
+      "com.hljzjx.student.classroom.review.MainActivity",
+      "{http://schemas.android.com/apk/res/android}configChanges",
+      "keyboardHidden|orientation|uiMode|screenSize",
+      "keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|density"
+    ],
+    [
+      "com.hljzjx.student.classroom.review.MainActivity",
+      "{http://schemas.android.com/apk/res/android}resizeableActivity",
+      null,
+      "true"
+    ],
+    [
+      "com.nice.room.ui.review.doc.ClassDocActivity",
+      "{http://schemas.android.com/apk/res/android}configChanges",
+      "uiMode",
+      "keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|density"
+    ],
+    [
+      "com.nice.room.ui.review.doc.ClassDocActivity",
+      "{http://schemas.android.com/apk/res/android}resizeableActivity",
+      null,
+      "true"
+    ],
+    [
+      "com.nice.room.ui.main.history.PPTHistoryActivity",
+      "{http://schemas.android.com/apk/res/android}configChanges",
+      "uiMode",
+      "keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|density"
+    ],
+    [
+      "com.nice.room.ui.main.history.PPTHistoryActivity",
+      "{http://schemas.android.com/apk/res/android}resizeableActivity",
+      null,
+      "true"
+    ]
+  ],
+  "vendor_report_visibility_preserved": true,
+  "vendor_removed_route_filter_preserved": true
+}

@@ -1,0 +1,5 @@
+{
+  "com/hailiang/xxb/ai/camera/core/scan/EdgeArea.java": "package com.hailiang.xxb.ai.camera.core.scan;import android.graphics.PointF;import java.util.List;public class EdgeArea{public EdgeArea(int w,int h,List<PointF> points){}}",
+  "com/hailiang/xxb/ai/camera/view/SmartCameraPreview.java": "package com.hailiang.xxb.ai.camera.view;import android.widget.TextView;public class SmartCameraPreview{public TextView getStatusTv(){return null;}public void clearPoints(){}}",
+  "com/nice/errorbook/m3e/Palette.java": "package com.nice.errorbook.m3e;public class Palette{public static final int ON_CONTAINER=6,PRIMARY_CONTAINER=5;public static int argb(int role){return 0;}}"
+}

@@ -1,0 +1,22 @@
+{
+  "input": "学生端课堂-3.2.2.0-回顾续画自动上传-进入闪退修复.apk",
+  "input_sha256": "f2b93d1a95886bdef42aa9548580db5d9b0a07c9412c90dbed14d05aa877ff79",
+  "output": "学生端课堂-3.2.2.0-讨论自动刷新-多图版.apk",
+  "sha256": "3f142320555dc47fd985a03ff1caa2366bcb59e37c55395134555af3548f6c81",
+  "bytes": 64952721,
+  "changed_payloads": [
+    "classes4.dex",
+    "classes14.dex"
+  ],
+  "changed_native_methods": [
+    "com/nice/room/ui/roomlive/tool/RoomToolBarView.smali::handlePenWriteEvent$lambda$23(Lcom/nice/room/ui/roomlive/tool/RoomToolBarView;Lcom/hailiang/handwrite/widget/HandwriteView;Landroid/view/View;Landroid/view/MotionEvent;)Z",
+    "com/nice/room/ui/roomlive/fragment/discussion/DiscussionFragment.smali::takePhoto()V"
+  ],
+  "own_source_sha256": {
+    "src/com/hljzjx/classroom/reviewdraw/InkQueue.java": "39aeef4b62e775f8c4de20730154863219292aafed02ba9b0fdc8d56702bb13d",
+    "src/com/hljzjx/classroom/reviewdraw/ReviewDrawing.java": "f9a57bb7036a24cccb9d694a6d65d563460340f386803e76e9d6644371cd3604"
+  },
+  "android_art_executed": false,
+  "pixel_tested": false,
+  "server_tested": false
+}

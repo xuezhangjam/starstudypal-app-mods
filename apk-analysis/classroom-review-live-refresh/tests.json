@@ -1,0 +1,7 @@
+{
+  "InkQueueTest": "PASS InkQueue: 659 assertions; no network/device used",
+  "ReviewDrawingTest": "PASS ReviewDrawing: 40 executable adapter assertions (API fakes; no Android/backend runtime)",
+  "LiveRefreshTest": "PASS LiveRefresh: 39 observable adapter assertions (API fakes, no device or backend)",
+  "android_device_tested": false,
+  "server_tested": false
+}

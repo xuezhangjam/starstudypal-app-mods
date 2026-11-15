@@ -1,0 +1,1 @@
+Passed 152 category navigation, initial state, resize, reader, refresh, restore and callback checks; Android rendering untested.

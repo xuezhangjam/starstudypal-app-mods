@@ -1,0 +1,17 @@
+{
+  "input": "学生端课堂-3.2.2.0-v8功能迁移.apk",
+  "input_sha256": "1a14c14cebfbd1a1e882c36d293a29e115ce6ef3550af4cceeda0b9947430850",
+  "output": "学生端课堂-3.2.2.0-讨论结束后换组.apk",
+  "sha256": "4155ff13ccedca4d4de21b8afb8cfce5117e6b00e917d6e65a82e7efb10b30a6",
+  "bytes": 64936278,
+  "changed_payloads": [
+    "classes4.dex"
+  ],
+  "changed_methods": [
+    "modRefreshEndedTools()V",
+    "changeGroup()V",
+    "changeGroup$lambda$31$lambda$30(Lcom/nice/room/ui/roomlive/fragment/discussion/DiscussionFragment;Ljava/util/List;ILcom/hailiang/xxb/room/server/entity/discussion/DiscussionGroupInfo;Z)Lkotlin/Unit;"
+  ],
+  "android_device_tested": false,
+  "server_tested": false
+}

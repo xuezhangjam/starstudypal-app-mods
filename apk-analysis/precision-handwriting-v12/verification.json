@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "sha256": "35cd4459f42c3326059e2e789c3d315d3fe1087f44ec6c461518e16c50f1e230",
+  "bytes": 157374614,
+  "native_methods_changed": 8,
+  "other_native_methods_identical": 57208,
+  "other_apk_payloads_identical": 1879,
+  "checked_member_references": 10428,
+  "dex5_method_ids": 65501,
+  "certificate_sha256": "742fb311a630c11c9cae8fc398ca654b21dfa2bd0039831da7ee258af7cbbfc7",
+  "android_device_tested": false
+}

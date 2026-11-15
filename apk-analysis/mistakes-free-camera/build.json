@@ -1,0 +1,16 @@
+{
+  "input": "错题本学生端-3.3.2.0-M3e原生-系统相机与相册.apk",
+  "input_sha256": "036dfe73a74df1e306c106d717caf6b4a96ca5831186b68bfdf8b7dddd7bfd2b",
+  "output": "错题本学生端-3.3.2.0-M3e-取消拍照作业判定.apk",
+  "sha256": "800bd5a92aa1d74920cbb9a0001617acdece3d849ab35d38f22f17b14aacf47a",
+  "size": 143769818,
+  "modified_existing_dex": [
+    "classes4.dex"
+  ],
+  "new_dex": "classes7.dex",
+  "modified_original_methods": 3,
+  "package": "com.nice.errorbook",
+  "camera_capture": "no local homework/edge detection required; original full-frame image goes to preview/manual crop and original upload flow",
+  "server_and_app_business_dex": "unchanged",
+  "android_device_tested": false
+}

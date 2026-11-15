@@ -1,0 +1,1 @@
+PASS 197 assertions; 16 full-frame photo scenarios and invalid input rejection; JVM fixtures, no Android device

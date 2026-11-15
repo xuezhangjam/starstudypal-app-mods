@@ -1,0 +1,42 @@
+[
+  {
+    "file": "com/nice/room/ui/roomlive/fragment/discussion/DiscussionFragment.smali",
+    "method": "takePhoto()V"
+  },
+  {
+    "file": "com/nice/room/ui/roomlive/fragment/discussion/DiscussionFragment.smali",
+    "method": "onActivityResult(IILandroid/content/Intent;)V"
+  },
+  {
+    "file": "com/nice/room/ui/roomlive/fragment/discussion/DiscussionFragment.smali",
+    "method": "endDiscussion()V"
+  },
+  {
+    "file": "com/nice/room/ui/roomlive/RoomLiveDocumentManager.smali",
+    "method": "setPptLayout(Lcom/alibaba/fastjson/JSONObject;)V"
+  },
+  {
+    "file": "com/nice/room/ui/roomlive/RoomLiveDocumentManager.smali",
+    "method": "handleMqttPPTMessage(Lcom/alibaba/fastjson/JSONObject;)V"
+  },
+  {
+    "file": "com/nice/room/ui/roomlive/RoomLiveDocumentManager.smali",
+    "method": "onDocumentLoaded(Ljava/lang/String;Lcom/hailiang/document/viewer/DomData;)V"
+  },
+  {
+    "file": "com/hailiang/handwrite/widget/HandwriteCoreView.smali",
+    "method": "restorePath(Lcom/hailiang/handwrite/bean/PathInfo;)V"
+  },
+  {
+    "file": "com/hailiang/handwrite/widget/HandwriteCoreView.smali",
+    "method": "restorePathPoint(Lcom/hailiang/handwrite/bean/PointInfo;Lcom/hailiang/handwrite/widget/DrawType;FFJ)V"
+  },
+  {
+    "file": "com/hailiang/handwrite/widget/HandwriteCoreView.smali",
+    "method": "setPathInfoList(Ljava/util/List;Z)V"
+  },
+  {
+    "file": "com/hailiang/handwrite/widget/HandwriteCoreView.smali",
+    "method": "modTeacherDisplayY(F)F"
+  }
+]
