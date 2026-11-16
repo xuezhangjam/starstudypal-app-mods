@@ -369,7 +369,7 @@
       "asset_name": "precision-homework-4.0.1.0-blanks-v13.apk",
       "release_tag": "mods-2026-11-15",
       "label": "填空定位 v13",
-      "status": "current",
+      "status": "pending-upload",
       "note": "本地编译、行为、签名与差异检查通过；手掌防误触、连续书写、PDF 缩放、再次提交与学校服务器仍需实机验收。",
       "package": "com.hailiang.workcloud.student",
       "version": "4.0.1.0",
@@ -381,7 +381,8 @@
       "app": "精准作业",
       "features": "MD3E 界面和顶部横向书写工具栏；题干括号标记可点击定位对应空，右侧显示题号与空号。继承手写与作答区联动、半对图标、未批改作业编辑、答案与解析联动开关、文件下载及原版文件缩放逻辑。",
       "source_asset_name": "hailiang-mods-2026-11-15-source.zip",
-      "source_sha256": "3e3b55e6abcc6286eb9d855225ab76a0b4ade1915af4c4d05da13742dcc3f26e"
+      "source_sha256": "3e3b55e6abcc6286eb9d855225ab76a0b4ade1915af4c4d05da13742dcc3f26e",
+      "download_note": "大文件上传连接多次中断，APK 暂待补传；对应补丁源码已发布。"
     },
     {
       "original_filename": "班级通知学生端-1.0.7-M3e原生平板版-系统消息修复.apk",

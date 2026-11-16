@@ -5,7 +5,7 @@
 > [!IMPORTANT]
 > 本项目为个人维护的非官方修改版归档，不代表海亮、学校或相关产品厂商，也不表示获得其官方认可或授权背书。**GPL-3.0 仅适用于维护者有权许可的原创内容，不将原 APK、第三方代码、资源或商标改为 GPL。** 使用前请阅读[许可范围与第三方权利](NOTICE.md)及[项目声明](DISCLAIMER.md)。
 
-> 本次新增的 7 个 APK 附件正在上传，发布链接将在传输完成后开放；[旧版下载仍可使用](https://github.com/xuezhangjam/starstudypal-app-mods/releases)。补丁源码与更新说明已提交。
+> 本次已有 6 个新版 APK、源码包和校验文件可下载。精准作业 v13 因大文件上传连接多次中断，APK 暂待补传；对应补丁源码已发布。
 
 ## 当前下载 · 2026-11-15
 
@@ -13,7 +13,7 @@
 |---|---|---|
 | 星学伴 | 3.2.1.5 · 三星登录与提示崩溃修复 v2 | [APK](https://github.com/xuezhangjam/starstudypal-app-mods/releases/download/mods-2026-11-15/starstudy-3.2.1.5-samsung-v2.apk) |
 | 学生端课堂 | 3.2.2.0 · 重进继续作答修复 | [APK](https://github.com/xuezhangjam/starstudypal-app-mods/releases/download/mods-2026-11-15/student-classroom-3.2.2.0-continuation-reentry.apk) |
-| 精准作业 | 4.0.1.0 · 填空定位 v13 | [APK](https://github.com/xuezhangjam/starstudypal-app-mods/releases/download/mods-2026-11-15/precision-homework-4.0.1.0-blanks-v13.apk) |
+| 精准作业 | 4.0.1.0 · 填空定位 v13 | 待补传（上传连接中断） |
 | 班级通知 | 1.0.7-m3e.1 · M3e 原生平板版／系统消息修复 | [APK](https://github.com/xuezhangjam/starstudypal-app-mods/releases/download/mods-2026-11-15/class-notice-1.0.7-m3e-system-messages.apk) |
 | 错题本 | 3.3.2.0 · M3e／系统相机相册／拍照判定修补 | [APK](https://github.com/xuezhangjam/starstudypal-app-mods/releases/download/mods-2026-11-15/mistakes-3.3.2.0-m3e-camera.apk) |
 | H5 浏览器 | 1.0.13-browser.2 · 首页应用直达修复 | [APK](https://github.com/xuezhangjam/starstudypal-app-mods/releases/download/mods-2026-11-15/h5-browser-1.0.13-home-links.apk) |
